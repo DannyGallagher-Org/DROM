@@ -81,7 +81,7 @@ public class Boss : MonoBehaviour {
 				UnityEngine.SceneManagement.SceneManager.LoadScene (0);
 
 			Invoke ("OpenEyes", 15f);
-			float targ = ((Screen.width * Screen.height) / 100 )* targets [level];
+			float targ = ((Screen.width * Screen.height) / 100) * targets [level];
 			if (shapeCheckCam.red <  targ) {
 //			if(Input.GetKeyDown(KeyCode.Space)){
 				Win();
