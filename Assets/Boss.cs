@@ -40,6 +40,9 @@ public class Boss : MonoBehaviour {
 	public GameObject[] matchObj;
 	public Thoughts[] thoughts;
 
+	public static float ratio = 0f;
+	public float startRed = 0f;
+
 	public float[] targets;
 	#endregion
 
@@ -65,12 +68,14 @@ public class Boss : MonoBehaviour {
 				break;
 
 		case State.CloudMove:
+			startRed = shapeCheckCam.red;
+
 			if (Input.GetKey (KeyCode.Escape))
 				UnityEngine.SceneManagement.SceneManager.LoadScene(0);
 			
 			guy.gameObject.SetActive (true);
 			guyopen.gameObject.SetActive (false);
-			if (clouds [level].transform.position.x < 275f) {
+			if (clouds [level].transform.position.x <= 260f) {
 				thoughts [level].Show ();
 				_state = State.Guess;
 			}
@@ -82,6 +87,12 @@ public class Boss : MonoBehaviour {
 
 			Invoke ("OpenEyes", 15f);
 			float targ = ((Screen.width * Screen.height) / 100) * targets [level];
+
+			ratio = 1-(((shapeCheckCam.red - targ) / ((startRed - targ) / 100f)) * (1/100f));
+
+//			Debug.Log ("t: " + targ + " - r: " + shapeCheckCam.red + " lt: " + targets[level]);
+//			Debug.Log (ratio);
+
 			if (shapeCheckCam.red <  targ) {
 //			if(Input.GetKeyDown(KeyCode.Space)){
 				Win();

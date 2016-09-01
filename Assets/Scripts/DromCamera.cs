@@ -35,10 +35,9 @@ public class DromCamera : MonoBehaviour {
 	}
 
 	void Update() {
-
 		if (_bStarted) {
-			if (amp.BlendAmount > 0.25 && _bStarted)
-				amp.BlendAmount -= dayChangeSpeed * (Time.deltaTime / 2f);
+			if (amp.BlendAmount > 0 && _bStarted)
+				amp.BlendAmount -= dayChangeSpeed * (Time.deltaTime / 30f);
 
 			if (transform.position.y > 6.4f) {
 				Vector3 pos = transform.position;
