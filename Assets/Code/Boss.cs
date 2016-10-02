@@ -4,13 +4,15 @@
 ///
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour {
 
 	private enum State
 	{
-		Start,
 		Intro,
+		Intro2,
+		Start,
 		CloudMove,
 		Guess,
 		Win,
@@ -25,6 +27,10 @@ public class Boss : MonoBehaviour {
 	#endregion
 
 	#region public interface
+	public GameObject logo;
+	public GameObject titleText;
+	public Image startOverlay;
+
 	public ShapeCheckCamera shapeCheckCam;
 	public DromCamera dcamera;
 
@@ -54,25 +60,33 @@ public class Boss : MonoBehaviour {
 	void Update() {
 
 		switch (_state) {
+		case State.Intro:
+			if (logo.transform.localPosition.y < 1200f) {
+				logo.transform.Translate ((Vector3.up*100f)*Time.deltaTime);
+			} else {
+				titleText.GetComponent<TextFade> ().target = 1f;
+				_state = State.Intro2;
+			}
+			break;
+		case State.Intro2:
+			Invoke ("FinishIntro", 1f);
+			break;
 
 		case State.Start:
-			if (Input.GetKey (KeyCode.Escape))
-				Quit ();
+			if (Input.GetKeyDown(KeyCode.Return)) {
+				titleText.GetComponent<TextFade> ().target = 0f;
 
-				if (Input.anyKey) {
-					clouds [level].Move ();
-					text.AddComponent<TextFade> ();
-					dcamera.Move ();
-					_state = State.CloudMove;
-				}
-				break;
+				dcamera.Move ();
+					
+				clouds [level].Move ();
+				_state = State.CloudMove;
+			}
+			break;
 
 		case State.CloudMove:
+			
 			startRed = shapeCheckCam.red;
 
-			if (Input.GetKey (KeyCode.Escape))
-				UnityEngine.SceneManagement.SceneManager.LoadScene(0);
-			
 			guy.gameObject.SetActive (true);
 			guyopen.gameObject.SetActive (false);
 			if (clouds [level].transform.position.x <= 260f) {
@@ -82,19 +96,13 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Guess:
-			if (Input.GetKey (KeyCode.Escape))
-				UnityEngine.SceneManagement.SceneManager.LoadScene (0);
 
 			Invoke ("OpenEyes", 15f);
 			float targ = ((Screen.width * Screen.height) / 100) * targets [level];
 
 			ratio = 1-(((shapeCheckCam.red - targ) / ((startRed - targ) / 100f)) * (1/100f));
 
-//			Debug.Log ("t: " + targ + " - r: " + shapeCheckCam.red + " lt: " + targets[level]);
-//			Debug.Log (ratio);
-
 			if (shapeCheckCam.red <  targ) {
-//			if(Input.GetKeyDown(KeyCode.Space)){
 				Win();
 			}
 				
@@ -104,14 +112,14 @@ public class Boss : MonoBehaviour {
 	#endregion
 
 	#region public methods
+	public void Begin() {
+		_state = State.Start;
+	}
+
 	public void OpenEyes() {
 		guy.gameObject.SetActive (false);
 		guyopen.gameObject.SetActive (true);
 		CancelInvoke ("OpenEyes");
-	}
-
-	public void Quit() {
-		Application.Quit ();
 	}
 
 	public void Win() {
@@ -152,6 +160,9 @@ public class Boss : MonoBehaviour {
 	#endregion
 
 	#region private methods
+	void FinishIntro() {
+		_state = State.Start;
+	}
 	#endregion
 
 	#region event handlers
