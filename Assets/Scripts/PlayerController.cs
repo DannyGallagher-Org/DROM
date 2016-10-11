@@ -55,7 +55,10 @@ public class PlayerController : MonoBehaviour {
 
 			_cloudsTouched.Clear ();
 			_bDragging = false;
-		}
+		} else
+        {
+
+        }
 	}
 	#endregion
 
