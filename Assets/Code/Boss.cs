@@ -11,6 +11,7 @@ public class Boss : MonoBehaviour {
 	private enum State
 	{
 		Intro,
+        StartMenu,
 		Start,
 		CloudMove,
 		Guess,
@@ -30,6 +31,8 @@ public class Boss : MonoBehaviour {
 	public GameObject titleText;
 	public Image startOverlay;
 
+    public Menu menu;
+
 	public ShapeCheckCamera shapeCheckCam;
 	public DromCamera dcamera;
 
@@ -44,7 +47,7 @@ public class Boss : MonoBehaviour {
 	public GameObject[] shapes;
 	public GameObject[] matchObj;
 	public Thoughts[] thoughts;
-
+    
 	public static float ratio = 0f;
 	public float startRed = 0f;
 
@@ -54,9 +57,10 @@ public class Boss : MonoBehaviour {
 	#region monobehaviour inherited
 	void Awake () {
 		audio = gameObject.AddComponent<AudioManagerClass> ();
+        GameObject.FindObjectOfType<Intro>().IntroCompleteEvent += Boss_IntroCompleteEvent;
 	}
 
-	void Update() {
+    void Update() {
 
 		switch (_state) {
 		case State.Intro:
@@ -100,13 +104,9 @@ public class Boss : MonoBehaviour {
 			break;
 		}
 	}
-	#endregion
+    #endregion
 
-	#region public methods
-	public void Begin() {
-		_state = State.Start;
-	}
-
+    #region public methods
 	public void OpenEyes() {
 		guy.gameObject.SetActive (false);
 		guyopen.gameObject.SetActive (true);
@@ -148,14 +148,17 @@ public class Boss : MonoBehaviour {
 			_state = State.CloudMove;
 		}
 	}
-	#endregion
+    #endregion
 
-	#region private methods
-	void FinishIntro() {
-		_state = State.Start;
-	}
-	#endregion
+    #region private methods
+    private void Boss_IntroCompleteEvent()
+    {
+        menu.AnimateOn();
+    }
 
-	#region event handlers
-	#endregion
+    public void Begin()
+    {
+        _state = State.Start;
+    }
+    #endregion
 }

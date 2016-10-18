@@ -1,13 +1,18 @@
 ﻿/*===============================================================
-Product:    #PROJECTNAME#
-Developer:  #DEVELOPERNAME#
-Company:    #COMPANY#
-Date:       #CREATIONDATE#
+Product:    Drom
+Developer:  Danny Gallagher
+Company:    House of Wire
+Date:       18/10/16
 ================================================================*/
 
 using UnityEngine;
 
 public class Intro : MonoBehaviour {
+
+    #region delegates and events
+    public delegate void IntroCompleteEventHandler();
+    public event IntroCompleteEventHandler IntroCompleteEvent;
+    #endregion
 
     #region private variables
     private Animator _animator;
@@ -27,6 +32,9 @@ public class Intro : MonoBehaviour {
     public void EndIntro()
     {
         _animator.Stop();
+
+        if (IntroCompleteEvent != null)
+            IntroCompleteEvent();
     }
     #endregion
 }

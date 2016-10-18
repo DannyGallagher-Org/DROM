@@ -1,8 +1,8 @@
 ﻿/*===============================================================
 Product:    Drom
-Developer:  House of Wire
-Company:    #COMPANY#
-Date:       #CREATIONDATE#
+Developer:  Danny Gallagher
+Company:    House of Wire
+Date:       18/10/16
 ================================================================*/
 
 using UnityEngine;
