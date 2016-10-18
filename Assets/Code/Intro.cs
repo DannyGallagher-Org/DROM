@@ -22,13 +22,13 @@ public class Intro : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         _animator = GetComponent<Animator>();
-
+        
         if (GameDefs.kSpeedyIntro)
             _animator.speed = 10f;
     }
-    #endregion
+#endregion
 
-    #region public methods
+#region public methods
     public void EndIntro()
     {
         _animator.Stop();
@@ -36,5 +36,5 @@ public class Intro : MonoBehaviour {
         if (IntroCompleteEvent != null)
             IntroCompleteEvent();
     }
-    #endregion
+#endregion
 }

@@ -72,6 +72,9 @@ public class Menu : MonoBehaviour {
     {
         if (!_bInUse) return;
 
+        if(Input.GetKeyDown(KeyCode.Return))
+            Select();
+
         if(Input.GetKeyDown(KeyCode.UpArrow))
             SelectUp();
 
@@ -106,14 +109,15 @@ public class Menu : MonoBehaviour {
 
     public void AnimateOff()
     {
-        _animator.Play(0);
-        _animator.SetTrigger("tAnimateOff");
+        _bInUse = false;
+        _animator.enabled = true;
+        _animator.Play("AnimateOff");
         Invoke("DidAnimateOff", 1.5f);
     }
 
     public void DidAnimateOn()
     {
-        _animator.Stop();
+        _animator.enabled = false;
         choices[_selection].color = Color.white;
         _bInUse = true;
 
@@ -123,11 +127,18 @@ public class Menu : MonoBehaviour {
 
     public void DidAnimateOff()
     {
-        _bInUse = false;
+        if (StartGameEvent != null)
+            StartGameEvent();
     }
     #endregion
 
     #region private methods
+    void Select()
+    {
+        if (_selection == 0)
+            AnimateOff();
+    }
+
     void SelectUp()
     {
         choices[_selection].color = otherColor;

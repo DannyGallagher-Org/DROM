@@ -11,7 +11,6 @@ public class Boss : MonoBehaviour {
 	private enum State
 	{
 		Intro,
-        StartMenu,
 		Start,
 		CloudMove,
 		Guess,
@@ -22,15 +21,16 @@ public class Boss : MonoBehaviour {
 	#region private variables
 	private bool _bEnded = false;
 
-	private State _state = State.Start;
-	public int level = 0;
-	#endregion
+    private static Vector3 kCloudPos = new Vector3(178.9977f, 105.5037f, 268.0649f);
 
-	#region public interface
-	public GameObject logo;
-	public GameObject titleText;
-	public Image startOverlay;
+	private State _state = State.Intro;
+	private int _level = 1;
 
+    private CloudController _currentCloud;
+    private Thoughts _currentThought;
+    #endregion
+
+    #region public interface
     public Menu menu;
 
 	public ShapeCheckCamera shapeCheckCam;
@@ -42,11 +42,8 @@ public class Boss : MonoBehaviour {
 
 	public SpriteRenderer guy;
 	public SpriteRenderer guyopen;
-
-	public CloudController[] clouds;
 	public GameObject[] shapes;
 	public GameObject[] matchObj;
-	public Thoughts[] thoughts;
     
 	public static float ratio = 0f;
 	public float startRed = 0f;
@@ -68,15 +65,10 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Start:
-			if (Input.GetKeyDown(KeyCode.Return)) {
-				titleText.GetComponent<TextFade> ().target = 0f;
+                dcamera.Move();
 
-				dcamera.Move ();
-					
-				clouds [level].Move ();
-				_state = State.CloudMove;
-			}
-			break;
+                NextCloud();
+                break;
 
 		case State.CloudMove:
 			
@@ -84,8 +76,8 @@ public class Boss : MonoBehaviour {
 
 			guy.gameObject.SetActive (true);
 			guyopen.gameObject.SetActive (false);
-			if (clouds [level].transform.position.x <= 260f) {
-				thoughts [level].Show ();
+			if (_currentCloud.transform.position.x <= 260f) {
+				_currentThought.Show ();
 				_state = State.Guess;
 			}
 			break;
@@ -93,7 +85,7 @@ public class Boss : MonoBehaviour {
 		case State.Guess:
 
 			Invoke ("OpenEyes", 15f);
-			float targ = ((Screen.width * Screen.height) / 100) * targets [level];
+			float targ = ((Screen.width * Screen.height) / 100) * targets [_level];
 
 			ratio = 1-(((shapeCheckCam.red - targ) / ((startRed - targ) / 100f)) * (1/100f));
 
@@ -114,12 +106,13 @@ public class Boss : MonoBehaviour {
 	}
 
 	public void Win() {
-		if (level + 1 > targets.Length - 1) {
+		if (_level + 1 > targets.Length - 1) {
 
 			if (!_bEnded) {
 				audio.PlaySFX (Resources.Load ("third") as AudioClip);
 				_bEnded = true;
 				dcamera.Finish ();
+                /*
 				clouds [level].MoveOff ();
 
 				clouds [3].speed = 6f;
@@ -128,17 +121,16 @@ public class Boss : MonoBehaviour {
 				clouds [3].MoveOff ();
 				clouds [4].MoveOff ();
 				clouds [5].MoveOff ();
-
-				shapes [level].SetActive (false);
+                */
+				shapes [_level].SetActive (false);
 
 				Invoke ("Quit", 120f);
 			}
 		} else {
-			if (level == 0)
-				audio.PlaySFX (Resources.Load ("first") as AudioClip);
-			else if (level == 1)
-				audio.PlaySFX (Resources.Load ("second") as AudioClip);
+            _currentCloud.MoveOff();
+            NextCloud();
 
+            /*
 			clouds [level].MoveOff ();
 			shapes [level].SetActive (false);
 			matchObj [level].SetActive (false);
@@ -146,14 +138,39 @@ public class Boss : MonoBehaviour {
 			matchObj [level].SetActive (true);
 			clouds [level].Move ();
 			_state = State.CloudMove;
+            */
 		}
 	}
     #endregion
 
     #region private methods
+    private void NextCloud()
+    {
+        GameObject cloudGO = GameObject.Instantiate(Resources.Load(string.Format("Stage_{0}", _level)) as GameObject);
+        cloudGO.transform.position = kCloudPos;
+
+        _currentCloud = cloudGO.transform.FindChild("Cloud").GetComponent<CloudController>();
+        _currentThought = cloudGO.transform.FindChild("Thoughts").GetComponent<Thoughts>();
+
+        _currentCloud.Move();
+        _state = State.CloudMove;
+    }
+
     private void Boss_IntroCompleteEvent()
     {
+        menu.MenuReadyEvent += Menu_MenuReadyEvent;
         menu.AnimateOn();
+    }
+
+    private void Menu_MenuReadyEvent()
+    {
+        menu.MenuReadyEvent -= Menu_MenuReadyEvent;
+        menu.StartGameEvent += Menu_StartGameEvent;
+    }
+
+    private void Menu_StartGameEvent()
+    {
+        _state = State.Start;
     }
 
     public void Begin()
