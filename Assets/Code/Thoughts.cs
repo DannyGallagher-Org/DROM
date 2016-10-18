@@ -23,17 +23,17 @@ public class Thoughts : MonoBehaviour {
 
 	#region public methods
 	public void Show() {
-		InvokeRepeating ("ShowBubble", 1f, 1f);
+		InvokeRepeating ("ShowBubble", GameDefs.kCloudPuffDelayTime, GameDefs.kCloudPuffTime);
 	}
 
 	public void Hide() {
-		InvokeRepeating ("HideBubble", 1f, 1f);
+		InvokeRepeating ("HideBubble", 0f, GameDefs.kCloudPuffTime);
 	}
 
 	public void ShowBubble() {
 		if (shown > 3) {
 			CancelInvoke ("ShowBubble");
-			Invoke ("Hide", 3f);
+			Invoke ("Hide", GameDefs.kCloudPuffStayCompleteTime);
 			shown = 3;
 			return;
 		}
@@ -54,11 +54,5 @@ public class Thoughts : MonoBehaviour {
 		Bubble [shown].SetActive (false);
 		shown--;
 	}
-	#endregion
-
-	#region private methods
-	#endregion
-
-	#region event handlers
 	#endregion
 }
