@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour {
 			RaycastHit[] hits = Physics.SphereCastAll (ray.origin, 0.01f, ray.direction, Mathf.Infinity, ~LayerMask.NameToLayer("Cloud"));
 
 			for (int i=hits.Length-1; i>-1; i--) {
-				if (hits [i].transform.GetComponent<ParticleSystem> ()) {
+				if (hits [i].transform.GetComponent<CloudBit> ()) {
 					Debug.Log (hits [i].transform.gameObject);
 					_cloudsTouched.Add (hits [i].transform);
 				}
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour {
 
 		if (_bDragging && Input.GetKey (KeyCode.Mouse0) && Vector2.Distance (_mouseClickPos, Input.mousePosition) > 1f) {
 			foreach (var c in _cloudsTouched) {
-				c.GetComponent<CloudBit> ().Move (_mouseClickPos - Input.mousePosition);
+				c.GetComponent<Rigidbody> ().AddForce((_mouseClickPos - Input.mousePosition)*25f);
 			}
 
 			_cloudsTouched.Clear ();

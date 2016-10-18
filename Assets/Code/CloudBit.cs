@@ -7,48 +7,54 @@ using System.Collections;
 
 public class CloudBit : MonoBehaviour {
 
-	#region private variables
-	private Vector3 _targetVec;
-	public bool _bMove = false;
-	private float _moveTime = 0;
+    #region private variables
+    private Rigidbody _rigidBody;
+    private Vector2 _startClick;
+    private Vector2 _nowClick;
 
-	private float speed = 20f;
+    private bool _bClicked;
 	#endregion
 
 	#region public interface
+	public float speed = 20f;
 	#endregion
 
 	#region monobehaviour inherited
 	void Awake () {
-		
-	}
+        _rigidBody = GetComponent<Rigidbody>();
+    }
 
 	void Update() {
-		if (_bMove) {
-			if (_moveTime < 0.5f) {
-				_moveTime += Time.deltaTime;
-				speed -= (Time.deltaTime*5f);
-				transform.Translate (_targetVec.normalized*speed * Time.deltaTime);
-//				Boss.audio.PlaySFX (Resources.Load ("sh") as AudioClip, false, 0.1f, Random.Range (0.8f, 1.2f), 0.01f);
-			} else {
-				speed = 20f;
-				_bMove = false;
-				_moveTime = 0;
-			}
-		}
-	}
+        Vector3 velocity = _rigidBody.velocity;
+        velocity.z = 0f;
+        _rigidBody.velocity = velocity;
+
+        if(Vector2.Distance(_startClick, _nowClick) > 2f)
+        {
+            Move();
+        }
+    }
 	#endregion
 
 	#region public methods
-	public void Move(Vector3 direction) {
-		_targetVec = direction;
-		_targetVec.z = 0;
-		_targetVec.y = -_targetVec.y;
-		_bMove = true;
-	}
+    public void Click(Vector2 click)
+    {
+        if (!_bClicked)
+        {
+            _startClick = click;
+            _bClicked = true;
+        }
+        else
+            _nowClick = click;
+    }
 	#endregion
 
 	#region private methods
+	void Move() {
+        _rigidBody.AddForce((_startClick - _nowClick) * speed);
+
+        _bClicked = false;
+	}
 	#endregion
 
 	#region event handlers

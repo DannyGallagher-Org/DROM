@@ -43,6 +43,7 @@ public class Menu : MonoBehaviour {
     private int _resolution = 0;
     private int _quality = 0;
     private bool _bInUse = false;
+    private bool _bStartingGame = false;
     #endregion
 
     #region MonoBehaviour inherited
@@ -70,6 +71,14 @@ public class Menu : MonoBehaviour {
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (_bInUse)
+                AnimateOff();
+            else
+                AnimateOn();
+        }
+
         if (!_bInUse) return;
 
         if(Input.GetKeyDown(KeyCode.Return))
@@ -127,7 +136,7 @@ public class Menu : MonoBehaviour {
 
     public void DidAnimateOff()
     {
-        if (StartGameEvent != null)
+        if (_bStartingGame && StartGameEvent != null)
             StartGameEvent();
     }
     #endregion
@@ -136,7 +145,10 @@ public class Menu : MonoBehaviour {
     void Select()
     {
         if (_selection == 0)
+        {
+            _bStartingGame = true;
             AnimateOff();
+        }
     }
 
     void SelectUp()
