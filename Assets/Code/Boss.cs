@@ -11,7 +11,6 @@ public class Boss : MonoBehaviour {
 	private enum State
 	{
 		Intro,
-		Intro2,
 		Start,
 		CloudMove,
 		Guess,
@@ -61,15 +60,7 @@ public class Boss : MonoBehaviour {
 
 		switch (_state) {
 		case State.Intro:
-			if (logo.transform.localPosition.y < 1200f) {
-				logo.transform.Translate ((Vector3.up*100f)*Time.deltaTime);
-			} else {
-				titleText.GetComponent<TextFade> ().target = 1f;
-				_state = State.Intro2;
-			}
-			break;
-		case State.Intro2:
-			Invoke ("FinishIntro", 1f);
+			    // Wait
 			break;
 
 		case State.Start:
