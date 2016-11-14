@@ -76,7 +76,7 @@ public class Boss : MonoBehaviour {
 
 			guy.gameObject.SetActive (true);
 			guyopen.gameObject.SetActive (false);
-			if (_currentCloud.transform.position.x <= 260f) {
+			if (_currentCloud.transform.position.x <= 130f) {
 				_currentThought.Show ();
 				_state = State.Guess;
 			}

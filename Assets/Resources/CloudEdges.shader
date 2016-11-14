@@ -66,7 +66,7 @@
 					o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
 					o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
 
-
+					
 
 					return o;
 				}

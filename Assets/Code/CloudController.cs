@@ -39,11 +39,11 @@ public class CloudController : MonoBehaviour {
 		}
 
 		if (_bMove) {
-			if (transform.position.x > 260f) {
+			if (transform.position.x > 120f) {
 				Vector3 newPos = transform.position;
 
-				float speed = transform.position.x - 260f;
-				newPos.x -= Time.deltaTime * Mathf.Clamp (speed, 1f, 40f);
+				float speed = transform.position.x - 0f;
+				newPos.x -= Time.deltaTime * Mathf.Clamp (speed, 1f, 100f);
 
 				transform.position = newPos;
 			}
