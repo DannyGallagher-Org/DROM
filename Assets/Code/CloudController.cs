@@ -38,7 +38,7 @@ public class CloudController : MonoBehaviour {
 
 	#region public methods
 	public void Move() {
-        Go.to(transform, 3f, new GoTweenConfig()
+        Go.to(transform, 10f, new GoTweenConfig()
             .localPosition(new Vector3(59f, -21f, -12f))
             .setEaseType(GoEaseType.Linear)
             .onComplete(CloudOnComplete)
