@@ -21,13 +21,12 @@ public class Boss : MonoBehaviour {
 	#region private variables
 	private bool _bEnded = false;
 
-    private static Vector3 kCloudPos = new Vector3(178.9977f, 105.5037f, 268.0649f);
+    private static Vector3 kCloudPos = new Vector3(178f, 105f, 268f);
 
 	private State _state = State.Intro;
 	private int _level = 1;
 
     private CloudController _currentCloud;
-    private Thoughts _currentThought;
     #endregion
 
     #region public interface
@@ -44,7 +43,8 @@ public class Boss : MonoBehaviour {
 	public SpriteRenderer guyopen;
 	public GameObject[] shapes;
 	public GameObject[] matchObj;
-    
+
+    public float ratioDebug = 0;
 	public static float ratio = 0f;
 	public float startRed = 0f;
 
@@ -54,7 +54,15 @@ public class Boss : MonoBehaviour {
 	#region monobehaviour inherited
 	void Awake () {
 		audio = gameObject.AddComponent<AudioManagerClass> ();
-        GameObject.FindObjectOfType<Intro>().IntroCompleteEvent += Boss_IntroCompleteEvent;
+        if(GameDefs.kSpeedyIntro)
+        {
+            GameObject.FindObjectOfType<Canvas>().gameObject.SetActive(false);
+            Menu_StartGameEvent();
+        }
+        else
+        {
+            GameObject.FindObjectOfType<Intro>().IntroCompleteEvent += Boss_IntroCompleteEvent;
+        }
 	}
 
     void Update() {
@@ -76,10 +84,7 @@ public class Boss : MonoBehaviour {
 
 			guy.gameObject.SetActive (true);
 			guyopen.gameObject.SetActive (false);
-			if (_currentCloud.transform.position.x <= 130f) {
-				_currentThought.Show ();
-				_state = State.Guess;
-			}
+			
 			break;
 
 		case State.Guess:
@@ -88,8 +93,9 @@ public class Boss : MonoBehaviour {
 			float targ = ((Screen.width * Screen.height) / 100) * targets [_level];
 
 			ratio = 1-(((shapeCheckCam.red - targ) / ((startRed - targ) / 100f)) * (1/100f));
+            ratioDebug = ratio;
 
-			if (shapeCheckCam.red <  targ) {
+            if (ratio > targets[_level-1]) {
 				Win();
 			}
 				
@@ -106,6 +112,7 @@ public class Boss : MonoBehaviour {
 	}
 
 	public void Win() {
+        Debug.Log("win");
 		if (_level + 1 > targets.Length - 1) {
 
 			if (!_bEnded) {
@@ -129,16 +136,6 @@ public class Boss : MonoBehaviour {
 		} else {
             _currentCloud.MoveOff();
             NextCloud();
-
-            /*
-			clouds [level].MoveOff ();
-			shapes [level].SetActive (false);
-			matchObj [level].SetActive (false);
-			level++;
-			matchObj [level].SetActive (true);
-			clouds [level].Move ();
-			_state = State.CloudMove;
-            */
 		}
 	}
     #endregion
@@ -150,10 +147,17 @@ public class Boss : MonoBehaviour {
         cloudGO.transform.position = kCloudPos;
 
         _currentCloud = cloudGO.transform.FindChild("Cloud").GetComponent<CloudController>();
-        _currentThought = cloudGO.transform.FindChild("Thoughts").GetComponent<Thoughts>();
 
+        _currentCloud.CloudMoveFinishedEvent += _currentCloud_CloudMoveFinishedEvent;
         _currentCloud.Move();
+
         _state = State.CloudMove;
+    }
+
+    private void _currentCloud_CloudMoveFinishedEvent()
+    {
+        _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
+        _state = State.Guess;
     }
 
     private void Boss_IntroCompleteEvent()

@@ -7,8 +7,13 @@ using System.Collections;
 
 public class CloudController : MonoBehaviour {
 
-	#region private variables
-	private Vector3 _startPos;
+    #region events and delegates
+    public delegate void CloudMoveEventHandler();
+    public event CloudMoveEventHandler CloudMoveFinishedEvent;
+    #endregion
+
+    #region private variables
+    private Vector3 _startPos;
 	private Vector3 _lastPos;
 
 	private bool _bMove = false;
@@ -28,32 +33,16 @@ public class CloudController : MonoBehaviour {
 
 	void Update () {
 
-		if (_bMoveOff) {
-			if (transform.position.x > -500f) {
-				Vector3 newPos = transform.position;
-
-				newPos.x -= Time.deltaTime * speed;
-
-				transform.position = newPos;
-			}
-		}
-
-		if (_bMove) {
-			if (transform.position.x > 120f) {
-				Vector3 newPos = transform.position;
-
-				float speed = transform.position.x - 0f;
-				newPos.x -= Time.deltaTime * Mathf.Clamp (speed, 1f, 100f);
-
-				transform.position = newPos;
-			}
-		}
 	}
 	#endregion
 
 	#region public methods
 	public void Move() {
-		_bMove = true;
+        Go.to(transform, 3f, new GoTweenConfig()
+            .localPosition(new Vector3(59f, -21f, -12f))
+            .setEaseType(GoEaseType.Linear)
+            .onComplete(CloudOnComplete)
+            );
 	}
 
 	public void MoveOff() {
@@ -62,6 +51,16 @@ public class CloudController : MonoBehaviour {
 	#endregion
 
 	#region private methods
+    void CloudOnComplete(AbstractGoTween t)
+    {
+        if (CloudMoveFinishedEvent != null)
+            CloudMoveFinishedEvent();
+    }
+
+    void CloudOffComplete()
+    {
+
+    }
 	#endregion
 
 	#region event handlers

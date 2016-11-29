@@ -43,13 +43,13 @@
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
 
-				if(col.r > 0.99 && col.a < 0.1)
+				if(col.a < 0.89)
 					return fixed4(0, 1, 0, 1);
 
-				if(col.b < 0.8)
-					return fixed4(1, 0, 0, 1);
+				if(col.a > 0.9)
+					return fixed4(0, 0, 1, 1);
 
-				return fixed4(0, 0, 1, 1);
+				return fixed4(1, 0, 0, 1);
 			}
 			ENDCG
 		}

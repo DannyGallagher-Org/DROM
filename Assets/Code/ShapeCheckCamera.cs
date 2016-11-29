@@ -26,7 +26,7 @@ public class ShapeCheckCamera : MonoBehaviour {
 		InvokeRepeating ("Check", 0f, 1f);
 	}
 
-	public void Check() {
+	public Vector3 Check() {
 		Destroy (texture);
 		RenderTexture rt = new RenderTexture(Screen.width, Screen.height, 24);
 		_camera.targetTexture = rt;
@@ -43,7 +43,6 @@ public class ShapeCheckCamera : MonoBehaviour {
 
 		blue = 0;
 		red = 0;
-		white = 0;
 
 		foreach (var p in pixels) {
 			if (p.b > 0.8f && ((p.r < 0.5f) && (p.g < 0.5f)))
@@ -51,12 +50,9 @@ public class ShapeCheckCamera : MonoBehaviour {
 
 			if (p.r > 0.8f && ((p.b < 0.5f) && (p.g < 0.5f)))
 				red++;
-
-			if (p.b > 0.8f && p.r > 0.8f && p.g > 0.8f)
-				white++;
-
-
 		}
+
+        return new Vector2(blue, red);
 	}
 	#endregion
 
