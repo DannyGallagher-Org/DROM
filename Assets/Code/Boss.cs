@@ -50,11 +50,16 @@ public class Boss : MonoBehaviour {
 
 	public float[] targets;
 
+	public GameObject gameplayMusic;
+	GameplayMusicControl gameplayMusicControl;
+
     private GameObject _stage;
     #endregion
 
     #region monobehaviour inherited
     void Awake () {
+		gameplayMusicControl = gameplayMusic.GetComponent<GameplayMusicControl> ();
+
 		audio = gameObject.AddComponent<AudioManagerClass> ();
         if(GameDefs.kSpeedyIntro)
         {
@@ -90,6 +95,8 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Guess:
+			gameplayMusicControl.PlayMusic ();
+
 
 			Invoke ("OpenEyes", 15f);
 			float targ = ((Screen.width * Screen.height) / 100) * targets [_level];
