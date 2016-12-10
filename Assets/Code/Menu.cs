@@ -149,6 +149,8 @@ public class Menu : MonoBehaviour {
             _bStartingGame = true;
             AnimateOff();
         }
+
+		GameManager.audioManager.PlaySFX ("menu_sfx");
     }
 
     void SelectUp()
@@ -161,6 +163,8 @@ public class Menu : MonoBehaviour {
             _selection = 2;
 
         choices[_selection].color = Color.white;
+
+
     }
 
     void SelectDown()

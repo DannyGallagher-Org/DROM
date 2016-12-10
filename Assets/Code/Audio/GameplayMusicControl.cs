@@ -36,7 +36,7 @@ public class GameplayMusicControl : MonoBehaviour {
         _currentParam = parameters[_currentLevel];
     }
 
-	public void PlayMusic (){
+	public void PlayGameplayMusic (){
 
 		if (playOnce) {
 

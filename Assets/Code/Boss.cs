@@ -50,12 +50,11 @@ public class Boss : MonoBehaviour {
 
     private GameObject _stage;
 
-    private GameplayMusicControl _gamePlayMusic;
     #endregion
 
     #region monobehaviour inherited
     void Awake () {
-        _gamePlayMusic = FindObjectOfType<GameplayMusicControl>();
+        
         audio = gameObject.AddComponent<AudioManagerClass> ();
         if(GameDefs.kSpeedyIntro)
         {
@@ -75,8 +74,8 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Start:
-                dcamera.Move();
-                _gamePlayMusic.PlayMusic();
+			dcamera.Move ();
+			GameManager.audioManager.PlayGameplayMusic ();
                 NextCloud();
             break;
 
@@ -129,7 +128,7 @@ public class Boss : MonoBehaviour {
             GameObject.Destroy(_stage);
             NextCloud();
             ratio = 0;
-            _gamePlayMusic.NextLevel();
+			GameManager.audioManager.NextLevel ();
         }
 	}
     #endregion
