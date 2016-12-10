@@ -13,7 +13,9 @@ public class CloudBit : MonoBehaviour
     public bool _bMove = false;
     private float _moveTime = 0;
 
-    private float speed = 20f;
+    private float dampener = 30f;
+
+    private Vector3 force = Vector3.zero;
     #endregion
 
     #region public interface
@@ -27,31 +29,19 @@ public class CloudBit : MonoBehaviour
 
     void Update()
     {
-        if (_bMove)
-        {
-            if (_moveTime < 0.5f)
-            {
-                _moveTime += Time.deltaTime;
-                speed -= (Time.deltaTime * 5f);
-                transform.Translate(_targetVec.normalized * speed * Time.deltaTime);
-                //                Boss.audio.PlaySFX (Resources.Load ("sh") as AudioClip, false, 0.1f, Random.Range (0.8f, 1.2f), 0.01f);
-            }
-            else
-            {
-                speed = 20f;
-                _bMove = false;
-                _moveTime = 0;
-            }
-        }
+        transform.Translate(force, Space.Self);
+
+        if (force.magnitude > 0)
+            force -= (force * Time.deltaTime)*2.5f;
     }
     #endregion
 
     #region public methods
     public void Move(Vector3 direction)
     {
-        _targetVec = direction;
-        _targetVec.z = 0;
-        _bMove = true;
+        force += direction;
+        force.z = 0;
+        force /= dampener;
     }
     #endregion
 

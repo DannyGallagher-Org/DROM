@@ -21,8 +21,6 @@ public class Boss : MonoBehaviour {
 	#region private variables
 	private bool _bEnded = false;
 
-    private static Vector3 kCloudPos = new Vector3(178f, 105f, 268f);
-
 	private State _state = State.Intro;
 	private int _level = 1;
 
@@ -44,23 +42,21 @@ public class Boss : MonoBehaviour {
 	public GameObject[] shapes;
 	public GameObject[] matchObj;
 
+    public float startRed;
     public float ratioDebug = 0;
 	public static float ratio = 0f;
-	public float startRed = 0f;
 
 	public float[] targets;
 
-	public GameObject gameplayMusic;
-	GameplayMusicControl gameplayMusicControl;
-
     private GameObject _stage;
+
+    private GameplayMusicControl _gamePlayMusic;
     #endregion
 
     #region monobehaviour inherited
     void Awake () {
-		gameplayMusicControl = gameplayMusic.GetComponent<GameplayMusicControl> ();
-
-		audio = gameObject.AddComponent<AudioManagerClass> ();
+        _gamePlayMusic = FindObjectOfType<GameplayMusicControl>();
+        audio = gameObject.AddComponent<AudioManagerClass> ();
         if(GameDefs.kSpeedyIntro)
         {
             GameObject.FindObjectOfType<Canvas>().gameObject.SetActive(false);
@@ -73,7 +69,6 @@ public class Boss : MonoBehaviour {
 	}
 
     void Update() {
-
 		switch (_state) {
 		case State.Intro:
 			    // Wait
@@ -81,32 +76,24 @@ public class Boss : MonoBehaviour {
 
 		case State.Start:
                 dcamera.Move();
-
+                _gamePlayMusic.PlayMusic();
                 NextCloud();
-                break;
+            break;
 
 		case State.CloudMove:
-			
-			startRed = shapeCheckCam.red;
-
-			guy.gameObject.SetActive (true);
-			guyopen.gameObject.SetActive (false);
+			    guy.gameObject.SetActive (true);
+			    guyopen.gameObject.SetActive (false);
 			
 			break;
 
 		case State.Guess:
-			gameplayMusicControl.PlayMusic ();
+                float tot = (shapeCheckCam.blue-shapeCheckCam.red) / startRed;
 
+                ratioDebug = ratio = Mathf.Lerp(ratio, Mathf.Clamp(tot, 0, 1f), Time.deltaTime);
 
-			Invoke ("OpenEyes", 15f);
-			float targ = ((Screen.width * Screen.height) / 100) * targets [_level];
-
-			ratio = 1-(shapeCheckCam.red/startRed);
-            ratioDebug = ratio;
-
-            if (ratio > targets[_level-1]) {
-				Win();
-			}
+                if (ratio > targets[_level-1]) {
+				    Win();
+			    }
 				
 			break;
 		}
@@ -114,13 +101,9 @@ public class Boss : MonoBehaviour {
     #endregion
 
     #region public methods
-	public void OpenEyes() {
-		guy.gameObject.SetActive (false);
-		guyopen.gameObject.SetActive (true);
-		CancelInvoke ("OpenEyes");
-	}
-
 	public void Win() {
+        Debug.Log(_currentCloud.gameObject);
+        GameObject.Destroy(_currentCloud.gameObject);
         Debug.Log("win");
 		if (_level + 1 > targets.Length - 1) {
 
@@ -145,7 +128,9 @@ public class Boss : MonoBehaviour {
 		} else {
             GameObject.Destroy(_stage);
             NextCloud();
-		}
+            ratio = 0;
+            _gamePlayMusic.NextLevel();
+        }
 	}
     #endregion
 
@@ -153,9 +138,8 @@ public class Boss : MonoBehaviour {
     private void NextCloud()
     {
         _stage = GameObject.Instantiate(Resources.Load(string.Format("Stage_{0}", _level)) as GameObject);
-        _stage.transform.position = kCloudPos;
 
-        _currentCloud = _stage.transform.FindChild("Cloud").GetComponent<CloudController>();
+        _currentCloud = GameObject.Instantiate(Resources.Load("NiceCloud1") as GameObject).GetComponent<CloudController>();
 
         _currentCloud.CloudMoveFinishedEvent += _currentCloud_CloudMoveFinishedEvent;
         _currentCloud.Move();
@@ -166,7 +150,7 @@ public class Boss : MonoBehaviour {
     private void _currentCloud_CloudMoveFinishedEvent()
     {
         _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
-        startRed = shapeCheckCam.red;
+        startRed = shapeCheckCam.Check().y;
         _state = State.Guess;
     }
 

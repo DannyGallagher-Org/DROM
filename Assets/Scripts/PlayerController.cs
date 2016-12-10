@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 {
 
     #region private variables
+    public Camera cloudCam;
     private bool _bDragging;
     private List<Transform> _cloudsTouched = new List<Transform>();
 
@@ -33,7 +34,7 @@ public class PlayerController : MonoBehaviour
         {
             _bDragging = true;
 
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = cloudCam.ScreenPointToRay(Input.mousePosition);
 
             _mouseClickPos = Input.mousePosition;
 
@@ -43,7 +44,6 @@ public class PlayerController : MonoBehaviour
             {
                 if (hits[i].transform.GetComponent<CloudBit>())
                 {
-                    Debug.Log(hits[i].transform.gameObject);
                     _cloudsTouched.Add(hits[i].transform);
                 }
             }
@@ -59,7 +59,8 @@ public class PlayerController : MonoBehaviour
         {
             foreach (var c in _cloudsTouched)
             {
-                c.GetComponent<CloudBit>().Move(Input.mousePosition - _mouseClickPos);
+                if(c)
+                c.GetComponent<CloudBit>().Move((Input.mousePosition - _mouseClickPos).normalized);
             }
 
             _cloudsTouched.Clear();
