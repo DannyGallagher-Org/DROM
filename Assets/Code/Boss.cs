@@ -33,6 +33,8 @@ public class Boss : MonoBehaviour {
 	public ShapeCheckCamera shapeCheckCam;
 	public DromCamera dcamera;
 
+    public static AudioManagerClass audio;
+
 	public GameObject text;
 
 	public GameObject[] shapes;
@@ -46,13 +48,11 @@ public class Boss : MonoBehaviour {
 
     private GameObject _stage;
 
-    private GameplayMusicControl _gamePlayMusic;
     #endregion
 
     #region monobehaviour inherited
     void Awake () {
-        _gamePlayMusic = FindObjectOfType<GameplayMusicControl>();
-
+        audio = gameObject.AddComponent<AudioManagerClass> ();
         if(GameDefs.kSpeedyIntro)
         {
             GameObject.FindObjectOfType<Canvas>().gameObject.SetActive(false);
@@ -71,7 +71,7 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Start:
-                //_gamePlayMusic.PlayMusic();
+			GameManager.audioManager.PlayGameplayMusic ();
                 NextCloud();
             break;
 
@@ -121,7 +121,7 @@ public class Boss : MonoBehaviour {
             GameObject.Destroy(_stage);
             NextCloud();
             ratio = 0;
-            _gamePlayMusic.NextLevel();
+			GameManager.audioManager.NextLevel ();
         }
 	}
     #endregion
