@@ -8,18 +8,13 @@ public class AudioManager : MonoBehaviour {
 
 
 	void Awake (){
-	
 		_gameplayMusicControl = FindObjectOfType<GameplayMusicControl> ();
-	
 	}
 
 
 
 
 	public void PlaySFX (string sfx){
-	
-	
-	
 	
 	}
 
