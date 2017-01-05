@@ -16,7 +16,6 @@ public class CloudController : MonoBehaviour {
     private Vector3 _startPos;
 	private Vector3 _lastPos;
 
-	private bool _bMove = false;
 	private bool _bMoveOff = false;
 	#endregion
 
@@ -38,7 +37,7 @@ public class CloudController : MonoBehaviour {
 
 	#region public methods
 	public void Move() {
-        Go.to(transform, 10f, new GoTweenConfig()
+        Go.to(transform, 30f, new GoTweenConfig()
             .localPosition(new Vector3(0, 0, 7f))
             .setEaseType(GoEaseType.Linear)
             .onComplete(CloudOnComplete)

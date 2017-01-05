@@ -11,7 +11,6 @@ public class CloudBit : MonoBehaviour
     #region private variables
     private Vector3 _targetVec;
     public bool _bMove = false;
-    private float _moveTime = 0;
 
     private float dampener = 30f;
 

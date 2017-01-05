@@ -9,7 +9,6 @@ public class Thoughts : MonoBehaviour {
 
 	#region private variables
 	private int shown = 0;
-	private int currentShape = 0;
 	#endregion
 
 	#region public interface

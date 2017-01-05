@@ -15,23 +15,9 @@ public class DromCamera : MonoBehaviour {
 	private bool _bFinished = false;
 	#endregion
 
-	#region public interface
-	public ShapeCheckCamera shapeCheck;
-
-	public int[] targets;
-
-	public CloudController[] clouds;
-	public Thoughts[] thoughts;
-	#endregion
-
 	#region monobehaviour inherited
 	void Awake () {
 		amp = GetComponent<AmplifyColorEffect> ();
-
-		Vector3 pos = transform.position;
-		pos.y = 8f;
-
-		transform.position = pos;
 	}
 
 	void Update() {
@@ -58,17 +44,6 @@ public class DromCamera : MonoBehaviour {
 			}
 		}
 			
-	}
-	#endregion
-
-	#region public methods
-	public void Move() {
-		_bStarted = true;
-	}
-
-	public void Finish() {
-		_bStarted = false;
-		_bFinished = true;
 	}
 	#endregion
 

@@ -33,12 +33,8 @@ public class Boss : MonoBehaviour {
 	public ShapeCheckCamera shapeCheckCam;
 	public DromCamera dcamera;
 
-	public static AudioManagerClass audio;
-
 	public GameObject text;
 
-	public SpriteRenderer guy;
-	public SpriteRenderer guyopen;
 	public GameObject[] shapes;
 	public GameObject[] matchObj;
 
@@ -56,7 +52,7 @@ public class Boss : MonoBehaviour {
     #region monobehaviour inherited
     void Awake () {
         _gamePlayMusic = FindObjectOfType<GameplayMusicControl>();
-        audio = gameObject.AddComponent<AudioManagerClass> ();
+
         if(GameDefs.kSpeedyIntro)
         {
             GameObject.FindObjectOfType<Canvas>().gameObject.SetActive(false);
@@ -75,14 +71,11 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Start:
-                dcamera.Move();
-                _gamePlayMusic.PlayMusic();
+                //_gamePlayMusic.PlayMusic();
                 NextCloud();
             break;
 
 		case State.CloudMove:
-			    guy.gameObject.SetActive (true);
-			    guyopen.gameObject.SetActive (false);
 			
 			break;
 
@@ -108,9 +101,8 @@ public class Boss : MonoBehaviour {
 		if (_level + 1 > targets.Length - 1) {
 
 			if (!_bEnded) {
-				audio.PlaySFX (Resources.Load ("third") as AudioClip);
+
 				_bEnded = true;
-				dcamera.Finish ();
                 /*
 				clouds [level].MoveOff ();
 
