@@ -151,6 +151,9 @@ public class Menu : MonoBehaviour {
         }
 
 		GameManager.audioManager.PlaySFX ("menu_sfx");
+
+		Debug.Log ("menu select");
+		GameManager.audioManager.MenuSelect ();
     }
 
     void SelectUp()
@@ -164,7 +167,8 @@ public class Menu : MonoBehaviour {
 
         choices[_selection].color = Color.white;
 
-
+		Debug.Log ("menu select up");
+		GameManager.audioManager.MenuMove ();
     }
 
     void SelectDown()
@@ -177,6 +181,9 @@ public class Menu : MonoBehaviour {
             _selection = 0;
 
         choices[_selection].color = Color.white;
+
+		Debug.Log ("menu select down");
+		GameManager.audioManager.MenuMove ();
     }
 
     void SelectLeft()
@@ -202,6 +209,9 @@ public class Menu : MonoBehaviour {
                 }
                 break;
         }
+
+		Debug.Log ("menu move left");
+		GameManager.audioManager.MenuMove ();
     }
 
     void SelectRight()
@@ -227,6 +237,9 @@ public class Menu : MonoBehaviour {
                 }
                 break;
         }
+
+		Debug.Log ("menu move right");
+		GameManager.audioManager.MenuMove ();
     }
     #endregion
 }

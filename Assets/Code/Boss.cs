@@ -55,7 +55,6 @@ public class Boss : MonoBehaviour {
         audio = gameObject.AddComponent<AudioManagerClass> ();
         if(GameDefs.kSpeedyIntro)
         {
-            GameObject.FindObjectOfType<Canvas>().gameObject.SetActive(false);
             Menu_StartGameEvent();
         }
         else
@@ -98,6 +97,7 @@ public class Boss : MonoBehaviour {
         Debug.Log(_currentCloud.gameObject);
         GameObject.Destroy(_currentCloud.gameObject);
         Debug.Log("win");
+		GameManager.audioManager.PlayWinSound ();
 		if (_level + 1 > targets.Length - 1) {
 
 			if (!_bEnded) {

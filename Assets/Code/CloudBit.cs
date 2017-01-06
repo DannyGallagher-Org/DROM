@@ -41,6 +41,8 @@ public class CloudBit : MonoBehaviour
         force += direction;
         force.z = 0;
         force /= dampener;
+		Debug.Log ("cloud bit move called");
+		GameManager.audioManager.PlayCloudBitSound ();
     }
     #endregion
 
