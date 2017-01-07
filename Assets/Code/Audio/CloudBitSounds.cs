@@ -23,8 +23,8 @@ public class CloudBitSounds : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetKeyDown (KeyCode.C))
-			PlayCloudBitSound ();
+//		if (Input.GetKeyDown (KeyCode.C))
+//			PlayCloudBitSound ();
 		
 	}
 
