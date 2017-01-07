@@ -32,8 +32,7 @@ public class Intro : MonoBehaviour {
 #region public methods
 	public void ShowTitle()
 	{
-		if (TitleShowEvent != null)
-			TitleShowEvent();
+		
 	}
 
     public void EndIntro()

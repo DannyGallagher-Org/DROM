@@ -55,7 +55,7 @@ public class Menu : MonoBehaviour {
         choices[_selection].color = Color.white;
         _quality = QualitySettings.GetQualityLevel();
 
-        choices[1].text = "Resolution : " + Screen.currentResolution;
+		choices[1].text = "Resolution : " + Screen.width + " x " + Screen.height;
 
         for (int i = 0; i<resolutions.Length-1;i++)
         {
@@ -71,6 +71,7 @@ public class Menu : MonoBehaviour {
 
     void Update()
     {
+		Debug.Log (Screen.currentResolution);
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (_bInUse)
@@ -195,7 +196,7 @@ public class Menu : MonoBehaviour {
                 _resolution--;
                 Resolution res = resolutions[_resolution];
                 Screen.SetResolution(res.width, res.height, Screen.fullScreen);
-                choices[1].text = "lResolution : " + Screen.currentResolution;
+				choices[1].text = "Resolution : " + Screen.width + " x " + Screen.height;
             }
             break;
 
@@ -221,8 +222,8 @@ public class Menu : MonoBehaviour {
                 {
                     _resolution++;
                     Resolution res = resolutions[_resolution];
-                    Screen.SetResolution(res.width, res.height, Screen.fullScreen);
-                    choices[1].text = "rResolution : " + Screen.currentResolution;
+					Screen.SetResolution(res.width, res.height, Screen.fullScreen);
+					choices[1].text = "Resolution : " + Screen.width + " x " + Screen.height;
                 }
                 break;
 
