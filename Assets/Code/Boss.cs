@@ -106,6 +106,7 @@ public class Boss : MonoBehaviour {
         GameObject.Destroy(_currentCloud.gameObject);
         Debug.Log("win");
 		GameManager.audioManager.PlayWinSound ();
+		dcamera.MoveTimeForward ();
 		if (_level + 1 > targets.Length - 1) {
 
 			if (!_bEnded) {
