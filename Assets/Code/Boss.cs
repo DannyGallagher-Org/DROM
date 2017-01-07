@@ -33,7 +33,7 @@ public class Boss : MonoBehaviour {
 	public ShapeCheckCamera shapeCheckCam;
 	public DromCamera dcamera;
 
-    public static AudioManagerClass audio;
+    public static AudioManagerClass audioManager;
 
 	public GameObject text;
 
@@ -47,21 +47,29 @@ public class Boss : MonoBehaviour {
 	public float[] targets;
 
     private GameObject _stage;
-
+	private Intro intro;
     #endregion
 
     #region monobehaviour inherited
     void Awake () {
-        audio = gameObject.AddComponent<AudioManagerClass> ();
-        if(GameDefs.kSpeedyIntro)
+        audioManager = gameObject.AddComponent<AudioManagerClass> ();
+		intro = GameObject.FindObjectOfType<Intro> ();
+		if(GameDefs.kSpeedyIntro)
         {
             Menu_StartGameEvent();
         }
         else
         {
-            GameObject.FindObjectOfType<Intro>().IntroCompleteEvent += Boss_IntroCompleteEvent;
+			intro.IntroCompleteEvent += Boss_IntroCompleteEvent;
+			intro.TitleShowEvent += TitleShowEvent;
         }
 	}
+
+    void TitleShowEvent ()
+	{
+		GameObject.FindObjectOfType<Intro>().TitleShowEvent -= TitleShowEvent;
+		DromReveal.DromRevealPlay ();
+    }
 
     void Update() {
 		switch (_state) {
@@ -147,7 +155,8 @@ public class Boss : MonoBehaviour {
     }
 
     private void Boss_IntroCompleteEvent()
-    {
+	{
+		GameObject.FindObjectOfType<Intro>().IntroCompleteEvent -= Boss_IntroCompleteEvent;
         menu.MenuReadyEvent += Menu_MenuReadyEvent;
         menu.AnimateOn();
     }
@@ -159,7 +168,9 @@ public class Boss : MonoBehaviour {
     }
 
     private void Menu_StartGameEvent()
-    {
+	{
+		menu.StartGameEvent -= Menu_StartGameEvent;
+		dcamera.targetColorSetting = 0.5f;
         _state = State.Start;
     }
 

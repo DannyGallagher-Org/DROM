@@ -152,8 +152,6 @@ public class Menu : MonoBehaviour {
 
 		GameManager.audioManager.PlaySFX ("menu_sfx");
 
-		Debug.Log ("menu select");
-//		GameManager.audioManager.MenuSelect ();
 		GameManager.audioManager.PlayMenuClickSelect ();
     }
 
@@ -168,8 +166,6 @@ public class Menu : MonoBehaviour {
 
         choices[_selection].color = Color.white;
 
-		Debug.Log ("menu select up");
-//		GameManager.audioManager.MenuMove ();
 		GameManager.audioManager.PlayMenuClickUp ();
     }
 
@@ -184,8 +180,6 @@ public class Menu : MonoBehaviour {
 
         choices[_selection].color = Color.white;
 
-		Debug.Log ("menu select down");
-//		GameManager.audioManager.MenuMove ();
 		GameManager.audioManager.PlayMenuClickDown ();
     }
 
@@ -193,28 +187,28 @@ public class Menu : MonoBehaviour {
     {
         switch(_selection)
         {
-            case 1:
-                if(_resolution > 0)
-                {
-                    _resolution--;
-                    Resolution res = resolutions[_resolution];
-                    Screen.SetResolution(res.width, res.height, Screen.fullScreen);
-                    choices[1].text = "Resolution : " + Screen.currentResolution;
-                }
-                break;
+		case 0:
+			return;
+        case 1:
+            if(_resolution > 0)
+            {
+                _resolution--;
+                Resolution res = resolutions[_resolution];
+                Screen.SetResolution(res.width, res.height, Screen.fullScreen);
+                choices[1].text = "lResolution : " + Screen.currentResolution;
+            }
+            break;
 
-            case 2:
-                if (_quality > 0)
-                {
-                    _quality--;
-                    QualitySettings.DecreaseLevel();
-                    choices[2].text = "Quality : " + ((Quality)_quality).ToString();
-                }
-                break;
+        case 2:
+            if (_quality > 0)
+            {
+                _quality--;
+                QualitySettings.DecreaseLevel();
+                choices[2].text = "Quality : " + ((Quality)_quality).ToString();
+            }
+            break;
         }
 
-		Debug.Log ("menu move left");
-//		GameManager.audioManager.MenuMove ();
 		GameManager.audioManager.PlayMenuClickSelect ();
     }
 
@@ -228,7 +222,7 @@ public class Menu : MonoBehaviour {
                     _resolution++;
                     Resolution res = resolutions[_resolution];
                     Screen.SetResolution(res.width, res.height, Screen.fullScreen);
-                    choices[1].text = "Resolution : " + Screen.currentResolution;
+                    choices[1].text = "rResolution : " + Screen.currentResolution;
                 }
                 break;
 
@@ -242,8 +236,6 @@ public class Menu : MonoBehaviour {
                 break;
         }
 
-		Debug.Log ("menu move right");
-//		GameManager.audioManager.MenuMove ();
 		GameManager.audioManager.PlayMenuClickSelect ();
     }
     #endregion

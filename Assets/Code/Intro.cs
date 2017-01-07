@@ -11,7 +11,8 @@ public class Intro : MonoBehaviour {
 
     #region delegates and events
     public delegate void IntroCompleteEventHandler();
-    public event IntroCompleteEventHandler IntroCompleteEvent;
+	public event IntroCompleteEventHandler IntroCompleteEvent;
+	public event IntroCompleteEventHandler TitleShowEvent;
     #endregion
 
     #region private variables
@@ -29,6 +30,12 @@ public class Intro : MonoBehaviour {
 #endregion
 
 #region public methods
+	public void ShowTitle()
+	{
+		if (TitleShowEvent != null)
+			TitleShowEvent();
+	}
+
     public void EndIntro()
     {
         _animator.Stop();

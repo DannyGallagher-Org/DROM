@@ -13,6 +13,8 @@ public class DromCamera : MonoBehaviour {
 
 	private bool _bStarted = false;
 	private bool _bFinished = false;
+
+	public float targetColorSetting = 0f;
 	#endregion
 
 	#region monobehaviour inherited
@@ -21,29 +23,8 @@ public class DromCamera : MonoBehaviour {
 	}
 
 	void Update() {
-		if (_bStarted) {
-			if (amp.BlendAmount > 0 && _bStarted)
-				amp.BlendAmount -= dayChangeSpeed * (Time.deltaTime / 30f);
-
-			if (transform.position.y > 6.4f) {
-				Vector3 pos = transform.position;
-				float speed = transform.position.y - 6.4f;
-				pos.y -= Time.deltaTime * Mathf.Clamp (speed, 0.01f, 0.3f);
-
-				transform.position = pos;
-			}
-		}
-
-		if (_bFinished) {
-			if (transform.position.y < 10f) {
-				Vector3 pos = transform.position;
-				float speed = 10f - transform.position.y;
-				pos.y += Time.deltaTime * Mathf.Clamp (speed, 0.01f, 0.1f);
-
-				transform.position = pos;
-			}
-		}
-			
+		if (!Mathf.Approximately (amp.BlendAmount, targetColorSetting))
+			amp.BlendAmount = Mathf.Lerp (amp.BlendAmount, targetColorSetting, Time.deltaTime);
 	}
 	#endregion
 
