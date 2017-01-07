@@ -67,4 +67,14 @@ public class AudioManager : MonoBehaviour {
 	
 	}
 
+	public void PlayMenuClickDown(){
+		_menuSounds.PlayMenuClick ("down");
+	}
+	public void PlayMenuClickUp(){
+		_menuSounds.PlayMenuClick ("up");
+	}
+	public void PlayMenuClickSelect(){
+		_menuSounds.PlayMenuClick ("select");
+	}
+
 }
