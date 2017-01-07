@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.Audio;
 
 public class MenuSounds : MonoBehaviour {
 
@@ -12,16 +11,11 @@ public class MenuSounds : MonoBehaviour {
 	public AudioClip menuclick_select;
 
 
-	AudioSource audio;
-//	AudioClip [] menuSounds;
+	AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
-
-//		menuSounds = GetComponents<AudioClip> ();
-		audio = GetComponent<AudioSource> ();
-
-		
+		audioSource = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -44,13 +38,13 @@ public class MenuSounds : MonoBehaviour {
 
 	public void PlayMenuMoveSound (){
 
-		audio.PlayOneShot (menuMove, 0.7f);
+		audioSource.PlayOneShot (menuMove, 0.7f);
 //		Debug.Log ("PlayMenuMoveSound attemtped");
 	}
 
 	public void PlayMenuSelectSound (){
 
-		audio.PlayOneShot (menuSelect, 0.7f);
+		audioSource.PlayOneShot (menuSelect, 0.7f);
 		//		Debug.Log ("PlayMenuMoveSound attemtped");
 	}
 
@@ -76,7 +70,7 @@ public class MenuSounds : MonoBehaviour {
 		}
 
 	
-		audio.PlayOneShot (clip, 1f);
+		audioSource.PlayOneShot (clip, 1f);
 	
 	
 	}
