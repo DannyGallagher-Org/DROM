@@ -31,8 +31,8 @@ public class DromCamera : MonoBehaviour {
 	#region public methods
 	public void MoveTimeForward()
 	{
-		if(targetColorSetting > 0.9f)
-			targetColorSetting -= 1f;
+		if(targetColorSetting > 0.09f)
+			targetColorSetting -= 0.1f;
 	}
 	#endregion
 
