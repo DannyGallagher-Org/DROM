@@ -23,7 +23,6 @@ public class CloudBit : MonoBehaviour
     #region monobehaviour inherited
     void Awake()
     {
-
     }
 
     void Update()

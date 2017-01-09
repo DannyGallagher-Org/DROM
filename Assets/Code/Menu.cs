@@ -71,7 +71,6 @@ public class Menu : MonoBehaviour {
 
     void Update()
     {
-		Debug.Log (Screen.currentResolution);
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (_bInUse)

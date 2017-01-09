@@ -22,7 +22,7 @@ public class Boss : MonoBehaviour {
 	private bool _bEnded = false;
 
 	private State _state = State.Intro;
-	private int _level = 1;
+	private int _level = 0;
 
     private CloudController _currentCloud;
     #endregion
@@ -37,7 +37,6 @@ public class Boss : MonoBehaviour {
 
 	public GameObject text;
 
-	public GameObject[] shapes;
 	public GameObject[] matchObj;
 
     public float startRed;
@@ -91,7 +90,7 @@ public class Boss : MonoBehaviour {
 
                 ratioDebug = ratio = Mathf.Lerp(ratio, Mathf.Clamp(tot, 0, 1f), Time.deltaTime);
 
-                if (ratio > targets[_level-1]) {
+                if (ratio > targets[_level]) {
 				    Win();
 			    }
 				
@@ -112,17 +111,6 @@ public class Boss : MonoBehaviour {
 			if (!_bEnded) {
 
 				_bEnded = true;
-                /*
-				clouds [level].MoveOff ();
-
-				clouds [3].speed = 6f;
-				clouds [4].speed = 8f;
-				clouds [5].speed = 10f;
-				clouds [3].MoveOff ();
-				clouds [4].MoveOff ();
-				clouds [5].MoveOff ();
-                */
-				shapes [_level].SetActive (false);
 
 				Invoke ("Quit", 120f);
 			}
@@ -140,7 +128,7 @@ public class Boss : MonoBehaviour {
     {
         _stage = GameObject.Instantiate(Resources.Load(string.Format("Stage_{0}", _level)) as GameObject);
 
-        _currentCloud = GameObject.Instantiate(Resources.Load("NiceCloud1") as GameObject).GetComponent<CloudController>();
+		_currentCloud = GameObject.Instantiate(Resources.Load("GameCloud" + _level) as GameObject).GetComponent<CloudController>();
 
         _currentCloud.CloudMoveFinishedEvent += _currentCloud_CloudMoveFinishedEvent;
         _currentCloud.Move();
@@ -171,7 +159,7 @@ public class Boss : MonoBehaviour {
     private void Menu_StartGameEvent()
 	{
 		menu.StartGameEvent -= Menu_StartGameEvent;
-		dcamera.targetColorSetting = 0.5f;
+		dcamera.targetColorSetting = 0.3f;
         _state = State.Start;
     }
 
