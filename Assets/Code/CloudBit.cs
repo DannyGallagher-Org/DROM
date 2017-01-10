@@ -12,7 +12,7 @@ public class CloudBit : MonoBehaviour
     private Vector3 _targetVec;
     public bool _bMove = false;
 
-    private float dampener = 30f;
+    private float dampener = 50f;
 
     private Vector3 force = Vector3.zero;
     #endregion

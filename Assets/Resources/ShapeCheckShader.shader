@@ -43,7 +43,7 @@
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
 
-				if(col.a < 0.4)
+				if(col.a < 0.3)
 					return fixed4(0, 1, 0, 1);
 
 				if(col.a > 0.9)
