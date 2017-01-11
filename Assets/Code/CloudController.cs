@@ -37,7 +37,9 @@ public class CloudController : MonoBehaviour {
 
 	#region public methods
 	public void Move() {
-        Go.to(transform, 30f, new GoTweenConfig()
+        float time = (GameDefs.kSpeedyGame) ? 1f : 30f;
+
+        Go.to(transform, time, new GoTweenConfig()
             .localPosition(new Vector3(0, 0, 7f))
             .setEaseType(GoEaseType.Linear)
             .onComplete(CloudOnComplete)

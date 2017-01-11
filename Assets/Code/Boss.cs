@@ -53,7 +53,7 @@ public class Boss : MonoBehaviour {
     void Awake () {
         audioManager = gameObject.AddComponent<AudioManagerClass> ();
 		intro = GameObject.FindObjectOfType<Intro> ();
-		if(GameDefs.kSpeedyIntro)
+		if(GameDefs.kSpeedyGame)
         {
             Menu_StartGameEvent();
         }
@@ -139,7 +139,7 @@ public class Boss : MonoBehaviour {
     private void _currentCloud_CloudMoveFinishedEvent()
     {
         _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
-        startRed = shapeCheckCam.Check(true).y;
+        startRed = shapeCheckCam.Check().y;
         _state = State.Guess;
     }
 

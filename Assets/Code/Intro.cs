@@ -24,7 +24,7 @@ public class Intro : MonoBehaviour {
 	void Awake () {
         _animator = GetComponent<Animator>();
         
-        if (GameDefs.kSpeedyIntro)
+        if (GameDefs.kSpeedyGame)
             _animator.speed = 10f;
     }
 #endregion
