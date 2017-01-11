@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
             foreach (var c in _cloudsTouched)
             {
                 if(c)
-                c.GetComponent<CloudBit>().Move((Input.mousePosition - _mouseClickPos).normalized);
+                    c.GetComponent<CloudBit>().Move((Input.mousePosition - _mouseClickPos).normalized);
             }
 
             _cloudsTouched.Clear();

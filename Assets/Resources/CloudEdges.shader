@@ -1,4 +1,6 @@
-﻿Shader "CloudEdges"
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
+Shader "CloudEdges"
 {
 		Properties
 		{
@@ -17,6 +19,8 @@
 			_SolidColor("SolidColor", Color) = (1,1,1,0.8)
 			_OutlineColor("OutlineColor", Color) = (1,1,1,0.4)
 			_ShadowColor("ShadowColor", Color) = (0.7,0.4,0.8,0.8)
+				
+			_Amount("Wobble", Float) = 1.0
 		}
 			SubShader
 			{
@@ -60,13 +64,20 @@
 					half2 texcoord : TEXCOORD0;
 				};
 
+				float _Amount;
+
 				v2f vert(appdata_t v)
 				{
 					v2f o;
-					o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
-					o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
 
+					o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
 					
+					float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
+
+					o.vertex.x += sin(_Amount*worldPos.y + v.texcoord.x) / 50;
+					o.vertex.y += sin(_Amount*worldPos.x + v.texcoord.y) / 50;
+
+					o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);		
 
 					return o;
 				}

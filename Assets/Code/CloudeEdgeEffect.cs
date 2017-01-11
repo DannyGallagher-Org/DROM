@@ -23,11 +23,15 @@ public class CloudeEdgeEffect : MonoBehaviour {
     void Awake ()
 	{
 		material = new Material( Shader.Find("CloudEdges") );
-        
     }
 
-        // Postprocess the image
-        void OnRenderImage (RenderTexture source, RenderTexture destination)
+    void Update()
+    {
+        material.SetFloat("_Amount", Time.time);
+    }
+
+    // Postprocess the image
+    void OnRenderImage (RenderTexture source, RenderTexture destination)
 	{
         material.SetFloat("_TextureStrengh", textureStrengh);
 

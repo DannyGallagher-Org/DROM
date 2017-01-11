@@ -12,7 +12,7 @@ public class CloudBit : MonoBehaviour
     private Vector3 _targetVec;
     public bool _bMove = false;
 
-    private float dampener = 50f;
+    private float dampener = 70f;
 
     private Vector3 force = Vector3.zero;
     #endregion
@@ -41,7 +41,7 @@ public class CloudBit : MonoBehaviour
         force.z = 0;
         force /= dampener;
 		Debug.Log ("cloud bit move called");
-		GameManager.audioManager.PlayCloudBitSound ();
+		//GameManager.audioManager.PlayCloudBitSound ();
     }
     #endregion
 

@@ -33,38 +33,48 @@ public class ShapeCheckCamera : MonoBehaviour {
 		InvokeRepeating ("Check", 0f, 1f);
 	}
 
-	public Vector3 Check() {
-		Destroy (texture);
-		RenderTexture rt = new RenderTexture(Screen.width, Screen.height, 24);
-		_camera.targetTexture = rt;
+	public Vector3 Check(bool force) {
+        if (force)
+        {
+            Destroy(texture);
+            RenderTexture rt = new RenderTexture(Screen.width, Screen.height, 24);
+            _camera.targetTexture = rt;
 
-		texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
-		_camera.Render();
-		RenderTexture.active = rt;
-		texture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-		_camera.targetTexture = null;
-		RenderTexture.active = null; // JC: added to avoid errors
-		Destroy(rt);
+            texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+            _camera.Render();
+            RenderTexture.active = rt;
+            texture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+            _camera.targetTexture = null;
+            RenderTexture.active = null; // JC: added to avoid errors
+            Destroy(rt);
 
-		Color32[] pixels = texture.GetPixels32 ();
+            Color32[] pixels = texture.GetPixels32();
 
-        blue = red = 0;
+            blue = red = 0;
 
-		foreach (var p in pixels) {
-			if (p.b > 0.8f && ((p.r < 0.5f) && (p.g < 0.5f)))
-				blue++;
+            foreach (var p in pixels)
+            {
+                if (p.b > 0.8f && ((p.r < 0.5f) && (p.g < 0.5f)))
+                    blue++;
 
-			if (p.r > 0.8f && ((p.b < 0.5f) && (p.g < 0.5f)))
-				red++;
-		}
+                if (p.r > 0.8f && ((p.b < 0.5f) && (p.g < 0.5f)))
+                    red++;
+            }
 
-        //blue = b / wholeScreenPixels;
-        //red = r / wholeScreenPixels;
-        green = (wholeScreenPixels - red - blue);
+            //blue = b / wholeScreenPixels;
+            //red = r / wholeScreenPixels;
+            green = (wholeScreenPixels - red - blue);
 
-        //ratio = b / (r + b);
+            //ratio = b / (r + b);
 
-        return new Vector2(blue, red);
+            return new Vector2(blue, red);
+        }
+        else
+        {
+            StartCoroutine(CheckCoroutine());
+            return new Vector2(blue, red);
+        }
+		
 	}
 	#endregion
 
@@ -72,8 +82,41 @@ public class ShapeCheckCamera : MonoBehaviour {
 	#endregion
 
 	#region private methods
-	#endregion
+    private IEnumerator CheckCoroutine()
+    {
+        Destroy(texture);
+        RenderTexture rt = new RenderTexture(Screen.width, Screen.height, 24);
+        _camera.targetTexture = rt;
 
-	#region event handlers
-	#endregion
+        texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        _camera.Render();
+        RenderTexture.active = rt;
+        texture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        _camera.targetTexture = null;
+        RenderTexture.active = null; // JC: added to avoid errors
+        Destroy(rt);
+
+        Color32[] pixels = texture.GetPixels32();
+
+        blue = red = 0;
+
+        foreach (var p in pixels)
+        {
+            if (p.b > 0.8f && ((p.r < 0.5f) && (p.g < 0.5f)))
+                blue++;
+
+            if (p.r > 0.8f && ((p.b < 0.5f) && (p.g < 0.5f)))
+                red++;
+        }
+
+        //blue = b / wholeScreenPixels;
+        //red = r / wholeScreenPixels;
+        green = (wholeScreenPixels - red - blue);
+
+        yield return null;
+    }
+    #endregion
+
+    #region event handlers
+    #endregion
 }

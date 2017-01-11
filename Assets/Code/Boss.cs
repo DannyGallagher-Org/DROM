@@ -139,7 +139,7 @@ public class Boss : MonoBehaviour {
     private void _currentCloud_CloudMoveFinishedEvent()
     {
         _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
-        startRed = shapeCheckCam.Check().y;
+        startRed = shapeCheckCam.Check(true).y;
         _state = State.Guess;
     }
 
