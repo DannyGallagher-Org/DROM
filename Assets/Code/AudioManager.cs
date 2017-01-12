@@ -77,4 +77,10 @@ public class AudioManager : MonoBehaviour {
 		_menuSounds.PlayMenuClick ("select");
 	}
 
+	//TODO make 'GameplayMusicTransition (int transNumber) {}... pass the transition number
+	public void GameplayMusicTransitionOne () {
+
+		_gameplayMusicControl.TransitionOne ();
+
+	}
 }

@@ -92,6 +92,7 @@ public class Boss : MonoBehaviour {
 
                 if (ratio > targets[_level]) {
 				    Win();
+					GameManager.audioManager.GameplayMusicTransitionOne (); //TODO Danny put this somewhere more logical?? Thx! 
 			    }
 				
 			break;

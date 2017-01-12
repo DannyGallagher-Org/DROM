@@ -1,4 +1,5 @@
 {37ec3c57-0aa6-47e6-842f-bb87b91ad2cd} event:/Gameplay/Music
+{13aa613f-3ac6-4fef-bc2d-39c1051683ad} event:/Gameplay/Music old
 {2180dc0b-56ac-4681-bf45-2d594a0c253a} event:/Global/Environment
 {f5f804d7-dcd7-4b78-a800-d2c2a445d14f} event:/Intro
 {22cf795e-815a-4fb2-8e18-d44e6333848e} bus:/

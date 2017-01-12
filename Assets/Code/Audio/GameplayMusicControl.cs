@@ -46,4 +46,11 @@ public class GameplayMusicControl : MonoBehaviour {
 		}
 
 	}
+
+	public void TransitionOne () {
+
+		emitter.SetParameter ("trans_01", 1f);
+		Debug.Log ("tried to set trans_01 parameter");
+
+	}
 }
