@@ -7,8 +7,9 @@ Date:       18/10/16
 
 using UnityEngine;
 
-public static class GameDefs {
-
+public static class GameDefs
+{
+    public static bool kbTrailer = false;
 	public static bool kSpeedyGame = false;
     public static bool kSkipIntro = false;
 

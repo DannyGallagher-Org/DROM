@@ -12,7 +12,12 @@ public class PressSpace : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.Space))
-            SceneManager.LoadScene(1);
+	    if (Input.GetKeyDown(KeyCode.Space))
+	    {
+	        if(GameDefs.kbTrailer)
+                SceneManager.LoadScene(2);
+            else
+                SceneManager.LoadScene(1);
+	    }
 	}
 }

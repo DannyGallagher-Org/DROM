@@ -17,7 +17,7 @@ public class DromCamera : MonoBehaviour {
     private int _timeOfDayCount = 0;
 
 	private AmplifyColorEffect _amp;
-    private const float DayChangeSpeed = 1f;
+    [SerializeField] private float DayChangeSpeed = 1f;
 
     public float TargetColorSetting = 0f;
 	#endregion

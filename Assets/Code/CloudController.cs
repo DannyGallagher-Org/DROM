@@ -48,8 +48,8 @@ public class CloudController : MonoBehaviour {
             );
 	}
 
-	public void MoveOff() {
-        float time = (GameDefs.kSpeedyGame) ? 1f : 30f;
+	public void MoveOff(float time) {
+        time = (GameDefs.kSpeedyGame) ? 1f : time;
 
         Go.to(transform, time, new GoTweenConfig()
             .localPosition(new Vector3(30f, 0, 7f))

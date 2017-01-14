@@ -105,7 +105,7 @@ public class Boss : MonoBehaviour {
 
     #region public methods
 	public void Win() {
-        _currentCloud.MoveOff();
+        _currentCloud.MoveOff(30f);
         _stage.GetComponentInChildren<Shapes>().Hide();
         
 		GameManager.audioManager.PlayWinSound ();
@@ -161,8 +161,15 @@ public class Boss : MonoBehaviour {
     private void Boss_IntroCompleteEvent()
 	{
 		GameObject.FindObjectOfType<Intro>().IntroCompleteEvent -= Boss_IntroCompleteEvent;
-        menu.MenuReadyEvent += Menu_MenuReadyEvent;
-        menu.AnimateOn(false);
+	    if (GameDefs.kbTrailer)
+	    {
+	        
+	    }
+	    else
+	    {
+            menu.MenuReadyEvent += Menu_MenuReadyEvent;
+            menu.AnimateOn(false);
+	    }
     }
 
     private void Menu_MenuReadyEvent()
