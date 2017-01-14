@@ -76,7 +76,7 @@ public class Menu : MonoBehaviour {
             if (_bInUse)
                 AnimateOff();
             else
-                AnimateOn();
+                AnimateOn(true);
         }
 
         if (!_bInUse) return;
@@ -107,8 +107,11 @@ public class Menu : MonoBehaviour {
             choices[_selection].color = Color.white;
     }
 
-    public void AnimateOn()
+    public void AnimateOn(bool paused)
     {
+        if (paused)
+            choices[0].text = "Continue";
+
         _quality = QualitySettings.GetQualityLevel();
         choices[2].text = "Quality : " + ((Quality)_quality).ToString();
 

@@ -34,6 +34,8 @@ public class Boss : MonoBehaviour {
 	public ShapeCheckCamera shapeCheckCam;
 	public DromCamera dcamera;
 
+    public GameObject credits;
+
     public static AudioManagerClass audioManager;
 
 	public GameObject text;
@@ -116,6 +118,7 @@ public class Boss : MonoBehaviour {
 
 				Debug.Log("WON");
 			    _state = State.End;
+                Invoke("ShowCredits", 10f);
 			}
 		}
         else
@@ -129,6 +132,12 @@ public class Boss : MonoBehaviour {
     #endregion
 
     #region private methods
+
+    private void ShowCredits()
+    {
+        credits.gameObject.SetActive(true);
+    }
+
     private void NextCloud()
     {
         _stage = GameObject.Instantiate(Resources.Load(string.Format("Stage_{0}", _level)) as GameObject);
@@ -153,7 +162,7 @@ public class Boss : MonoBehaviour {
 	{
 		GameObject.FindObjectOfType<Intro>().IntroCompleteEvent -= Boss_IntroCompleteEvent;
         menu.MenuReadyEvent += Menu_MenuReadyEvent;
-        menu.AnimateOn();
+        menu.AnimateOn(false);
     }
 
     private void Menu_MenuReadyEvent()
