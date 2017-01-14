@@ -14,6 +14,8 @@ public class CloudBit : MonoBehaviour
 
     private float dampener = 70f;
 
+    private bool _bBursting = false;
+
     private Vector3 force = Vector3.zero;
     #endregion
 
@@ -23,14 +25,22 @@ public class CloudBit : MonoBehaviour
     #region monobehaviour inherited
     void Awake()
     {
+
     }
 
     void Update()
     {
-        transform.Translate(force, Space.Self);
+        if(_bBursting)
+        {
 
-        if (force.magnitude > 0)
-            force -= (force * Time.deltaTime)*2.5f;
+        }
+        else
+        {
+            transform.Translate(force, Space.Self);
+
+            if (force.magnitude > 0)
+                force -= (force * Time.deltaTime)*2.5f;
+        }
     }
     #endregion
 

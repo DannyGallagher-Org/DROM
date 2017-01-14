@@ -8,31 +8,36 @@ using System.Collections;
 public class DromCamera : MonoBehaviour {
 
 	#region private variables
-	private AmplifyColorEffect amp;
-	private float dayChangeSpeed = 0.1f;
+    private readonly float[] _weights = new float[]
+    {
+        3f,
+        0f
+    };
 
-	private bool _bStarted = false;
-	private bool _bFinished = false;
+    private int _timeOfDayCount = 0;
 
-	public float targetColorSetting = 0f;
+	private AmplifyColorEffect _amp;
+    private const float DayChangeSpeed = 1f;
+
+    public float TargetColorSetting = 0f;
 	#endregion
 
 	#region monobehaviour inherited
 	void Awake () {
-		amp = GetComponent<AmplifyColorEffect> ();
+		_amp = GetComponent<AmplifyColorEffect> ();
 	}
 
 	void Update() {
-		if (!Mathf.Approximately (amp.BlendAmount, targetColorSetting))
-			amp.BlendAmount = Mathf.Lerp (amp.BlendAmount, targetColorSetting, Time.deltaTime);
+		if (!Mathf.Approximately (_amp.BlendAmount, TargetColorSetting))
+			_amp.BlendAmount = Mathf.Lerp (_amp.BlendAmount, TargetColorSetting, Time.deltaTime * DayChangeSpeed);
 	}
 	#endregion
 
 	#region public methods
 	public void MoveTimeForward()
 	{
-		if(targetColorSetting > 0.09f)
-			targetColorSetting -= 0.1f;
+	    _timeOfDayCount++;
+	    TargetColorSetting = _weights[_timeOfDayCount];
 	}
 	#endregion
 

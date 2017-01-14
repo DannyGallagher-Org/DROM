@@ -15,7 +15,8 @@ public class Boss : MonoBehaviour {
 		CloudMove,
 		Guess,
 		Win,
-		Complete
+		Complete,
+	    End
 	}
 
 	#region private variables
@@ -54,9 +55,9 @@ public class Boss : MonoBehaviour {
         audioManager = gameObject.AddComponent<AudioManagerClass> ();
 		intro = GameObject.FindObjectOfType<Intro> ();
 		if(GameDefs.kSpeedyGame)
-        {
             Menu_StartGameEvent();
-        }
+        else if (GameDefs.kSkipIntro)
+            Menu_StartGameEvent();
         else
         {
 			intro.IntroCompleteEvent += Boss_IntroCompleteEvent;
@@ -86,7 +87,7 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Guess:
-                float tot = (shapeCheckCam.blue-shapeCheckCam.red) / startRed;
+                float tot = (((float)shapeCheckCam.blue*0.75f)-shapeCheckCam.red) / startRed;
 
                 ratioDebug = ratio = Mathf.Lerp(ratio, Mathf.Clamp(tot, 0, 1f), Time.deltaTime);
 
@@ -102,21 +103,24 @@ public class Boss : MonoBehaviour {
 
     #region public methods
 	public void Win() {
-        Debug.Log(_currentCloud.gameObject);
-        GameObject.Destroy(_currentCloud.gameObject);
-        Debug.Log("win");
+        _currentCloud.MoveOff();
+        _stage.GetComponentInChildren<Shapes>().Hide();
+        
 		GameManager.audioManager.PlayWinSound ();
-		dcamera.MoveTimeForward ();
-		if (_level + 1 > targets.Length - 1) {
+	    _level++;
+		if (_level > targets.Length - 1) {
 
 			if (!_bEnded) {
 
 				_bEnded = true;
 
-				Invoke ("Quit", 120f);
+				Debug.Log("WON");
+			    _state = State.End;
 			}
-		} else {
-            GameObject.Destroy(_stage);
+		}
+        else
+        {
+            dcamera.MoveTimeForward();
             NextCloud();
             ratio = 0;
 			GameManager.audioManager.NextLevel ();
@@ -139,6 +143,7 @@ public class Boss : MonoBehaviour {
 
     private void _currentCloud_CloudMoveFinishedEvent()
     {
+        _stage.GetComponentInChildren<Shapes>().Show();
         _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
         startRed = shapeCheckCam.Check().y;
         _state = State.Guess;
@@ -160,7 +165,7 @@ public class Boss : MonoBehaviour {
     private void Menu_StartGameEvent()
 	{
 		menu.StartGameEvent -= Menu_StartGameEvent;
-		dcamera.targetColorSetting = 0.3f;
+		dcamera.TargetColorSetting = 0.3f;
         _state = State.Start;
     }
 

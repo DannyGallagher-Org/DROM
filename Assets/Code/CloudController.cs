@@ -22,6 +22,8 @@ public class CloudController : MonoBehaviour {
 	#region public interface
 	public GameObject cloudClone;
 	public float speed = 35f;
+
+    public float opacity;
 	#endregion
 
 	#region monobehaviour inherited
@@ -47,8 +49,14 @@ public class CloudController : MonoBehaviour {
 	}
 
 	public void MoveOff() {
-		_bMoveOff = true;
-	}
+        float time = (GameDefs.kSpeedyGame) ? 1f : 30f;
+
+        Go.to(transform, time, new GoTweenConfig()
+            .localPosition(new Vector3(30f, 0, 7f))
+            .setEaseType(GoEaseType.Linear)
+            .onComplete(CloudOffComplete)
+            );
+    }
 	#endregion
 
 	#region private methods
@@ -58,9 +66,10 @@ public class CloudController : MonoBehaviour {
             CloudMoveFinishedEvent();
     }
 
-    void CloudOffComplete()
+    void CloudOffComplete(AbstractGoTween t)
     {
-
+        t.destroy();
+        Destroy(gameObject);
     }
 	#endregion
 
