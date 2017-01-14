@@ -118,7 +118,7 @@ public class Boss : MonoBehaviour {
 
 				Debug.Log("WON");
 			    _state = State.End;
-                Invoke("ShowCredits", 10f);
+                Invoke("ShowCredits", 30f);
 			}
 		}
         else
