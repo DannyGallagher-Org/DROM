@@ -141,8 +141,9 @@ public class Boss : MonoBehaviour {
     private void NextCloud()
     {
         _stage = GameObject.Instantiate(Resources.Load(string.Format("Stage_{0}", _level)) as GameObject);
+        _stage.GetComponentInChildren<Shapes>().Show();
 
-		_currentCloud = GameObject.Instantiate(Resources.Load("GameCloud" + _level) as GameObject).GetComponent<CloudController>();
+        _currentCloud = GameObject.Instantiate(Resources.Load("GameCloud" + _level) as GameObject).GetComponent<CloudController>();
 
         _currentCloud.CloudMoveFinishedEvent += _currentCloud_CloudMoveFinishedEvent;
         _currentCloud.Move();
@@ -152,7 +153,6 @@ public class Boss : MonoBehaviour {
 
     private void _currentCloud_CloudMoveFinishedEvent()
     {
-        _stage.GetComponentInChildren<Shapes>().Show();
         _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
         startRed = shapeCheckCam.Check().y;
         _state = State.Guess;

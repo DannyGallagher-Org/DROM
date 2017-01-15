@@ -25,7 +25,7 @@ public class Shapes : MonoBehaviour
 
     public void Show()
     {
-        Go.to(this, 3f, new GoTweenConfig()
+        Go.to(this, 20f, new GoTweenConfig()
             .floatProp("opacity", 0.15f)
             );
     }

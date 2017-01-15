@@ -39,7 +39,7 @@ public class CloudBit : MonoBehaviour
             transform.Translate(force, Space.Self);
 
             if (force.magnitude > 0)
-                force -= (force * Time.deltaTime)*2.5f;
+                force -= (force * Time.deltaTime)*3.5f;
         }
     }
     #endregion

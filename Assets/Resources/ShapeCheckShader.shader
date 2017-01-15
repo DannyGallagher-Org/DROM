@@ -46,7 +46,7 @@
 				if(col.a < 0.15)
 					return fixed4(0, 1, 0, 1);
 
-				if(col.a > 0.9)
+				if(col.a > 0.917)
 					return fixed4(0, 0, 1, 1);
 
 				return fixed4(1, 0, 0, 1);
