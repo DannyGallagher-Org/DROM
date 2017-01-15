@@ -46,8 +46,6 @@ public class Boss : MonoBehaviour {
     public float ratioDebug = 0;
 	public static float ratio = 0f;
 
-	public float[] targets;
-
     private GameObject _stage;
 	private Intro intro;
     #endregion
@@ -89,11 +87,11 @@ public class Boss : MonoBehaviour {
 			break;
 
 		case State.Guess:
-                float tot = (((float)shapeCheckCam.blue*0.75f)-shapeCheckCam.red) / startRed;
+		        float tot = Mathf.InverseLerp(startRed, startRed*0.2f, shapeCheckCam.red);
 
-                ratioDebug = ratio = Mathf.Lerp(ratio, Mathf.Clamp(tot, 0, 1f), Time.deltaTime);
+		        ratio = ratioDebug = Mathf.Lerp(ratio, Mathf.Clamp(tot, 0, 1f), Time.deltaTime);
 
-                if (ratio > targets[_level]) {
+                if (ratio > 0.95f) {
 				    Win();
 					GameManager.audioManager.GameplayMusicTransitionOne (); //TODO Danny put this somewhere more logical?? Thx! 
 			    }
@@ -106,11 +104,12 @@ public class Boss : MonoBehaviour {
     #region public methods
 	public void Win() {
         _currentCloud.MoveOff(30f);
+        _stage.transform.FindChild("checkH").gameObject.SetActive(false);
         _stage.GetComponentInChildren<Shapes>().Hide();
         
 		GameManager.audioManager.PlayWinSound ();
 	    _level++;
-		if (_level > targets.Length - 1) {
+		if (_level > 1) {
 
 			if (!_bEnded) {
 
@@ -155,6 +154,7 @@ public class Boss : MonoBehaviour {
     {
         _currentCloud.CloudMoveFinishedEvent -= _currentCloud_CloudMoveFinishedEvent;
         startRed = shapeCheckCam.Check().y;
+        Debug.Log("startred: " + startRed);
         _state = State.Guess;
     }
 
