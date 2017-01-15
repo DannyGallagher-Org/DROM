@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
             _mouseClickPos = Input.mousePosition;
 
-            RaycastHit[] hits = Physics.SphereCastAll(ray.origin, 0.1f, ray.direction, Mathf.Infinity, ~LayerMask.NameToLayer("Cloud"));
+            RaycastHit[] hits = Physics.SphereCastAll(ray.origin, 0.25f, ray.direction, Mathf.Infinity, ~LayerMask.NameToLayer("Cloud"));
 
             for (int i = hits.Length - 1; i > -1; i--)
             {

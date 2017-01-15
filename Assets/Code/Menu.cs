@@ -73,10 +73,8 @@ public class Menu : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (_bInUse)
-                AnimateOff();
-            else
-                AnimateOn(true);
+			Application.Quit();
+
         }
 
         if (!_bInUse) return;
