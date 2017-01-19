@@ -9,7 +9,7 @@ using UnityEngine;
 
 public static class GameDefs
 {
-    public static bool kbTrailer = false;
+    public static bool kbTrailer = true;
 	public static bool kSpeedyGame = false;
 	public static bool kSkipIntro = false;
 
