@@ -1,0 +1,24 @@
+{
+	Name: "FrameRate And Memory",
+	Trackers: 
+	[ 
+		{
+			Track: "FramerateProbe",
+		},
+		{
+			Track: "TextureMemoryProbe"
+		}
+	],
+	Processors : 
+	[
+		{
+			Processor: "NetworkStreamerProcessor",
+			Address: "127.0.0.1:9645",
+			Protocole: "TCP"
+		},
+		{
+			Processor: "FileStreamerProcessor",
+			Location: "/Users/thibaultgouala/Documents/Test.json"
+		}
+	]
+}
