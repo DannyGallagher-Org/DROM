@@ -104,7 +104,7 @@ public class Boss : MonoBehaviour {
     #region public methods
 	public void Win() {
         _currentCloud.MoveOff(30f);
-        _stage.transform.FindChild("checkH").gameObject.SetActive(false);
+        _stage.transform.Find("checkH").gameObject.SetActive(false);
         _stage.GetComponentInChildren<Shapes>().Hide();
         
 		GameManager.audioManager.PlayWinSound ();

@@ -37,7 +37,7 @@ public class Intro : MonoBehaviour {
 
     public void EndIntro()
     {
-        _animator.Stop();
+        _animator.enabled = false;
 
         if (IntroCompleteEvent != null)
             IntroCompleteEvent();

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef521036-ecfd-4c0d-8f48-b1795f0b2976" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.drom/.idea/contentModel.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.drom/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.drom/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.drom/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AmplifyColor/Resources/Common.cginc" afterPath="$PROJECT_DIR$/Assets/AmplifyColor/Resources/Common.cginc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/Boss.cs" afterPath="$PROJECT_DIR$/Assets/Code/Boss.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/Intro.cs" afterPath="$PROJECT_DIR$/Assets/Code/Intro.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/Shaders/Scanlines.shader" afterPath="$PROJECT_DIR$/Assets/Code/Shaders/Scanlines.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees 09 2011/N_oak TreeCreator Materials/N_oakbranch_simple MEDIUM.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees 09 2011/N_oak TreeCreator Materials/N_oakbranch_simple MEDIUM.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees 09 2011/N_oak TreeCreator Materials/N_oakbranch_simple.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees 09 2011/N_oak TreeCreator Materials/N_oakbranch_simple.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple HIGHRES.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple HIGHRES.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple MEDIUM 1.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple MEDIUM 1.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple MEDIUM.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple MEDIUM.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_simple.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_test HIGHRES.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_test HIGHRES.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_test MEDIUM.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_test MEDIUM.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_test.fbx.meta" afterPath="$PROJECT_DIR$/Assets/Oak Trees Package/Oak Trees/oak TreeCreatorMaterials/oakbranch_test.fbx.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/Android/fmod.jar.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/fmod.jar.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmod.so.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmod.so.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodstudio.so.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/libs/armeabi-v7a/libfmodstudio.so.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmod.so.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmod.so.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodstudio.so.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/libs/x86/libfmodstudio.so.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Plugins/iOS/libfmodstudiounityplugin.a.meta" afterPath="$PROJECT_DIR$/Assets/Plugins/iOS/libfmodstudiounityplugin.a.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainShader.shader" afterPath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" afterPath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/CloudShadows.shader" afterPath="$PROJECT_DIR$/Assets/Resources/CloudShadows.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/ShapeCheckShader.shader" afterPath="$PROJECT_DIR$/Assets/Resources/ShapeCheckShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Clouds.shader" afterPath="$PROJECT_DIR$/Assets/Scripts/Clouds.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sonic Ether/Natural Bloom/Shaders/SENaturalBloomAndDirtyLens.shader" afterPath="$PROJECT_DIR$/Assets/Sonic Ether/Natural Bloom/Shaders/SENaturalBloomAndDirtyLens.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sonic Ether/Natural Bloom/Shaders/SEParticlesAdditive.shader" afterPath="$PROJECT_DIR$/Assets/Sonic Ether/Natural Bloom/Shaders/SEParticlesAdditive.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/RadialBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/TPAA/Shaders/TemporalReprojection.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/TPAA/Shaders/TemporalReprojection.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Standard Assets/TPAA/Shaders/VelocityBuffer.shader" afterPath="$PROJECT_DIR$/Assets/Standard Assets/TPAA/Shaders/VelocityBuffer.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Intro.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <folding>
+                <marker date="1500125678000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+                <marker date="1500125678000" expanded="true" signature="281:1021" ph="{...}" />
+                <marker date="1500125678000" expanded="true" signature="288:501" ph="delegates and events" />
+                <marker date="1500125678000" expanded="true" signature="507:576" ph="private variables" />
+                <marker date="1500125678000" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
+                <marker date="1500125678000" expanded="true" signature="658:789" ph="{...}" />
+                <marker date="1500125678000" expanded="true" signature="802:1019" ph="public methods" />
+                <marker date="1500125678000" expanded="true" signature="849:858" ph="{...}" />
+                <marker date="1500125678000" expanded="true" signature="886:1008" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Intro.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Code/Intro.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drom (4 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef521036-ecfd-4c0d-8f48-b1795f0b2976" name="Default" comment="" />
+      <created>1500034933393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500034933393</updated>
+      <workItem from="1500034935657" duration="313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="313000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.010014306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="YouTrack" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <marker date="1500125678000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1500125678000" expanded="true" signature="281:1021" ph="{...}" />
+            <marker date="1500125678000" expanded="true" signature="288:501" ph="delegates and events" />
+            <marker date="1500125678000" expanded="true" signature="507:576" ph="private variables" />
+            <marker date="1500125678000" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
+            <marker date="1500125678000" expanded="true" signature="658:789" ph="{...}" />
+            <marker date="1500125678000" expanded="true" signature="802:1019" ph="public methods" />
+            <marker date="1500125678000" expanded="true" signature="849:858" ph="{...}" />
+            <marker date="1500125678000" expanded="true" signature="886:1008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
