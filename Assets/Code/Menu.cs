@@ -140,6 +140,12 @@ public class Menu : MonoBehaviour {
         if (_bStartingGame && StartGameEvent != null)
             StartGameEvent();
     }
+
+    public void SelectBegin()
+    {
+        _selection = 0;
+        Select();
+    }
     #endregion
 
     #region private methods

@@ -54,9 +54,7 @@ public class Boss : MonoBehaviour {
     void Awake () {
         audioManager = gameObject.AddComponent<AudioManagerClass> ();
 		intro = GameObject.FindObjectOfType<Intro> ();
-		if(GameDefs.kSpeedyGame)
-            Menu_StartGameEvent();
-        else if (GameDefs.kSkipIntro)
+		if (GameDefs.kSkipIntro)
             Menu_StartGameEvent();
         else
         {

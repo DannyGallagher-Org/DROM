@@ -10,23 +10,19 @@ public class CloudBit : MonoBehaviour
 
     #region private variables
     private Vector3 _targetVec;
-    public bool _bMove = false;
+    private bool _bMove;
 
-    private float dampener = 70f;
+    private float dampener = 50f;
 
     private bool _bBursting = false;
 
-    private Vector3 force = Vector3.zero;
+    private Vector3 _force = Vector3.zero;
     #endregion
 
     #region public interface
     #endregion
 
     #region monobehaviour inherited
-    void Awake()
-    {
-
-    }
 
     void Update()
     {
@@ -36,10 +32,10 @@ public class CloudBit : MonoBehaviour
         }
         else
         {
-            transform.Translate(force, Space.Self);
+            transform.Translate(_force, Space.Self);
 
-            if (force.magnitude > 0)
-                force -= (force * Time.deltaTime)*2.5f;
+            if (_force.magnitude > 0)
+                _force -= (_force * Time.deltaTime)*2.5f;
         }
     }
     #endregion
@@ -47,9 +43,9 @@ public class CloudBit : MonoBehaviour
     #region public methods
     public void Move(Vector3 direction)
     {
-        force += direction;
-        force.z = 0;
-        force /= dampener;
+        _force += direction;
+        _force.z = 0;
+        _force /= dampener;
 		Debug.Log ("cloud bit move called");
 		//GameManager.audioManager.PlayCloudBitSound ();
     }
