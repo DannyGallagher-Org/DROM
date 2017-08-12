@@ -23,9 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef521036-ecfd-4c0d-8f48-b1795f0b2976" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain.asset" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain.asset.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/Just Incase Eh.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/Just Incase Eh.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain 1.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain 1.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain 2.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain 2.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain Trailer.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain Trailer.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/REAL IN USE TERRAIN NO GRASS.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/REAL IN USE TERRAIN NO GRASS.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NEWEST.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/NEWEST.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious01.mat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious01.mat.meta" afterPath="" />
@@ -98,26 +109,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/DawnDusk Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/DawnDusk Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Eerie Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Eerie Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/MoonShine Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/MoonShine Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast1 Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast1 Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast2 Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast2 Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/StarryNight Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/StarryNight Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny1 Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny1 Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny2 Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny2 Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny3 Skybox.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny3 Skybox.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif" afterPath="" />
@@ -130,20 +121,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_down.tif" afterPath="" />
@@ -156,7 +133,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_down.tif" afterPath="" />
@@ -169,7 +145,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_down.tif" afterPath="" />
@@ -182,7 +157,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_down.tif" afterPath="" />
@@ -195,7 +169,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif" afterPath="" />
@@ -208,7 +181,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_down.tif" afterPath="" />
@@ -221,7 +193,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_down.tif" afterPath="" />
@@ -234,8 +205,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_right.tif.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/_skybox info.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/_skybox info.txt.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials.meta" afterPath="" />
@@ -559,7 +528,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/shadow.png.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/translucency_gloss.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/translucency_gloss.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PressSpace.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PressSpace.cs.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/Background.prefab" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/Background.prefab.meta" afterPath="" />
@@ -631,13 +601,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/wind_normal1.ogg.meta" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Readme.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Readme.txt.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Art/Guy.mat" afterPath="$PROJECT_DIR$/Assets/Art/Guy.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" afterPath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/REAL IN USE TERRAIN.asset" afterPath="$PROJECT_DIR$/Assets/Art/Terrain/REAL IN USE TERRAIN.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scenes/main.unity" afterPath="$PROJECT_DIR$/Assets/scenes/main.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scenes/mainLatestAug17.unity" afterPath="$PROJECT_DIR$/Assets/scenes/mainLatestAug17.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.drom/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.drom/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/CloudBit.cs" afterPath="$PROJECT_DIR$/Assets/Code/CloudBit.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" afterPath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" afterPath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fmod.log" afterPath="$PROJECT_DIR$/fmod.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -653,7 +623,7 @@
       <file leaf-file-name="Intro.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="67">
               <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <marker date="1500129705000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
@@ -670,30 +640,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PressSpace.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/PressSpace.cs">
+      <file leaf-file-name="DromCamera.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DromCamera.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="326">
+              <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
-                <marker date="1500311322000" expanded="false" signature="6:113" ph="..." />
-                <marker date="1500311322000" expanded="true" signature="155:488" ph="{...}" />
-                <marker date="1500311322000" expanded="true" signature="205:212" ph="{...}" />
-                <marker date="1500311322000" expanded="true" signature="267:486" ph="{...}" />
-                <marker date="1500311322000" expanded="true" signature="334:483" ph="{...}" />
+                <marker date="1502551971000" expanded="true" signature="0:81" ph="/* DromCamera - By Daniel Gallagher ... */" />
+                <marker date="1502551971000" expanded="false" signature="88:126" ph="..." />
+                <marker date="1502551971000" expanded="true" signature="168:944" ph="{...}" />
+                <marker date="1502551971000" expanded="true" signature="172:469" ph="private variables" />
+                <marker date="1502551971000" expanded="true" signature="254:284" ph="{...}" />
+                <marker date="1502551971000" expanded="true" signature="472:754" ph="monobehaviour inherited" />
+                <marker date="1502551971000" expanded="true" signature="519:569" ph="{...}" />
+                <marker date="1502551971000" expanded="true" signature="586:742" ph="{...}" />
+                <marker date="1502551971000" expanded="true" signature="757:905" ph="public methods" />
+                <marker date="1502551971000" expanded="true" signature="810:893" ph="{...}" />
+                <marker date="1502551971000" expanded="true" signature="908:942" ph="event handlers" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameDefs.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameDefs.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <marker date="1502539853000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-                <marker date="1502539853000" expanded="true" signature="274:554" ph="{...}" />
+                <marker date="1502552510000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+                <marker date="1502552510000" expanded="true" signature="274:554" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -771,25 +747,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudBit.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloudBit.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-233">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
-                <marker date="1502544170000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
-                <marker date="1502544170000" expanded="false" signature="86:124" ph="..." />
-                <marker date="1502544170000" expanded="true" signature="163:1092" ph="{...}" />
-                <marker date="1502544170000" expanded="true" signature="171:384" ph="private variables" />
-                <marker date="1502544170000" expanded="true" signature="390:429" ph="public interface" />
-                <marker date="1502544170000" expanded="true" signature="435:739" ph="monobehaviour inherited" />
-                <marker date="1502544170000" expanded="true" signature="485:724" ph="{...}" />
-                <marker date="1502544170000" expanded="true" signature="514:535" ph="{...}" />
-                <marker date="1502544170000" expanded="true" signature="548:718" ph="{...}" />
-                <marker date="1502544170000" expanded="true" signature="745:1003" ph="public methods" />
-                <marker date="1502544170000" expanded="true" signature="807:988" ph="{...}" />
-                <marker date="1502544170000" expanded="true" signature="1009:1047" ph="private methods" />
-                <marker date="1502544170000" expanded="true" signature="1053:1090" ph="event handlers" />
+                <marker date="1502552466000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
+                <marker date="1502552466000" expanded="false" signature="86:124" ph="..." />
+                <marker date="1502552466000" expanded="true" signature="163:645" ph="{...}" />
+                <marker date="1502552466000" expanded="true" signature="171:211" ph="private variables" />
+                <marker date="1502552466000" expanded="true" signature="217:256" ph="public interface" />
+                <marker date="1502552466000" expanded="true" signature="262:452" ph="monobehaviour inherited" />
+                <marker date="1502552466000" expanded="true" signature="310:437" ph="{...}" />
+                <marker date="1502552466000" expanded="true" signature="458:556" ph="public methods" />
+                <marker date="1502552466000" expanded="true" signature="520:541" ph="{...}" />
+                <marker date="1502552466000" expanded="true" signature="562:600" ph="private methods" />
+                <marker date="1502552466000" expanded="true" signature="606:643" ph="event handlers" />
               </folding>
             </state>
           </provider>
@@ -887,14 +861,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Boss.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PressSpace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo/scripts/StressTestGUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CloudeEdgeEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Intro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Boss.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -903,9 +878,10 @@
         <option value="$PROJECT_DIR$/Assets/PressSpace.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Boss.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/CloudBit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
       </list>
     </option>
   </component>
@@ -1050,12 +1026,12 @@
       <updated>1500034933393</updated>
       <workItem from="1500034935657" duration="3519000" />
       <workItem from="1501414682281" duration="538000" />
-      <workItem from="1502536782899" duration="2670000" />
+      <workItem from="1502536782899" duration="3599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6727000" />
+    <option name="totallyTimeSpent" value="7656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1127,13 +1103,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <marker date="1500311322000" expanded="false" signature="6:113" ph="..." />
-            <marker date="1500311322000" expanded="true" signature="155:488" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="205:212" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="267:486" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="334:483" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,8 +1112,8 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502539853000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1502539853000" expanded="true" signature="274:554" ph="{...}" />
+            <marker date="1502552510000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1502552510000" expanded="true" signature="274:554" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1170,31 +1140,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <marker date="1500311322000" expanded="false" signature="6:113" ph="..." />
-            <marker date="1500311322000" expanded="true" signature="155:488" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="205:212" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="267:486" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="334:483" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <marker date="1500129705000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1500129705000" expanded="true" signature="281:1021" ph="{...}" />
-            <marker date="1500129705000" expanded="true" signature="288:501" ph="delegates and events" />
-            <marker date="1500129705000" expanded="true" signature="507:576" ph="private variables" />
-            <marker date="1500129705000" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
-            <marker date="1500129705000" expanded="true" signature="658:789" ph="{...}" />
-            <marker date="1500129705000" expanded="true" signature="802:1019" ph="public methods" />
-            <marker date="1500129705000" expanded="true" signature="849:858" ph="{...}" />
-            <marker date="1500129705000" expanded="true" signature="886:1008" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,13 +1148,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <marker date="1500311322000" expanded="false" signature="6:113" ph="..." />
-            <marker date="1500311322000" expanded="true" signature="155:488" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="205:212" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="267:486" ph="{...}" />
-            <marker date="1500311322000" expanded="true" signature="334:483" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,17 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <marker date="1502539853000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1502539853000" expanded="true" signature="274:554" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/CloudeEdgeEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1358,24 +1287,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1483474109000" expanded="true" signature="0:113" ph="/* Amplify Color - Advanced Color Grading for Unity Pro ... */" />
+            <marker date="1483474109000" expanded="false" signature="121:147" ph="..." />
+            <marker date="1483474109000" expanded="true" signature="307:311" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <marker date="1500129705000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1500129705000" expanded="true" signature="281:1021" ph="{...}" />
+            <marker date="1500129705000" expanded="true" signature="288:501" ph="delegates and events" />
+            <marker date="1500129705000" expanded="true" signature="507:576" ph="private variables" />
+            <marker date="1500129705000" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
+            <marker date="1500129705000" expanded="true" signature="658:789" ph="{...}" />
+            <marker date="1500129705000" expanded="true" signature="802:1019" ph="public methods" />
+            <marker date="1500129705000" expanded="true" signature="849:858" ph="{...}" />
+            <marker date="1500129705000" expanded="true" signature="886:1008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DromCamera.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <marker date="1502551971000" expanded="true" signature="0:81" ph="/* DromCamera - By Daniel Gallagher ... */" />
+            <marker date="1502551971000" expanded="false" signature="88:126" ph="..." />
+            <marker date="1502551971000" expanded="true" signature="168:944" ph="{...}" />
+            <marker date="1502551971000" expanded="true" signature="172:469" ph="private variables" />
+            <marker date="1502551971000" expanded="true" signature="254:284" ph="{...}" />
+            <marker date="1502551971000" expanded="true" signature="472:754" ph="monobehaviour inherited" />
+            <marker date="1502551971000" expanded="true" signature="519:569" ph="{...}" />
+            <marker date="1502551971000" expanded="true" signature="586:742" ph="{...}" />
+            <marker date="1502551971000" expanded="true" signature="757:905" ph="public methods" />
+            <marker date="1502551971000" expanded="true" signature="810:893" ph="{...}" />
+            <marker date="1502551971000" expanded="true" signature="908:942" ph="event handlers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
-            <marker date="1502544170000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
-            <marker date="1502544170000" expanded="false" signature="86:124" ph="..." />
-            <marker date="1502544170000" expanded="true" signature="163:1092" ph="{...}" />
-            <marker date="1502544170000" expanded="true" signature="171:384" ph="private variables" />
-            <marker date="1502544170000" expanded="true" signature="390:429" ph="public interface" />
-            <marker date="1502544170000" expanded="true" signature="435:739" ph="monobehaviour inherited" />
-            <marker date="1502544170000" expanded="true" signature="485:724" ph="{...}" />
-            <marker date="1502544170000" expanded="true" signature="514:535" ph="{...}" />
-            <marker date="1502544170000" expanded="true" signature="548:718" ph="{...}" />
-            <marker date="1502544170000" expanded="true" signature="745:1003" ph="public methods" />
-            <marker date="1502544170000" expanded="true" signature="807:988" ph="{...}" />
-            <marker date="1502544170000" expanded="true" signature="1009:1047" ph="private methods" />
-            <marker date="1502544170000" expanded="true" signature="1053:1090" ph="event handlers" />
+            <marker date="1502552466000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
+            <marker date="1502552466000" expanded="false" signature="86:124" ph="..." />
+            <marker date="1502552466000" expanded="true" signature="163:645" ph="{...}" />
+            <marker date="1502552466000" expanded="true" signature="171:211" ph="private variables" />
+            <marker date="1502552466000" expanded="true" signature="217:256" ph="public interface" />
+            <marker date="1502552466000" expanded="true" signature="262:452" ph="monobehaviour inherited" />
+            <marker date="1502552466000" expanded="true" signature="310:437" ph="{...}" />
+            <marker date="1502552466000" expanded="true" signature="458:556" ph="public methods" />
+            <marker date="1502552466000" expanded="true" signature="520:541" ph="{...}" />
+            <marker date="1502552466000" expanded="true" signature="562:600" ph="private methods" />
+            <marker date="1502552466000" expanded="true" signature="606:643" ph="event handlers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1502552510000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1502552510000" expanded="true" signature="274:554" ph="{...}" />
           </folding>
         </state>
       </provider>
