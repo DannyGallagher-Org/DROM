@@ -23,12 +23,621 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef521036-ecfd-4c0d-8f48-b1795f0b2976" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Art/Terrain/New Terrain.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious01.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious01.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious03.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/BarkDecidious03.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Bush01.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Bush01.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Bush02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Bush02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/FoliageBroadleaf01a.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/FoliageBroadleaf01a.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/FoliageBroadleaf01b.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/FoliageBroadleaf01b.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/FoliageBroadleaf02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/FoliageBroadleaf02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Rock01.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Rock01.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Rock02.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/Rock02.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/TerrainBump.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/TerrainBump.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/plane.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Materials/plane.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Rock01.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Rock01.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Rock02.fbx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Rock02.fbx.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/Demo1.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/Demo1.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/Demo1.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/Demo1.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/Showroom.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/Showroom.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/test.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/test.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/test.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Scenes/test.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/3rd Person Controller.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/3rd Person Controller.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/First Person Controller.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/First Person Controller.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_normals.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/DawnDusk Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/DawnDusk Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Eerie Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Eerie Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/MoonShine Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/MoonShine Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast1 Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast1 Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast2 Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Overcast2 Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/StarryNight Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/StarryNight Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny1 Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny1 Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny2 Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny2 Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny3 Skybox.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Sunny3 Skybox.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/DawnDusk/DawnDusk_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Eerie/Eerie_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/MoonShine/MoonShine_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast1/Overcast1_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Overcast2/Overcast2_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/StarryNight/StarryNight_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny1/Sunny1_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny2/Sunny2_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_back.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_down.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_down.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_front.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_front.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_left.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_left.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_right.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_right.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/Textures/Sunny3/Sunny3_up.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/_skybox info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Skyboxes/_skybox info.txt.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials/BigTree_bark.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials/BigTree_bark.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials/BigTree_branches.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials/BigTree_branches.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials/BigTree_leaves.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Materials/BigTree_leaves.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_bark_diffuse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_bark_diffuse.jpg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_bark_normal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_bark_normal.jpg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_branches.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_branches.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_leaves.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/BigTree_leaves.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Bark Diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Bark Diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Bark Normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Bark Normal.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Branch.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Branch.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Leaf Diffuse.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Palm Leaf Diffuse.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/PalmBulb.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/PalmBulb.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/PalmBulb_NRM.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/PalmBulb_NRM.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Pine Bark Diffuse.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Pine Bark Diffuse.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Pine Bark Normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/Pine Bark Normal.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPineTrunk.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPineTrunk.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches1.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches2.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches3.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches3.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches4.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches4.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches5.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/ScotsPinebranches5.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreBark.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreBark.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreBark_NRM.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreBark_NRM.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreLeaves1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreLeaves1.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreLeaves2.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreLeaves2.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreLeaves3.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Sources/Textures/SycamoreLeaves3.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Standard Assets/Tree Creator/Trees/BigTree_textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious01N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious01N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious03.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious03.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious03N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/BarkDecidious03N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01G.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01G.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01T.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush01T.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02G.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02G.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02T.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Bush02T.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Flower01a.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Flower01a.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01G.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01G.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01T.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01T.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01a.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01a.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01b.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf01b.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02G.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02G.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02T.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/FoliageBroadleaf02T.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Grass01a.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Grass01a.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Grass01b.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Grass01b.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Grass02a.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Grass02a.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGrass01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGrass01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGrass01N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGrass01N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGrass02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGrass02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGravel01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGravel01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGravel01N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundGravel01N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundMud02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundMud02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundMud02N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/GroundMud02N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock01.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock01.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock01N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock01N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock01alapN.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock01alapN.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock02.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock02.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock02N.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock02N.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock02N.tga" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Textures/Rock02N.tga.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a1_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a2_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a3_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01a_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b1_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b2_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b3_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b4_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf01b_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a1_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a2_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a3_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02a_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/BroadLeaf02b_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush01_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush02.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Bush02.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/diffuse.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/diffuse.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/normal_specular.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/normal_specular.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/shadow.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/translucency_gloss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/PainterlyNature/Trees/Tree_Textures/translucency_gloss.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/Background.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/Background.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScene.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScene.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScene2D.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScene2D.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoSceneSimple3D.unity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoSceneSimple3D.unity.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScript.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScript.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScript2D.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScript2D.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/FlashlightCookie.tif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/FlashlightCookie.tif.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/GrayMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/GrayMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/NatureLandscape.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/NatureLandscape.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/New Terrain.asset" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/New Terrain.asset.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/PhysicsMaterialBall.physicsMaterial2D" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/PhysicsMaterialBall.physicsMaterial2D.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/PhysicsMaterialGround.physicsMaterial2D" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Demo/PhysicsMaterialGround.physicsMaterial2D.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Editor.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Editor/RainMakerEditor.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Editor/RainMakerEditor.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Editor/RainMakerLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Editor/RainMakerLogo.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/BaseRainScript.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/BaseRainScript.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainCollision.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainCollision.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial2D.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainExplosionMaterial2D.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial2D.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMaterial2D.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMistMaterial.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMistMaterial.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMistMaterial2D.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainMistMaterial2D.mat.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainPrefab.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainPrefab.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainPrefab2D.prefab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainPrefab2D.prefab.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainScript.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainScript.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainScript2D.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainScript2D.cs.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainShader.shader" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainShader.shader.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainTexture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainTexture.png.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainTexturePSD.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/RainTexturePSD.psd.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/rain_heavy.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/rain_heavy.ogg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/rain_light.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/rain_light.ogg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/rain_medium.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/rain_medium.ogg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/wind_normal1.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Prefab/wind_normal1.ogg.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/RainMaker/Readme.txt.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Art/Guy.mat" afterPath="$PROJECT_DIR$/Assets/Art/Guy.mat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" afterPath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/scenes/main.unity" afterPath="$PROJECT_DIR$/Assets/scenes/main.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.drom/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.drom/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/Boss.cs" afterPath="$PROJECT_DIR$/Assets/Code/Boss.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/CloudBit.cs" afterPath="$PROJECT_DIR$/Assets/Code/CloudBit.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" afterPath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Code/Menu.cs" afterPath="$PROJECT_DIR$/Assets/Code/Menu.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" afterPath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fmod.log" afterPath="$PROJECT_DIR$/fmod.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,17 +689,50 @@
       <file leaf-file-name="GameDefs.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="195">
+              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
-                <marker date="1502538139000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-                <marker date="1502538139000" expanded="true" signature="274:555" ph="{...}" />
+                <marker date="1502539853000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+                <marker date="1502539853000" expanded="true" signature="274:554" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boss.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CloudeEdgeEffect.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/CloudeEdgeEffect.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="57" />
+              <folding>
+                <marker date="1484515404000" expanded="false" signature="6:44" ph="..." />
+                <marker date="1484515404000" expanded="true" signature="112:1402" ph="{...}" />
+                <marker date="1484515404000" expanded="true" signature="536:601" ph="{...}" />
+                <marker date="1484515404000" expanded="true" signature="620:681" ph="{...}" />
+                <marker date="1484515404000" expanded="true" signature="784:1400" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloudEdges.shader" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/CloudEdges.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="105" column="47" lean-forward="false" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="47" />
+              <folding>
+                <marker date="1502542130000" expanded="true" signature="0:152" ph="/* Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)' ... */" />
+                <marker date="1502542130000" expanded="true" signature="174:2885" ph="{...}" />
+                <marker date="1502542130000" expanded="true" signature="191:771" ph="{...}" />
+                <marker date="1502542130000" expanded="true" signature="788:2860" ph="{...}" />
+                <marker date="1502542130000" expanded="true" signature="837:2856" ph="{...}" />
+                <marker date="1502542130000" expanded="true" signature="888:2845" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boss.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Code/Boss.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -129,25 +771,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudBit.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CloudBit.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="-233">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
-                <marker date="1502537121000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
-                <marker date="1502537121000" expanded="false" signature="86:124" ph="..." />
-                <marker date="1502537121000" expanded="true" signature="163:1093" ph="{...}" />
-                <marker date="1502537121000" expanded="true" signature="171:385" ph="private variables" />
-                <marker date="1502537121000" expanded="true" signature="391:430" ph="public interface" />
-                <marker date="1502537121000" expanded="true" signature="436:740" ph="monobehaviour inherited" />
-                <marker date="1502537121000" expanded="true" signature="486:725" ph="{...}" />
-                <marker date="1502537121000" expanded="true" signature="515:536" ph="{...}" />
-                <marker date="1502537121000" expanded="true" signature="549:719" ph="{...}" />
-                <marker date="1502537121000" expanded="true" signature="746:1004" ph="public methods" />
-                <marker date="1502537121000" expanded="true" signature="808:989" ph="{...}" />
-                <marker date="1502537121000" expanded="true" signature="1010:1048" ph="private methods" />
-                <marker date="1502537121000" expanded="true" signature="1054:1091" ph="event handlers" />
+                <marker date="1502544170000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
+                <marker date="1502544170000" expanded="false" signature="86:124" ph="..." />
+                <marker date="1502544170000" expanded="true" signature="163:1092" ph="{...}" />
+                <marker date="1502544170000" expanded="true" signature="171:384" ph="private variables" />
+                <marker date="1502544170000" expanded="true" signature="390:429" ph="public interface" />
+                <marker date="1502544170000" expanded="true" signature="435:739" ph="monobehaviour inherited" />
+                <marker date="1502544170000" expanded="true" signature="485:724" ph="{...}" />
+                <marker date="1502544170000" expanded="true" signature="514:535" ph="{...}" />
+                <marker date="1502544170000" expanded="true" signature="548:718" ph="{...}" />
+                <marker date="1502544170000" expanded="true" signature="745:1003" ph="public methods" />
+                <marker date="1502544170000" expanded="true" signature="807:988" ph="{...}" />
+                <marker date="1502544170000" expanded="true" signature="1009:1047" ph="private methods" />
+                <marker date="1502544170000" expanded="true" signature="1053:1090" ph="event handlers" />
               </folding>
             </state>
           </provider>
@@ -235,6 +877,8 @@
       <find>KeyCode.spa</find>
       <find>KeyCode.spac</find>
       <find>KeyCode.space</find>
+      <find>CloudEdges&quot;</find>
+      <find>_SolidColor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -243,23 +887,25 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RainMaker/Demo/DemoScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PressSpace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demo/scripts/StressTestGUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/CloudeEdgeEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Intro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Code/Intro.cs" />
         <option value="$PROJECT_DIR$/Assets/PressSpace.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/CloudBit.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Boss.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" />
+        <option value="$PROJECT_DIR$/Assets/Code/CloudBit.cs" />
       </list>
     </option>
   </component>
@@ -404,12 +1050,12 @@
       <updated>1500034933393</updated>
       <workItem from="1500034935657" duration="3519000" />
       <workItem from="1501414682281" duration="538000" />
-      <workItem from="1502536782899" duration="953000" />
+      <workItem from="1502536782899" duration="2670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5010000" />
+    <option name="totallyTimeSpent" value="6727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,8 +1142,8 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1502538139000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1502538139000" expanded="true" signature="274:555" ph="{...}" />
+            <marker date="1502539853000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1502539853000" expanded="true" signature="274:554" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -562,28 +1208,6 @@
             <marker date="1500311322000" expanded="true" signature="205:212" ph="{...}" />
             <marker date="1500311322000" expanded="true" signature="267:486" ph="{...}" />
             <marker date="1500311322000" expanded="true" signature="334:483" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <marker date="1502537121000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
-            <marker date="1502537121000" expanded="false" signature="86:124" ph="..." />
-            <marker date="1502537121000" expanded="true" signature="163:1093" ph="{...}" />
-            <marker date="1502537121000" expanded="true" signature="171:385" ph="private variables" />
-            <marker date="1502537121000" expanded="true" signature="391:430" ph="public interface" />
-            <marker date="1502537121000" expanded="true" signature="436:740" ph="monobehaviour inherited" />
-            <marker date="1502537121000" expanded="true" signature="486:725" ph="{...}" />
-            <marker date="1502537121000" expanded="true" signature="515:536" ph="{...}" />
-            <marker date="1502537121000" expanded="true" signature="549:719" ph="{...}" />
-            <marker date="1502537121000" expanded="true" signature="746:1004" ph="public methods" />
-            <marker date="1502537121000" expanded="true" signature="808:989" ph="{...}" />
-            <marker date="1502537121000" expanded="true" signature="1010:1048" ph="private methods" />
-            <marker date="1502537121000" expanded="true" signature="1054:1091" ph="event handlers" />
           </folding>
         </state>
       </provider>
@@ -657,17 +1281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <marker date="1502538139000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1502538139000" expanded="true" signature="274:555" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/Boss.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -701,6 +1314,68 @@
             <marker date="1502538169000" expanded="true" signature="3899:4015" ph="{...}" />
             <marker date="1502538169000" expanded="true" signature="4055:4177" ph="{...}" />
             <marker date="1502538169000" expanded="true" signature="4202:4244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <marker date="1502539853000" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1502539853000" expanded="true" signature="274:554" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/CloudeEdgeEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="57" />
+          <folding>
+            <marker date="1484515404000" expanded="false" signature="6:44" ph="..." />
+            <marker date="1484515404000" expanded="true" signature="112:1402" ph="{...}" />
+            <marker date="1484515404000" expanded="true" signature="536:601" ph="{...}" />
+            <marker date="1484515404000" expanded="true" signature="620:681" ph="{...}" />
+            <marker date="1484515404000" expanded="true" signature="784:1400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/CloudEdges.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="105" column="47" lean-forward="false" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="47" />
+          <folding>
+            <marker date="1502542130000" expanded="true" signature="0:152" ph="/* Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)' ... */" />
+            <marker date="1502542130000" expanded="true" signature="174:2885" ph="{...}" />
+            <marker date="1502542130000" expanded="true" signature="191:771" ph="{...}" />
+            <marker date="1502542130000" expanded="true" signature="788:2860" ph="{...}" />
+            <marker date="1502542130000" expanded="true" signature="837:2856" ph="{...}" />
+            <marker date="1502542130000" expanded="true" signature="888:2845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/CloudBit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <marker date="1502544170000" expanded="true" signature="0:79" ph="/* CloudBit - By Daniel Gallagher ... */" />
+            <marker date="1502544170000" expanded="false" signature="86:124" ph="..." />
+            <marker date="1502544170000" expanded="true" signature="163:1092" ph="{...}" />
+            <marker date="1502544170000" expanded="true" signature="171:384" ph="private variables" />
+            <marker date="1502544170000" expanded="true" signature="390:429" ph="public interface" />
+            <marker date="1502544170000" expanded="true" signature="435:739" ph="monobehaviour inherited" />
+            <marker date="1502544170000" expanded="true" signature="485:724" ph="{...}" />
+            <marker date="1502544170000" expanded="true" signature="514:535" ph="{...}" />
+            <marker date="1502544170000" expanded="true" signature="548:718" ph="{...}" />
+            <marker date="1502544170000" expanded="true" signature="745:1003" ph="public methods" />
+            <marker date="1502544170000" expanded="true" signature="807:988" ph="{...}" />
+            <marker date="1502544170000" expanded="true" signature="1009:1047" ph="private methods" />
+            <marker date="1502544170000" expanded="true" signature="1053:1090" ph="event handlers" />
           </folding>
         </state>
       </provider>

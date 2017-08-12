@@ -87,8 +87,9 @@ Shader "CloudEdges"
 				half4 frag(v2f input) : COLOR
 				{
 					half4 outColor = tex2D(_MainTex, input.texcoord);
+					
 					half4 origTex = tex2D(_MainTex, input.texcoord);
-
+                    
 					half4 compareColor = tex2D(_MainTex, input.texcoord + half2(_ShadowXValue, _ShadowYValue*2) * 0.01);
 
 					half isSolid = step(_SolidThreshold, outColor.a);

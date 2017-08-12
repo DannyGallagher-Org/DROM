@@ -12,7 +12,7 @@ public class CloudBit : MonoBehaviour
     private Vector3 _targetVec;
     private bool _bMove;
 
-    private float dampener = 50f;
+    private float dampener = 0f;
 
     private bool _bBursting = false;
 
