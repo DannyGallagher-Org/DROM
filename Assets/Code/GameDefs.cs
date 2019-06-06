@@ -9,9 +9,9 @@ using UnityEngine;
 
 public static class GameDefs
 {
-    public static bool kbTrailer = false;
-	public static bool kSpeedyGame = true;
-	public static bool kSkipIntro = true;
+    public static bool kbTrailer = true;
+	public static bool kSpeedyGame = false;
+	public static bool kSkipIntro = false;
 
     public static float kCloudPuffTime = 0.5f;
     public static float kCloudPuffDelayTime = 0f;

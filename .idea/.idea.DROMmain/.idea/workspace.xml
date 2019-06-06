@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0459209b-156f-4da4-9449-6ff5db773e3a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Anim/Intro.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Anim/Intro.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/FBX/DoubleSided-Sphere.FBX" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/FBX/DoubleSided-Sphere.FBX" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/FBX/DoubleSided-Sphere.FBX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/FBX/DoubleSided-Sphere.FBX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Ambient.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Ambient.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Ambient.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Ambient.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Clouds.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Clouds.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Clouds_BackLit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Clouds_BackLit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Clouds_BackLit.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Clouds_BackLit.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Display/AmbientDisplay.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Display/AmbientDisplay.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Display/AmbientDisplay.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Display/AmbientDisplay.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Display/FogDisplay.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Display/FogDisplay.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Display/FogDisplay.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Display/FogDisplay.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Display/LightingDisplay.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Display/LightingDisplay.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Display/LightingDisplay.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Display/LightingDisplay.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/EdgeLighting.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/EdgeLighting.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/EdgeLighting.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/EdgeLighting.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/ExplosionSmoke_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/ExplosionSmoke_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/ExplosionSmoke_01.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/ExplosionSmoke_01.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/Lighting.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/Lighting.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/No Name.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/No Name.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/No Name.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Advanced_Fog.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Advanced_Fog.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Advanced_Fog.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Advanced_Fog.renderTexture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Ambient_Source.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Ambient_Source.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Ambient_Source.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Ambient_Source.renderTexture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/EdgeLighting.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/EdgeLighting.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/EdgeLighting.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/EdgeLighting.renderTexture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Lighting_Source.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Lighting_Source.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Lighting_Source.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Lighting_Source.renderTexture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Skybox.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Skybox.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Skybox.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/RTT_Lighting/Skybox.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Terrain/REAL IN USE TERRAIN.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Terrain/REAL IN USE TERRAIN.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_ambient.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_ambient.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_ambient.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_ambient.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_edgelit.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_edgelit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_edgelit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_edgelit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_lighting.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_lighting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_lighting.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/CGSkies_0112_lighting.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/Panotest_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/Panotest_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/Environment/Panotest_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/Environment/Panotest_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/VFX/Clouds_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/VFX/Clouds_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/VFX/Clouds_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/VFX/Clouds_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CloudPuff.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CloudPuff.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/BankRefDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/BankRefDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/CreateEventPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/CreateEventPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventBrowser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventBrowser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventRefDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/EventRefDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioBankLoaderEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/FMOD/StudioBankLoaderEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/FMOD/RuntimeUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/AspectRatioFix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/AspectRatioFix.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/AspectRatioFix.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/AspectRatioFix.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraLocationTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraLocationTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraLocationTracker.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/CameraLocationTracker.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/GetRes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/GetRes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/GetRes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/GetRes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/MirrorMainCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/MirrorMainCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/MirrorMainCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/MirrorMainCamera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/SetChild.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/SetChild.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/SetChild.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/SetChild.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/SetRes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/SetRes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/SetRes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/SetRes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/SetSceneBuffer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/SetSceneBuffer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/SetSceneBuffer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/SetSceneBuffer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/ViewPanOffset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/ViewPanOffset.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Camera/ViewPanOffset.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Camera/ViewPanOffset.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/LightingControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/LightingControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/LightingControl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/LightingControl.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fx/Screenshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fx/Screenshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fx/Screenshot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Fx/Screenshot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/FaceCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/FaceCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/FaceCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/FaceCamera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/MatchOrientation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/MatchOrientation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/MatchOrientation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/MatchOrientation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/RandomRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/RandomRotation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/RandomRotation.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/RandomRotation.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/RotationConstraint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/RotationConstraint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/RotationConstraint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/RotationConstraint.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Rotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Rotator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/General/Rotator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/General/Rotator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Matcap-EdgedParticleWithFog.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Matcap-EdgedParticleWithFog.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Matcap-ParticleWithFog.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Matcap-ParticleWithFog.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Matcap-SoftParticleWithFog.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Matcap-SoftParticleWithFog.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit-NoFog.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit-NoFog.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityAdsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="953357045">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1088">
+              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+              <folding>
+                <marker date="1510670208038" expanded="false" signature="173:262" ph="..." />
+                <marker date="1510670208038" expanded="true" signature="286:6021" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="770:1371" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="881:986" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1016:1127" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1157:1260" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1267:1368" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1497:1501" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1640:1644" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1650:1755" ph="/// helper to get a node list from an asset created with the visual editor ... " />
+                <marker date="1510670208038" expanded="true" signature="1827:3127" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="1831:2066" ph="/* if( Application.platform == RuntimePlatform.OSXWebPlayer || Application.platform == RuntimePlatform.WindowsWeb ... */" />
+                <marker date="1510670208038" expanded="true" signature="2233:2506" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="2572:2717" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="2724:2902" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="3133:3238" ph="/// helper to get a node list from an asset created with the visual editor ... " />
+                <marker date="1510670208038" expanded="true" signature="3302:3602" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="3385:3581" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="3608:3692" ph="/// gets the last node. used to setup relative tweens ... " />
+                <marker date="1510670208038" expanded="true" signature="3722:3773" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="3779:3898" ph="/// responsible for calculating total length, segmentStartLocations and segmentDistances ... " />
+                <marker date="1510670208038" expanded="true" signature="3923:3952" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="3958:4094" ph="/// directly gets the point for the current spline type with no lookup table to adjust for constant speed ... " />
+                <marker date="1510670208038" expanded="true" signature="4131:4169" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="4174:4347" ph="/// returns the point that corresponds to the given t where t &gt;= 0 and t &lt;= 1 making sure that the ... " />
+                <marker date="1510670208038" expanded="true" signature="4389:4674" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="4497:4630" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="4519:4580" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="4588:4626" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="4679:4816" ph="/// closes the path adding a new node at the end that is equal to the start node if it isn't already equal ... " />
+                <marker date="1510670208038" expanded="true" signature="4841:4957" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="4963:5029" ph="/// reverses the order of the nodes ... " />
+                <marker date="1510670208038" expanded="true" signature="5057:5142" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="5081:5139" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="5148:5238" ph="/// unreverses the order of the nodes if they were reversed ... " />
+                <marker date="1510670208038" expanded="true" signature="5268:5353" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="5291:5350" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="5401:5731" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="5557:5728" ph="{...}" />
+                <marker date="1510670208038" expanded="true" signature="5737:5811" ph="/// helper for drawing gizmos in the editor ... " />
+                <marker date="1510670208038" expanded="true" signature="5883:6018" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="231" column="53" selection-start-line="231" selection-start-column="53" selection-end-line="231" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <marker date="1559845632757" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+                <marker date="1559845632757" expanded="true" signature="274:555" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+              <folding>
+                <marker date="1509490942446" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+                <marker date="1509490942446" expanded="true" signature="281:1021" ph="{...}" />
+                <marker date="1509490942446" expanded="true" signature="288:501" ph="delegates and events" />
+                <marker date="1509490942446" expanded="true" signature="507:576" ph="private variables" />
+                <marker date="1509490942446" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
+                <marker date="1509490942446" expanded="true" signature="658:789" ph="{...}" />
+                <marker date="1509490942446" expanded="true" signature="802:1019" ph="public methods" />
+                <marker date="1509490942446" expanded="true" signature="849:858" ph="{...}" />
+                <marker date="1509490942446" expanded="true" signature="886:1008" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Intro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1088" />
+    <option name="y" value="-642" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="DROMmain (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0459209b-156f-4da4-9449-6ff5db773e3a" name="Default" comment="" />
+      <created>1510670187743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510670187743</updated>
+      <workItem from="1510670191533" duration="740000" />
+      <workItem from="1559845507103" duration="737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1477000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1088" y="-642" width="1096" height="1896" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25772202" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Unit Tests" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="LuaJ" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+          <folding>
+            <marker date="1510670208038" expanded="false" signature="173:262" ph="..." />
+            <marker date="1510670208038" expanded="true" signature="286:6021" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="770:1371" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="881:986" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1016:1127" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1157:1260" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1267:1368" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1497:1501" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1640:1644" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1650:1755" ph="/// helper to get a node list from an asset created with the visual editor ... " />
+            <marker date="1510670208038" expanded="true" signature="1827:3127" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="1831:2066" ph="/* if( Application.platform == RuntimePlatform.OSXWebPlayer || Application.platform == RuntimePlatform.WindowsWeb ... */" />
+            <marker date="1510670208038" expanded="true" signature="2233:2506" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="2572:2717" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="2724:2902" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="3133:3238" ph="/// helper to get a node list from an asset created with the visual editor ... " />
+            <marker date="1510670208038" expanded="true" signature="3302:3602" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="3385:3581" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="3608:3692" ph="/// gets the last node. used to setup relative tweens ... " />
+            <marker date="1510670208038" expanded="true" signature="3722:3773" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="3779:3898" ph="/// responsible for calculating total length, segmentStartLocations and segmentDistances ... " />
+            <marker date="1510670208038" expanded="true" signature="3923:3952" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="3958:4094" ph="/// directly gets the point for the current spline type with no lookup table to adjust for constant speed ... " />
+            <marker date="1510670208038" expanded="true" signature="4131:4169" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="4174:4347" ph="/// returns the point that corresponds to the given t where t &gt;= 0 and t &lt;= 1 making sure that the ... " />
+            <marker date="1510670208038" expanded="true" signature="4389:4674" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="4497:4630" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="4519:4580" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="4588:4626" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="4679:4816" ph="/// closes the path adding a new node at the end that is equal to the start node if it isn't already equal ... " />
+            <marker date="1510670208038" expanded="true" signature="4841:4957" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="4963:5029" ph="/// reverses the order of the nodes ... " />
+            <marker date="1510670208038" expanded="true" signature="5057:5142" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="5081:5139" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="5148:5238" ph="/// unreverses the order of the nodes if they were reversed ... " />
+            <marker date="1510670208038" expanded="true" signature="5268:5353" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="5291:5350" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="5401:5731" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="5557:5728" ph="{...}" />
+            <marker date="1510670208038" expanded="true" signature="5737:5811" ph="/// helper for drawing gizmos in the editor ... " />
+            <marker date="1510670208038" expanded="true" signature="5883:6018" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="231" column="53" selection-start-line="231" selection-start-column="53" selection-end-line="231" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <marker date="1559845632757" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1559845632757" expanded="true" signature="274:555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <marker date="1509490942446" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
+            <marker date="1509490942446" expanded="true" signature="281:1021" ph="{...}" />
+            <marker date="1509490942446" expanded="true" signature="288:501" ph="delegates and events" />
+            <marker date="1509490942446" expanded="true" signature="507:576" ph="private variables" />
+            <marker date="1509490942446" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
+            <marker date="1509490942446" expanded="true" signature="658:789" ph="{...}" />
+            <marker date="1509490942446" expanded="true" signature="802:1019" ph="public methods" />
+            <marker date="1509490942446" expanded="true" signature="849:858" ph="{...}" />
+            <marker date="1509490942446" expanded="true" signature="886:1008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

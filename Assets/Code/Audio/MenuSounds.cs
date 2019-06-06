@@ -51,27 +51,15 @@ public class MenuSounds : MonoBehaviour {
 
 	public void PlayMenuClick (string type){
 	
-		AudioClip clip = new AudioClip();
+		AudioClip clip = null;
 
-		switch (type) {
-
-		case "down":
+		if (type == "down")
 			clip = menuclick_down;
-			break;
-		case "up":
+		else if (type == "up")
 			clip = menuclick_up;
-			break;
-		case "select":
-			clip = menuclick_select;
-			break;
-//		default:
-//			menuClick = menuclick_down;
+		else if (type == "select") clip = menuclick_select;
 
-		}
-
-	
-		audioSource.PlayOneShot (clip, 1f);
-	
-	
+		if(clip != null)
+			audioSource.PlayOneShot (clip, 1f);
 	}
 }
