@@ -28,8 +28,8 @@ public class DromCamera : MonoBehaviour {
 	}
 
 	void Update() {
-		if (_amp.BlendAmount != TargetColorSetting)
-			_amp.BlendAmount = Mathf.Lerp (_amp.BlendAmount, TargetColorSetting, Time.deltaTime * DayChangeSpeed);
+//		if (_amp.BlendAmount != TargetColorSetting)
+//			_amp.BlendAmount = Mathf.Lerp (_amp.BlendAmount, TargetColorSetting, Time.deltaTime * DayChangeSpeed);
 	}
 	#endregion
 

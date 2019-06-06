@@ -5,34 +5,32 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 public class TextFade : MonoBehaviour {
+	
+	private TextMeshProUGUI _textMeshProUgui;
+	public float Speed = 2f;
 
-	#region private variables
-	public Color c;
-	#endregion
-
-	#region public interface
-	public float target = 0f;
-	#endregion
-
-	#region monobehaviour inherited
-	void Update () {
-		foreach (var t in GetComponentsInChildren<Text>()) {
-			if (!Mathf.Approximately (t.color.a, target)) {
-				float a = Mathf.Lerp (t.color.a, target, Time.deltaTime);
-				t.color = new Color (c.r, c.g, c.b, a);
-			}
-		}
+	public bool On;
+	
+	private void Awake()
+	{
+		_textMeshProUgui = GetComponent<TextMeshProUGUI>();
 	}
-	#endregion
 
-	#region public methods
-	#endregion
+	private void Update()
+	{
+		_textMeshProUgui.alpha = Mathf.Lerp(_textMeshProUgui.alpha, On ? 1f : 0f, Time.deltaTime*Speed);
+	}
 
-	#region private methods
-	#endregion
+	public void FadeOn()
+	{
+		On = true;
+	}
 
-	#region event handlers
-	#endregion
+	public void FadeOff()
+	{
+		On = false;
+	}
 }
