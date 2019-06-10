@@ -4,37 +4,324 @@
     <list default="true" id="0459209b-156f-4da4-9449-6ff5db773e3a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Boss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Boss.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GameDefs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Intro.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Intro.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FMODStudioCache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CloudEdges.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CloudShadows.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/CloudShadows.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EndCloud1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EndCloud1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EndCloud2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EndCloud2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EndCloud3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/EndCloud3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/FMODStudioSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0_old.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0_old.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud4.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud5.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud5.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud6.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud6.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud7.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud7.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud8.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud8.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LoopCloud.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/LoopCloud.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Main Camera move.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Main Camera move.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Main Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Main Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NiceCloud1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/NiceCloud1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/SKYYY.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/SKYYY.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ShapeCheckShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/ShapeCheckShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sky.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sky.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stage_0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stage_0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stage_1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Stage_1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/THoughtB.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/THoughtB.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/first.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/first.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/second.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/second.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/sh.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/sh.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/third.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/third.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/tree02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/tree02.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/aye.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/aye.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/in.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/in.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.bank.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.strings.bank.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Master Bank.strings.bank.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Electronic Highway Sign.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Roboto-Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Crate - Surface Shader Scene.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Logo Scene.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Ground - Surface Shader Scene.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Materials/Small Crate_diffuse.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/Text Popup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Prefabs/TextMeshPro - Prefab 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Light to Dark Green - Vertical.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF - Sunny Days.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Glow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF Logo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF - Surface.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/Default Sprite Asset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets/DropCap Numbers.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/01-  Single Line TextMesh Pro.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/02 - Multi-line TextMesh Pro.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/03 - Line Justification.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/04 - Word Wrapping.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/05 - Style Tags.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/06 - Extra Rich Text Examples.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/07 - Superscript &amp; Subscript Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/08 - Improved Text Alignment.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/09 - Margin Tag Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/10 - Bullets &amp; Numbered List Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/11 - The Style Tag.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12 - Link Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/12a - Text Interactions.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/13 - Soft Hyphenation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/14 - Multi Font &amp; Sprites.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/15 - Inline Graphics &amp; Sprites.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/16 - Linked text overflow mode example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/17 - Old Computer Terminal.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/18 - ScrollRect &amp; Masking &amp; Layout.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/19 - Masking Texture &amp; Soft Mask.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/20 - Input Field with Scrollbar.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/21 - Script Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/22 - Basic Scripting Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/23 - Animating Vertex Attributes.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/24 - Surface Shader Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/25 - Sunny Days Example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scenes/Benchmark (Floating Text).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/Default Sprites.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Sprites/DropCap Numbers.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Brushed Metal 3.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Cement.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Floor Tiles 1 - diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Fruit Jelly (B&amp;W).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Diagonal (Color).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Horizontal (Color).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Gradient Vertical (Color).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Mask Zig-n-Zag.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Small Crate_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Sunny Days - Seamless.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text Image 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Text Overflow - Linked Text UI Screenshot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Circle.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Diagonal.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Double.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Textures/Wipe Pattern - Radial Quad.psd.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scenes/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/main2_old.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/main2_old.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/main3_old.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/main3_old.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/mainLatestAug17.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/mainLatestAug17.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/mainNew.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/mainNew.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/main_old.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/main_old.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/newAttempt.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/newAttempt.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/trailer.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scenes/trailer.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod_editor.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod_editor.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,168 +333,63 @@
     <session id="953357045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="392" />
+          <entry key="cs" value="650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="392" />
+          <entry key="C#" value="650" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="12" />
+          <entry key="cs" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="12" />
+          <entry key="C#" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="408">
+              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
-                <marker date="1559849774987" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
-                <marker date="1559849774987" expanded="false" signature="86:159" ph="..." />
-                <marker date="1559849774987" expanded="true" signature="199:590" ph="{...}" />
-                <marker date="1559849774987" expanded="true" signature="313:373" ph="{...}" />
-                <marker date="1559849774987" expanded="true" signature="397:502" ph="{...}" />
-                <marker date="1559849774987" expanded="true" signature="525:544" ph="{...}" />
-                <marker date="1559849774987" expanded="true" signature="568:588" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <marker date="1559851365667" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-                <marker date="1559851365667" expanded="true" signature="274:554" ph="{...}" />
+                <marker date="1560200500135" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
+                <marker date="1560200500135" expanded="true" signature="86:131" ph="..." />
+                <marker date="1560200500135" expanded="true" signature="170:838" ph="{...}" />
+                <marker date="1560200500135" expanded="true" signature="375:570" ph="{...}" />
+                <marker date="1560200500135" expanded="true" signature="397:510" ph="{...}" />
+                <marker date="1560200500135" expanded="true" signature="594:714" ph="{...}" />
+                <marker date="1560200500135" expanded="true" signature="737:774" ph="{...}" />
+                <marker date="1560200500135" expanded="true" signature="798:836" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Code/Boss.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/DromManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="118" column="42" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
+            <state relative-caret-position="102">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding>
-                <marker date="1559850153781" expanded="true" signature="0:75" ph="/* Boss - By Daniel Gallagher ... */" />
-                <marker date="1559850153781" expanded="false" signature="82:142" ph="..." />
-                <marker date="1559850153781" expanded="true" signature="178:3840" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="200:274" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="277:455" ph="private variables" />
-                <marker date="1559850153781" expanded="true" signature="461:857" ph="public interface" />
-                <marker date="1559850153781" expanded="true" signature="863:1895" ph="monobehaviour inherited" />
-                <marker date="1559850153781" expanded="true" signature="913:1098" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="1126:1240" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="1260:1880" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="1280:1877" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="1719:1858" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="1901:2517" ph="public methods" />
-                <marker date="1559850153781" expanded="true" signature="1943:2502" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="2192:2337" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="2212:2333" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="2350:2499" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="2523:3838" ph="private methods" />
-                <marker date="1559850153781" expanded="true" signature="2578:2634" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="2664:3124" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="3181:3397" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="3441:3589" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="3559:3583" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="3629:3641" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="3680:3756" ph="{...}" />
-                <marker date="1559850153781" expanded="true" signature="3781:3823" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Code/AudioManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1559851201818" expanded="true" signature="62:1442" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="237:461" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="500:506" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="541:593" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="620:668" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="698:747" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="774:814" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="843:885" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="919:966" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="995:1032" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="1066:1108" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="1139:1179" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="1214:1258" ph="{...}" />
-                <marker date="1559851201818" expanded="true" signature="1392:1440" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1559851195568" expanded="true" signature="70:1052" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="271:378" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="428:547" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="607:664" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="693:781" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="816:922" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="835:918" ph="{...}" />
-                <marker date="1559851195568" expanded="true" signature="954:1050" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Code/ShapeCheckCamera.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <marker date="1484511973405" expanded="true" signature="0:87" ph="/* ShapeCheckCamera - By Daniel Gallagher ... */" />
-                <marker date="1484511973405" expanded="false" signature="94:132" ph="..." />
-                <marker date="1484511973405" expanded="true" signature="180:3048" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="184:313" ph="private variables" />
-                <marker date="1484511973405" expanded="true" signature="316:455" ph="public interface" />
-                <marker date="1484511973405" expanded="true" signature="461:1759" ph="monobehaviour inherited" />
-                <marker date="1484511973405" expanded="true" signature="517:585" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="601:715" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="741:1747" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="1350:1542" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="1552:1622" ph="/* blue = b / wholeScreenPixels; ... */" />
-                <marker date="1484511973405" expanded="false" signature="1762:1796" ph="public methods" />
-                <marker date="1484511973405" expanded="false" signature="1799:3003" ph="private methods" />
-                <marker date="1484511973405" expanded="true" signature="1863:2988" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="1895:2982" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="2565:2781" ph="{...}" />
-                <marker date="1484511973405" expanded="true" signature="2795:2869" ph="/* blue = b / wholeScreenPixels; ... */" />
-                <marker date="1484511973405" expanded="false" signature="3009:3046" ph="event handlers" />
+                <marker date="1559853061514" expanded="true" signature="34:104" ph="{...}" />
+                <marker date="1559853061514" expanded="true" signature="81:102" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -219,18 +401,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Intro.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/ShapeCheckCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/DromManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -239,11 +415,12 @@
         <option value="$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Boss.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/DromManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" />
       </list>
     </option>
   </component>
@@ -272,8 +449,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DROMmain (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DROMmain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DROMmain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -327,12 +509,14 @@
       <option name="presentableId" value="Default" />
       <updated>1510670187743</updated>
       <workItem from="1510670191533" duration="740000" />
-      <workItem from="1559845507103" duration="5082000" />
+      <workItem from="1559845507103" duration="6493000" />
+      <workItem from="1560195289197" duration="728000" />
+      <workItem from="1560200280691" duration="260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5822000" />
+    <option name="totallyTimeSpent" value="8221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,13 +531,9 @@
     <frame x="-1088" y="-642" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25772202" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26254827" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Statistic" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32973894" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -361,18 +541,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="right" id="LuaJ" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="LuaJ" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,59 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-          <folding>
-            <marker date="1510670208038" expanded="false" signature="173:262" ph="..." />
-            <marker date="1510670208038" expanded="true" signature="286:6021" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="770:1371" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="881:986" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1016:1127" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1157:1260" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1267:1368" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1497:1501" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1640:1644" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1650:1755" ph="/// helper to get a node list from an asset created with the visual editor ... " />
-            <marker date="1510670208038" expanded="true" signature="1827:3127" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="1831:2066" ph="/* if( Application.platform == RuntimePlatform.OSXWebPlayer || Application.platform == RuntimePlatform.WindowsWeb ... */" />
-            <marker date="1510670208038" expanded="true" signature="2233:2506" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="2572:2717" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="2724:2902" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="3133:3238" ph="/// helper to get a node list from an asset created with the visual editor ... " />
-            <marker date="1510670208038" expanded="true" signature="3302:3602" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="3385:3581" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="3608:3692" ph="/// gets the last node. used to setup relative tweens ... " />
-            <marker date="1510670208038" expanded="true" signature="3722:3773" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="3779:3898" ph="/// responsible for calculating total length, segmentStartLocations and segmentDistances ... " />
-            <marker date="1510670208038" expanded="true" signature="3923:3952" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="3958:4094" ph="/// directly gets the point for the current spline type with no lookup table to adjust for constant speed ... " />
-            <marker date="1510670208038" expanded="true" signature="4131:4169" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="4174:4347" ph="/// returns the point that corresponds to the given t where t &gt;= 0 and t &lt;= 1 making sure that the ... " />
-            <marker date="1510670208038" expanded="true" signature="4389:4674" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="4497:4630" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="4519:4580" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="4588:4626" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="4679:4816" ph="/// closes the path adding a new node at the end that is equal to the start node if it isn't already equal ... " />
-            <marker date="1510670208038" expanded="true" signature="4841:4957" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="4963:5029" ph="/// reverses the order of the nodes ... " />
-            <marker date="1510670208038" expanded="true" signature="5057:5142" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="5081:5139" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="5148:5238" ph="/// unreverses the order of the nodes if they were reversed ... " />
-            <marker date="1510670208038" expanded="true" signature="5268:5353" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="5291:5350" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="5401:5731" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="5557:5728" ph="{...}" />
-            <marker date="1510670208038" expanded="true" signature="5737:5811" ph="/// helper for drawing gizmos in the editor ... " />
-            <marker date="1510670208038" expanded="true" signature="5883:6018" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/MenuSounds.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -448,33 +583,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding>
-            <marker date="1509490942446" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1509490942446" expanded="true" signature="281:1021" ph="{...}" />
-            <marker date="1509490942446" expanded="true" signature="288:501" ph="delegates and events" />
-            <marker date="1509490942446" expanded="true" signature="507:576" ph="private variables" />
-            <marker date="1509490942446" expanded="true" signature="579:800" ph="MonoBehaviour inherited" />
-            <marker date="1509490942446" expanded="true" signature="658:789" ph="{...}" />
-            <marker date="1509490942446" expanded="true" signature="802:1019" ph="public methods" />
-            <marker date="1509490942446" expanded="true" signature="849:858" ph="{...}" />
-            <marker date="1509490942446" expanded="true" signature="886:1008" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Intro.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorEffect.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <marker date="1480978668000" expanded="true" signature="0:113" ph="/* Amplify Color - Advanced Color Grading for Unity Pro ... */" />
-            <marker date="1480978668000" expanded="false" signature="121:147" ph="..." />
-            <marker date="1480978668000" expanded="true" signature="307:311" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,146 +595,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Boss.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/AudioManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/ShapeCheckCamera.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Code/DromManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding>
-            <marker date="1559847196112" expanded="true" signature="0:81" ph="/* DromCamera - By Daniel Gallagher ... */" />
-            <marker date="1559847196112" expanded="false" signature="88:126" ph="..." />
-            <marker date="1559847196112" expanded="true" signature="168:948" ph="{...}" />
-            <marker date="1559847196112" expanded="true" signature="172:469" ph="private variables" />
-            <marker date="1559847196112" expanded="true" signature="254:284" ph="{...}" />
-            <marker date="1559847196112" expanded="true" signature="472:758" ph="monobehaviour inherited" />
-            <marker date="1559847196112" expanded="true" signature="519:569" ph="{...}" />
-            <marker date="1559847196112" expanded="true" signature="586:746" ph="{...}" />
-            <marker date="1559847196112" expanded="true" signature="588:743" ph="/* if (_amp.BlendAmount != TargetColorSetting) ... */" />
-            <marker date="1559847196112" expanded="true" signature="761:909" ph="public methods" />
-            <marker date="1559847196112" expanded="true" signature="814:897" ph="{...}" />
-            <marker date="1559847196112" expanded="true" signature="912:946" ph="event handlers" />
+            <marker date="1559853061514" expanded="true" signature="34:104" ph="{...}" />
+            <marker date="1559853061514" expanded="true" signature="81:102" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
-            <marker date="1559849774987" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
-            <marker date="1559849774987" expanded="false" signature="86:159" ph="..." />
-            <marker date="1559849774987" expanded="true" signature="199:590" ph="{...}" />
-            <marker date="1559849774987" expanded="true" signature="313:373" ph="{...}" />
-            <marker date="1559849774987" expanded="true" signature="397:502" ph="{...}" />
-            <marker date="1559849774987" expanded="true" signature="525:544" ph="{...}" />
-            <marker date="1559849774987" expanded="true" signature="568:588" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Boss.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="118" column="42" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
-          <folding>
-            <marker date="1559850153781" expanded="true" signature="0:75" ph="/* Boss - By Daniel Gallagher ... */" />
-            <marker date="1559850153781" expanded="false" signature="82:142" ph="..." />
-            <marker date="1559850153781" expanded="true" signature="178:3840" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="200:274" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="277:455" ph="private variables" />
-            <marker date="1559850153781" expanded="true" signature="461:857" ph="public interface" />
-            <marker date="1559850153781" expanded="true" signature="863:1895" ph="monobehaviour inherited" />
-            <marker date="1559850153781" expanded="true" signature="913:1098" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="1126:1240" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="1260:1880" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="1280:1877" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="1719:1858" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="1901:2517" ph="public methods" />
-            <marker date="1559850153781" expanded="true" signature="1943:2502" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="2192:2337" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="2212:2333" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="2350:2499" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="2523:3838" ph="private methods" />
-            <marker date="1559850153781" expanded="true" signature="2578:2634" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="2664:3124" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="3181:3397" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="3441:3589" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="3559:3583" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="3629:3641" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="3680:3756" ph="{...}" />
-            <marker date="1559850153781" expanded="true" signature="3781:3823" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/Audio/GameplayMusicControl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1559851195568" expanded="true" signature="70:1052" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="271:378" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="428:547" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="607:664" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="693:781" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="816:922" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="835:918" ph="{...}" />
-            <marker date="1559851195568" expanded="true" signature="954:1050" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/AudioManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1559851201818" expanded="true" signature="62:1442" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="237:461" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="500:506" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="541:593" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="620:668" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="698:747" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="774:814" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="843:885" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="919:966" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="995:1032" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="1066:1108" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="1139:1179" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="1214:1258" ph="{...}" />
-            <marker date="1559851201818" expanded="true" signature="1392:1440" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/ShapeCheckCamera.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1484511973405" expanded="true" signature="0:87" ph="/* ShapeCheckCamera - By Daniel Gallagher ... */" />
-            <marker date="1484511973405" expanded="false" signature="94:132" ph="..." />
-            <marker date="1484511973405" expanded="true" signature="180:3048" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="184:313" ph="private variables" />
-            <marker date="1484511973405" expanded="true" signature="316:455" ph="public interface" />
-            <marker date="1484511973405" expanded="true" signature="461:1759" ph="monobehaviour inherited" />
-            <marker date="1484511973405" expanded="true" signature="517:585" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="601:715" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="741:1747" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="1350:1542" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="1552:1622" ph="/* blue = b / wholeScreenPixels; ... */" />
-            <marker date="1484511973405" expanded="false" signature="1762:1796" ph="public methods" />
-            <marker date="1484511973405" expanded="false" signature="1799:3003" ph="private methods" />
-            <marker date="1484511973405" expanded="true" signature="1863:2988" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="1895:2982" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="2565:2781" ph="{...}" />
-            <marker date="1484511973405" expanded="true" signature="2795:2869" ph="/* blue = b / wholeScreenPixels; ... */" />
-            <marker date="1484511973405" expanded="false" signature="3009:3046" ph="event handlers" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <marker date="1559851365667" expanded="true" signature="0:224" ph="/* =============================================================== ... */" />
-            <marker date="1559851365667" expanded="true" signature="274:554" ph="{...}" />
+            <marker date="1560200500135" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
+            <marker date="1560200500135" expanded="true" signature="86:131" ph="..." />
+            <marker date="1560200500135" expanded="true" signature="170:838" ph="{...}" />
+            <marker date="1560200500135" expanded="true" signature="375:570" ph="{...}" />
+            <marker date="1560200500135" expanded="true" signature="397:510" ph="{...}" />
+            <marker date="1560200500135" expanded="true" signature="594:714" ph="{...}" />
+            <marker date="1560200500135" expanded="true" signature="737:774" ph="{...}" />
+            <marker date="1560200500135" expanded="true" signature="798:836" ph="{...}" />
           </folding>
         </state>
       </provider>
