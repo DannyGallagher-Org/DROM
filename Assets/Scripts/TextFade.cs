@@ -2,6 +2,8 @@
 // TextFade - By Daniel Gallagher
 // Copyright Funny Looking Games 2016
 ///
+
+using TMPro;
 using UnityEngine;
 
 public class TextFade : MonoBehaviour
@@ -31,6 +33,8 @@ public class TextFade : MonoBehaviour
 		if(_active)
 			_textMeshProUgui.alpha = Mathf.Lerp(_textMeshProUgui.alpha, On ? 1f : 0f, Time.deltaTime*Speed);
 	}
+
+	public void SetSpeed(float speed) => Speed = speed;
 
 	public void FadeOn()
 	{
