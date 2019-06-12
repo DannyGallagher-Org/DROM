@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0459209b-156f-4da4-9449-6ff5db773e3a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1/RSG.Promise.3.0.1.nupkg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1/RSG.Promise.3.0.1.nupkg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1/lib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1/lib/net35.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1/lib/net35/RSG.Promise.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/RSG.Promise.3.0.1/lib/net35/RSG.Promise.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DROMmain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code_Old/CloudController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code_Old/CloudController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GameCloud0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/archive/GameCloud0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/archive/GameCloud0.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scenes/main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/fmod.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,50 +21,104 @@
     <session id="953357045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="671" />
+          <entry key="cs" value="1231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="671" />
+          <entry key="C#" value="1231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="13" />
+          <entry key="cs" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="13" />
+          <entry key="C#" value="17" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state relative-caret-position="646">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <marker date="1560201401969" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
-                <marker date="1560201401969" expanded="true" signature="87:112" ph="..." />
-                <marker date="1560201401969" expanded="true" signature="151:819" ph="{...}" />
-                <marker date="1560201401969" expanded="true" signature="356:551" ph="{...}" />
-                <marker date="1560201401969" expanded="true" signature="378:491" ph="{...}" />
-                <marker date="1560201401969" expanded="true" signature="575:695" ph="{...}" />
-                <marker date="1560201401969" expanded="true" signature="718:755" ph="{...}" />
-                <marker date="1560201401969" expanded="true" signature="779:817" ph="{...}" />
+                <marker date="1560201516339" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
+                <marker date="1560201516339" expanded="false" signature="87:112" ph="..." />
+                <marker date="1560201516339" expanded="true" signature="151:873" ph="{...}" />
+                <marker date="1560201516339" expanded="true" signature="356:551" ph="{...}" />
+                <marker date="1560201516339" expanded="true" signature="378:491" ph="{...}" />
+                <marker date="1560201516339" expanded="true" signature="575:695" ph="{...}" />
+                <marker date="1560201516339" expanded="true" signature="772:809" ph="{...}" />
+                <marker date="1560201516339" expanded="true" signature="833:871" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code_Old/Boss.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="137" column="32" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
+              <folding>
+                <marker date="1559850153781" expanded="true" signature="0:75" ph="/* Boss - By Daniel Gallagher ... */" />
+                <marker date="1559850153781" expanded="false" signature="82:142" ph="..." />
+                <marker date="1559850153781" expanded="true" signature="178:3840" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="200:274" ph="{...}" />
+                <marker date="1559850153781" expanded="false" signature="277:455" ph="private variables" />
+                <marker date="1559850153781" expanded="false" signature="461:857" ph="public interface" />
+                <marker date="1559850153781" expanded="false" signature="863:1895" ph="monobehaviour inherited" />
+                <marker date="1559850153781" expanded="true" signature="913:1098" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="1126:1240" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="1260:1880" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="1280:1877" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="1719:1858" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="1901:2517" ph="public methods" />
+                <marker date="1559850153781" expanded="true" signature="1943:2502" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="2192:2337" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="2212:2333" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="2350:2499" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="2523:3838" ph="private methods" />
+                <marker date="1559850153781" expanded="true" signature="2578:2634" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="2664:3124" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="3181:3397" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="3441:3589" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="3559:3583" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="3629:3641" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="3680:3756" ph="{...}" />
+                <marker date="1559850153781" expanded="true" signature="3781:3823" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Code/DromCloud.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding>
+                <marker date="1560279077638" expanded="false" signature="6:29" ph="..." />
+                <marker date="1560279077638" expanded="true" signature="45:643" ph="{...}" />
+                <marker date="1560279077638" expanded="true" signature="90:641" ph="{...}" />
+                <marker date="1560279077638" expanded="true" signature="225:480" ph="{...}" />
+                <marker date="1560279077638" expanded="true" signature="538:635" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,17 +137,52 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Code_Old/CloudController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+              <folding>
+                <marker date="1560287228280" expanded="true" signature="0:86" ph="/* CloudController - By Daniel Gallagher ... */" />
+                <marker date="1560287228280" expanded="true" signature="152:1827" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="159:315" ph="events and delegates" />
+                <marker date="1560287228280" expanded="true" signature="321:450" ph="private variables" />
+                <marker date="1560287228280" expanded="true" signature="453:534" ph="public interface" />
+                <marker date="1560287228280" expanded="true" signature="537:886" ph="monobehaviour inherited" />
+                <marker date="1560287228280" expanded="true" signature="583:808" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="700:805" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="826:874" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="889:1504" ph="public methods" />
+                <marker date="1560287228280" expanded="true" signature="932:1194" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="1229:1492" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="1507:1788" ph="private methods" />
+                <marker date="1560287228280" expanded="true" signature="1574:1668" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="1714:1776" ph="{...}" />
+                <marker date="1560287228280" expanded="true" signature="1791:1825" ph="event handlers" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Funny Looking Games</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DromCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code_Old/CloudController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AmplifyColor/Plugins/AmplifyColorEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code_Old/Boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/GoKit/properties/splines/GoSpline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/GoDummyPathEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/DromCloud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/DromManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -113,6 +198,8 @@
         <option value="$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
         <option value="$PROJECT_DIR$/Assets/Code/DromManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextFade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/DromCloud.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code_Old/CloudController.cs" />
       </list>
     </option>
   </component>
@@ -148,6 +235,19 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="DROMmain" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DROMmain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DROMmain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Code_Old" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -203,12 +303,14 @@
       <workItem from="1510670191533" duration="740000" />
       <workItem from="1559845507103" duration="6493000" />
       <workItem from="1560195289197" duration="728000" />
-      <workItem from="1560200280691" duration="939000" />
+      <workItem from="1560200280691" duration="1665000" />
+      <workItem from="1560273325889" duration="2453000" />
+      <workItem from="1560285235315" duration="2213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8900000" />
+    <option name="totallyTimeSpent" value="14292000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,9 +323,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-642" width="1096" height="1896" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26254827" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26737452" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -295,6 +396,23 @@
     <entry file="file://$PROJECT_DIR$/Assets/Code/AudioManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Code/ShapeCheckCamera.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Code/GameDefs.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <marker date="1560201516339" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
+            <marker date="1560201516339" expanded="false" signature="87:112" ph="..." />
+            <marker date="1560201516339" expanded="true" signature="151:873" ph="{...}" />
+            <marker date="1560201516339" expanded="true" signature="356:551" ph="{...}" />
+            <marker date="1560201516339" expanded="true" signature="378:491" ph="{...}" />
+            <marker date="1560201516339" expanded="true" signature="575:695" ph="{...}" />
+            <marker date="1560201516339" expanded="true" signature="772:809" ph="{...}" />
+            <marker date="1560201516339" expanded="true" signature="833:871" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Code/DromManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -306,19 +424,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextFade.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Code_Old/Boss.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+        <state relative-caret-position="1156">
+          <caret line="137" column="32" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
           <folding>
-            <marker date="1560201401969" expanded="true" signature="0:79" ph="/* TextFade - By Daniel Gallagher ... */" />
-            <marker date="1560201401969" expanded="true" signature="87:112" ph="..." />
-            <marker date="1560201401969" expanded="true" signature="151:819" ph="{...}" />
-            <marker date="1560201401969" expanded="true" signature="356:551" ph="{...}" />
-            <marker date="1560201401969" expanded="true" signature="378:491" ph="{...}" />
-            <marker date="1560201401969" expanded="true" signature="575:695" ph="{...}" />
-            <marker date="1560201401969" expanded="true" signature="718:755" ph="{...}" />
-            <marker date="1560201401969" expanded="true" signature="779:817" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="0:75" ph="/* Boss - By Daniel Gallagher ... */" />
+            <marker date="1559850153781" expanded="false" signature="82:142" ph="..." />
+            <marker date="1559850153781" expanded="true" signature="178:3840" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="200:274" ph="{...}" />
+            <marker date="1559850153781" expanded="false" signature="277:455" ph="private variables" />
+            <marker date="1559850153781" expanded="false" signature="461:857" ph="public interface" />
+            <marker date="1559850153781" expanded="false" signature="863:1895" ph="monobehaviour inherited" />
+            <marker date="1559850153781" expanded="true" signature="913:1098" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="1126:1240" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="1260:1880" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="1280:1877" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="1719:1858" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="1901:2517" ph="public methods" />
+            <marker date="1559850153781" expanded="true" signature="1943:2502" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="2192:2337" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="2212:2333" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="2350:2499" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="2523:3838" ph="private methods" />
+            <marker date="1559850153781" expanded="true" signature="2578:2634" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="2664:3124" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="3181:3397" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="3441:3589" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="3559:3583" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="3629:3641" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="3680:3756" ph="{...}" />
+            <marker date="1559850153781" expanded="true" signature="3781:3823" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code/DromCloud.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <marker date="1560279077638" expanded="false" signature="6:29" ph="..." />
+            <marker date="1560279077638" expanded="true" signature="45:643" ph="{...}" />
+            <marker date="1560279077638" expanded="true" signature="90:641" ph="{...}" />
+            <marker date="1560279077638" expanded="true" signature="225:480" ph="{...}" />
+            <marker date="1560279077638" expanded="true" signature="538:635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Code_Old/CloudController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <marker date="1560287228280" expanded="true" signature="0:86" ph="/* CloudController - By Daniel Gallagher ... */" />
+            <marker date="1560287228280" expanded="true" signature="152:1827" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="159:315" ph="events and delegates" />
+            <marker date="1560287228280" expanded="true" signature="321:450" ph="private variables" />
+            <marker date="1560287228280" expanded="true" signature="453:534" ph="public interface" />
+            <marker date="1560287228280" expanded="true" signature="537:886" ph="monobehaviour inherited" />
+            <marker date="1560287228280" expanded="true" signature="583:808" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="700:805" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="826:874" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="889:1504" ph="public methods" />
+            <marker date="1560287228280" expanded="true" signature="932:1194" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="1229:1492" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="1507:1788" ph="private methods" />
+            <marker date="1560287228280" expanded="true" signature="1574:1668" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="1714:1776" ph="{...}" />
+            <marker date="1560287228280" expanded="true" signature="1791:1825" ph="event handlers" />
           </folding>
         </state>
       </provider>

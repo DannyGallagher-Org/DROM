@@ -58,7 +58,11 @@
           </e>
         </e>
         <e p="Code" t="Include">
+          <e p="DromCloud.cs" t="Include" />
           <e p="DromManager.cs" t="Include" />
+          <e p="Utility" t="Include">
+            <e p="PerlinArray.cs" t="Include" />
+          </e>
         </e>
         <e p="Code_Old" t="Include">
           <e p="Audio" t="Include">
@@ -123,6 +127,172 @@
             <e p="WEBFONT" t="Include">
               <e p="generator_config.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Generic Evil" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Asset Source List.txt" t="Include" />
+            <e p="DisableOnSpace.cs" t="Include" />
+            <e p="PerlinWobble.cs" t="Include" />
+          </e>
+          <e p="Painterly Post Process" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PainterlyEditor.cs" t="Include" />
+            </e>
+            <e p="PainterlyImageEffect.cs" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="PainterlyLib.cginc" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="PainterlyFive.shader" t="Include" />
+                <e p="PainterlyFiveDepth.shader" t="Include" />
+                <e p="PainterlyFiveGrade.shader" t="Include" />
+                <e p="PainterlyFiveGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveIntensity.shader" t="Include" />
+                <e p="PainterlyFiveIntensityDepth.shader" t="Include" />
+                <e p="PainterlyFiveIntensityGrade.shader" t="Include" />
+                <e p="PainterlyFiveIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveMin.shader" t="Include" />
+                <e p="PainterlyFiveMinDepth.shader" t="Include" />
+                <e p="PainterlyFiveMinGrade.shader" t="Include" />
+                <e p="PainterlyFiveMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveRandomize.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeDepth.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeGrade.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeIntensity.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeIntensityDepth.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeIntensityGrade.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeMin.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeMinDepth.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeMinGrade.shader" t="Include" />
+                <e p="PainterlyFiveRandomizeMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveURotate.shader" t="Include" />
+                <e p="PainterlyFiveURotateDepth.shader" t="Include" />
+                <e p="PainterlyFiveURotateGrade.shader" t="Include" />
+                <e p="PainterlyFiveURotateGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveURotateIntensity.shader" t="Include" />
+                <e p="PainterlyFiveURotateIntensityDepth.shader" t="Include" />
+                <e p="PainterlyFiveURotateIntensityGrade.shader" t="Include" />
+                <e p="PainterlyFiveURotateIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyFiveURotateMin.shader" t="Include" />
+                <e p="PainterlyFiveURotateMinDepth.shader" t="Include" />
+                <e p="PainterlyFiveURotateMinGrade.shader" t="Include" />
+                <e p="PainterlyFiveURotateMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyFour.shader" t="Include" />
+                <e p="PainterlyFourDepth.shader" t="Include" />
+                <e p="PainterlyFourGrade.shader" t="Include" />
+                <e p="PainterlyFourGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourIntensity.shader" t="Include" />
+                <e p="PainterlyFourIntensityDepth.shader" t="Include" />
+                <e p="PainterlyFourIntensityGrade.shader" t="Include" />
+                <e p="PainterlyFourIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourMin.shader" t="Include" />
+                <e p="PainterlyFourMinDepth.shader" t="Include" />
+                <e p="PainterlyFourMinGrade.shader" t="Include" />
+                <e p="PainterlyFourMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourRandomize.shader" t="Include" />
+                <e p="PainterlyFourRandomizeDepth.shader" t="Include" />
+                <e p="PainterlyFourRandomizeGrade.shader" t="Include" />
+                <e p="PainterlyFourRandomizeGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourRandomizeIntensity.shader" t="Include" />
+                <e p="PainterlyFourRandomizeIntensityDepth.shader" t="Include" />
+                <e p="PainterlyFourRandomizeIntensityGrade.shader" t="Include" />
+                <e p="PainterlyFourRandomizeIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourRandomizeMin.shader" t="Include" />
+                <e p="PainterlyFourRandomizeMinDepth.shader" t="Include" />
+                <e p="PainterlyFourRandomizeMinGrade.shader" t="Include" />
+                <e p="PainterlyFourRandomizeMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourURotate.shader" t="Include" />
+                <e p="PainterlyFourURotateDepth.shader" t="Include" />
+                <e p="PainterlyFourURotateGrade.shader" t="Include" />
+                <e p="PainterlyFourURotateGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourURotateIntensity.shader" t="Include" />
+                <e p="PainterlyFourURotateIntensityDepth.shader" t="Include" />
+                <e p="PainterlyFourURotateIntensityGrade.shader" t="Include" />
+                <e p="PainterlyFourURotateIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyFourURotateMin.shader" t="Include" />
+                <e p="PainterlyFourURotateMinDepth.shader" t="Include" />
+                <e p="PainterlyFourURotateMinGrade.shader" t="Include" />
+                <e p="PainterlyFourURotateMinGradeDepth.shader" t="Include" />
+                <e p="PainterlySix.shader" t="Include" />
+                <e p="PainterlySixDepth.shader" t="Include" />
+                <e p="PainterlySixGrade.shader" t="Include" />
+                <e p="PainterlySixGradeDepth.shader" t="Include" />
+                <e p="PainterlySixIntensity.shader" t="Include" />
+                <e p="PainterlySixIntensityDepth.shader" t="Include" />
+                <e p="PainterlySixIntensityGrade.shader" t="Include" />
+                <e p="PainterlySixIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlySixMin.shader" t="Include" />
+                <e p="PainterlySixMinDepth.shader" t="Include" />
+                <e p="PainterlySixMinGrade.shader" t="Include" />
+                <e p="PainterlySixMinGradeDepth.shader" t="Include" />
+                <e p="PainterlySixRandomize.shader" t="Include" />
+                <e p="PainterlySixRandomizeDepth.shader" t="Include" />
+                <e p="PainterlySixRandomizeGrade.shader" t="Include" />
+                <e p="PainterlySixRandomizeGradeDepth.shader" t="Include" />
+                <e p="PainterlySixRandomizeIntensity.shader" t="Include" />
+                <e p="PainterlySixRandomizeIntensityDepth.shader" t="Include" />
+                <e p="PainterlySixRandomizeIntensityGrade.shader" t="Include" />
+                <e p="PainterlySixRandomizeIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlySixRandomizeMin.shader" t="Include" />
+                <e p="PainterlySixRandomizeMinDepth.shader" t="Include" />
+                <e p="PainterlySixRandomizeMinGrade.shader" t="Include" />
+                <e p="PainterlySixRandomizeMinGradeDepth.shader" t="Include" />
+                <e p="PainterlySixURotate.shader" t="Include" />
+                <e p="PainterlySixURotateDepth.shader" t="Include" />
+                <e p="PainterlySixURotateGrade.shader" t="Include" />
+                <e p="PainterlySixURotateGradeDepth.shader" t="Include" />
+                <e p="PainterlySixURotateIntensity.shader" t="Include" />
+                <e p="PainterlySixURotateIntensityDepth.shader" t="Include" />
+                <e p="PainterlySixURotateIntensityGrade.shader" t="Include" />
+                <e p="PainterlySixURotateIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlySixURotateMin.shader" t="Include" />
+                <e p="PainterlySixURotateMinDepth.shader" t="Include" />
+                <e p="PainterlySixURotateMinGrade.shader" t="Include" />
+                <e p="PainterlySixURotateMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyThree.shader" t="Include" />
+                <e p="PainterlyThreeDepth.shader" t="Include" />
+                <e p="PainterlyThreeGrade.shader" t="Include" />
+                <e p="PainterlyThreeGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeIntensity.shader" t="Include" />
+                <e p="PainterlyThreeIntensityDepth.shader" t="Include" />
+                <e p="PainterlyThreeIntensityGrade.shader" t="Include" />
+                <e p="PainterlyThreeIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeMin.shader" t="Include" />
+                <e p="PainterlyThreeMinDepth.shader" t="Include" />
+                <e p="PainterlyThreeMinGrade.shader" t="Include" />
+                <e p="PainterlyThreeMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeRandomize.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeDepth.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeGrade.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeIntensity.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeIntensityDepth.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeIntensityGrade.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeMin.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeMinDepth.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeMinGrade.shader" t="Include" />
+                <e p="PainterlyThreeRandomizeMinGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeURotate.shader" t="Include" />
+                <e p="PainterlyThreeURotateDepth.shader" t="Include" />
+                <e p="PainterlyThreeURotateGrade.shader" t="Include" />
+                <e p="PainterlyThreeURotateGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeURotateIntensity.shader" t="Include" />
+                <e p="PainterlyThreeURotateIntensityDepth.shader" t="Include" />
+                <e p="PainterlyThreeURotateIntensityGrade.shader" t="Include" />
+                <e p="PainterlyThreeURotateIntensityGradeDepth.shader" t="Include" />
+                <e p="PainterlyThreeURotateMin.shader" t="Include" />
+                <e p="PainterlyThreeURotateMinDepth.shader" t="Include" />
+                <e p="PainterlyThreeURotateMinGrade.shader" t="Include" />
+                <e p="PainterlyThreeURotateMinGradeDepth.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Painterly.ReadMe.txt" t="Include" />
+          <e p="Utilities" t="Include">
+            <e p="PostProcessBase.cs" t="Include" />
           </e>
         </e>
         <e p="Grass And Flowers Pack 1" t="Include">

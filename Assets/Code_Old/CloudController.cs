@@ -3,7 +3,6 @@
 // Copyright Funny Looking Games 2016
 ///
 using UnityEngine;
-using System.Collections;
 
 public class CloudController : MonoBehaviour {
 
@@ -20,20 +19,23 @@ public class CloudController : MonoBehaviour {
 	#endregion
 
 	#region public interface
-	public GameObject cloudClone;
-	public float speed = 35f;
-
-    public float opacity;
+	[Range(0f, 0.3f)] public float speed = 35f;
 	#endregion
 
 	#region monobehaviour inherited
 	void Awake() {
 		_startPos = transform.position;
 		_lastPos = _startPos;
+		foreach (var t in GetComponentsInChildren<Transform>())
+		{
+			var pos = t.localPosition;
+			pos.z += Random.Range(-0.01f, 0.01f);
+			t.localPosition = pos;
+		}
 	}
 
 	void Update () {
-
+		transform.Translate(Vector3.right*speed);
 	}
 	#endregion
 
