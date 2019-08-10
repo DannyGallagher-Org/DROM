@@ -58,6 +58,7 @@
           </e>
         </e>
         <e p="Code" t="Include">
+          <e p="DromBeginning.cs" t="Include" />
           <e p="DromCloud.cs" t="Include" />
           <e p="DromManager.cs" t="Include" />
           <e p="Utility" t="Include">

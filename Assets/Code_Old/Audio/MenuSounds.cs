@@ -59,7 +59,10 @@ public class MenuSounds : MonoBehaviour {
 			clip = menuclick_up;
 		else if (type == "select") clip = menuclick_select;
 
-		if(clip != null)
+		if (clip != null)
+		{
+			audioSource.pitch = Random.Range(0.5f, 1f);
 			audioSource.PlayOneShot (clip, 1f);
+		}
 	}
 }
