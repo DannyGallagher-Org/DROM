@@ -25,7 +25,7 @@ public class GameplayMusicControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		emitter.SetParameter (_currentParam, Boss.ratio);	
+		emitter.SetParameter (_currentParam, Boss.ratio);
 	}
 
     public void NextLevel()

@@ -31,7 +31,6 @@ public class AudioManager : MonoBehaviour {
 
 	public void NextLevel (){
 	
-	
 		_gameplayMusicControl.NextLevel ();
 	
 	}

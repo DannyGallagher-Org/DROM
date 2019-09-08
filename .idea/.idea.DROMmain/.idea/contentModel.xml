@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Danny\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Danny\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_DROMmain.1863539375.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Danny\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Danny\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DROMmain.1863539375.00" t="ExcludeRecursive" />
     <e p="F:\Projects\Drom\DROMmain\DROMmain" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
@@ -302,6 +302,19 @@
             <e p="Skyboxes" t="Include">
               <e p="_skybox info.txt" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="MidiJack" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MidiJackWindow.cs" t="Include" />
+          </e>
+          <e p="Midi.cs" t="Include" />
+          <e p="MidiDriver.cs" t="Include" />
+          <e p="MidiMaster.cs" t="Include" />
+          <e p="MidiStateUpdater.cs" t="Include" />
+          <e p="Mines" t="Include">
+            <e p="DebugMidi.cs" t="Include" />
+            <e p="DebugSingleKnob.cs" t="Include" />
           </e>
         </e>
         <e p="Oak Trees Package" t="Include">
@@ -798,12 +811,9 @@
         </e>
       </e>
       <e p="DROMmain.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
