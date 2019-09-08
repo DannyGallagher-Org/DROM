@@ -4,7 +4,6 @@
     <e p="C:\Users\Danny\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Danny\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DROMmain.1863539375.00" t="ExcludeRecursive" />
     <e p="F:\Projects\Drom\DROMmain\DROMmain" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -61,63 +60,29 @@
           <e p="DromBeginning.cs" t="Include" />
           <e p="DromCloud.cs" t="Include" />
           <e p="DromManager.cs" t="Include" />
+          <e p="MidiJack" t="Include">
+            <e p="Editor" t="Include">
+              <e p="MidiJackWindow.cs" t="Include" />
+            </e>
+            <e p="Midi.cs" t="Include" />
+            <e p="MidiDriver.cs" t="Include" />
+            <e p="MidiMaster.cs" t="Include" />
+            <e p="MidiStateUpdater.cs" t="Include" />
+            <e p="Mines" t="Include">
+              <e p="DebugMidi.cs" t="Include" />
+              <e p="DebugSingleKnob.cs" t="Include" />
+            </e>
+          </e>
           <e p="Utility" t="Include">
             <e p="PerlinArray.cs" t="Include" />
           </e>
-        </e>
-        <e p="Code_Old" t="Include">
-          <e p="Audio" t="Include">
-            <e p="CloudBitSounds.cs" t="Include" />
-            <e p="DromReveal.cs" t="Include" />
-            <e p="GameplayMusicControl.cs" t="Include" />
-            <e p="MenuSounds.cs" t="Include" />
-            <e p="trashme.cs" t="Include" />
-            <e p="WinSound.cs" t="Include" />
-          </e>
-          <e p="AudioManager.cs" t="Include" />
-          <e p="AudioManagerClass.cs" t="Include" />
-          <e p="Boss.cs" t="Include" />
-          <e p="CloudBit.cs" t="Include" />
-          <e p="CloudController.cs" t="Include" />
-          <e p="CloudeEdgeEffect.cs" t="Include" />
-          <e p="CloudeShadowEffect.cs" t="Include" />
-          <e p="CloudeShapeEffect.cs" t="Include" />
-          <e p="CloudPutter.cs" t="Include" />
-          <e p="FollowParent.cs" t="Include" />
-          <e p="GameDefs.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="Intro.cs" t="Include" />
-          <e p="LoopingCloud.cs" t="Include" />
-          <e p="Menu.cs" t="Include" />
-          <e p="PressSpace.cs" t="Include" />
-          <e p="ScanlinesImageEffect.cs" t="Include" />
-          <e p="Shaders" t="Include">
-            <e p="Scanlines.shader" t="Include" />
-          </e>
-          <e p="ShapeCheckCamera.cs" t="Include" />
-          <e p="Shapes.cs" t="Include" />
-          <e p="Stage.cs" t="Include" />
-          <e p="Thoughts.cs" t="Include" />
         </e>
         <e p="ColorGradingPack" t="Include">
           <e p="ColorBlind" t="Include">
             <e p="ColorBlind LUTs.txt" t="Include" />
           </e>
         </e>
-        <e p="Demo" t="Include">
-          <e p="scripts" t="Include">
-            <e p="BaseDemoGUI.cs" t="Include" />
-            <e p="FPSHUD.cs" t="Include" />
-            <e p="PathTweenGUI.cs" t="Include" />
-            <e p="ShakeVariantsGUI.cs" t="Include" />
-            <e p="SimpleTween.cs" t="Include" />
-            <e p="StressTestGUI.cs" t="Include" />
-            <e p="TweenChainGUI.cs" t="Include" />
-            <e p="TweenFlowGUI.cs" t="Include" />
-          </e>
-        </e>
         <e p="Editor" t="Include">
-          <e p="FMODMigrationUtil.cs" t="Include" />
           <e p="GoDummyPathEditor.cs" t="Include" />
         </e>
         <e p="Fonts" t="Include">
@@ -130,243 +95,10 @@
             </e>
           </e>
         </e>
-        <e p="Generic Evil" t="Include">
-          <e p="Demo" t="Include">
-            <e p="Asset Source List.txt" t="Include" />
-            <e p="DisableOnSpace.cs" t="Include" />
-            <e p="PerlinWobble.cs" t="Include" />
-          </e>
-          <e p="Painterly Post Process" t="Include">
-            <e p="Editor" t="Include">
-              <e p="PainterlyEditor.cs" t="Include" />
-            </e>
-            <e p="PainterlyImageEffect.cs" t="Include" />
-            <e p="Resources" t="Include">
-              <e p="PainterlyLib.cginc" t="Include" />
-              <e p="Shaders" t="Include">
-                <e p="PainterlyFive.shader" t="Include" />
-                <e p="PainterlyFiveDepth.shader" t="Include" />
-                <e p="PainterlyFiveGrade.shader" t="Include" />
-                <e p="PainterlyFiveGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveIntensity.shader" t="Include" />
-                <e p="PainterlyFiveIntensityDepth.shader" t="Include" />
-                <e p="PainterlyFiveIntensityGrade.shader" t="Include" />
-                <e p="PainterlyFiveIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveMin.shader" t="Include" />
-                <e p="PainterlyFiveMinDepth.shader" t="Include" />
-                <e p="PainterlyFiveMinGrade.shader" t="Include" />
-                <e p="PainterlyFiveMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveRandomize.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeDepth.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeGrade.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeIntensity.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeIntensityDepth.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeIntensityGrade.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeMin.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeMinDepth.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeMinGrade.shader" t="Include" />
-                <e p="PainterlyFiveRandomizeMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveURotate.shader" t="Include" />
-                <e p="PainterlyFiveURotateDepth.shader" t="Include" />
-                <e p="PainterlyFiveURotateGrade.shader" t="Include" />
-                <e p="PainterlyFiveURotateGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveURotateIntensity.shader" t="Include" />
-                <e p="PainterlyFiveURotateIntensityDepth.shader" t="Include" />
-                <e p="PainterlyFiveURotateIntensityGrade.shader" t="Include" />
-                <e p="PainterlyFiveURotateIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyFiveURotateMin.shader" t="Include" />
-                <e p="PainterlyFiveURotateMinDepth.shader" t="Include" />
-                <e p="PainterlyFiveURotateMinGrade.shader" t="Include" />
-                <e p="PainterlyFiveURotateMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyFour.shader" t="Include" />
-                <e p="PainterlyFourDepth.shader" t="Include" />
-                <e p="PainterlyFourGrade.shader" t="Include" />
-                <e p="PainterlyFourGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourIntensity.shader" t="Include" />
-                <e p="PainterlyFourIntensityDepth.shader" t="Include" />
-                <e p="PainterlyFourIntensityGrade.shader" t="Include" />
-                <e p="PainterlyFourIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourMin.shader" t="Include" />
-                <e p="PainterlyFourMinDepth.shader" t="Include" />
-                <e p="PainterlyFourMinGrade.shader" t="Include" />
-                <e p="PainterlyFourMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourRandomize.shader" t="Include" />
-                <e p="PainterlyFourRandomizeDepth.shader" t="Include" />
-                <e p="PainterlyFourRandomizeGrade.shader" t="Include" />
-                <e p="PainterlyFourRandomizeGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourRandomizeIntensity.shader" t="Include" />
-                <e p="PainterlyFourRandomizeIntensityDepth.shader" t="Include" />
-                <e p="PainterlyFourRandomizeIntensityGrade.shader" t="Include" />
-                <e p="PainterlyFourRandomizeIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourRandomizeMin.shader" t="Include" />
-                <e p="PainterlyFourRandomizeMinDepth.shader" t="Include" />
-                <e p="PainterlyFourRandomizeMinGrade.shader" t="Include" />
-                <e p="PainterlyFourRandomizeMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourURotate.shader" t="Include" />
-                <e p="PainterlyFourURotateDepth.shader" t="Include" />
-                <e p="PainterlyFourURotateGrade.shader" t="Include" />
-                <e p="PainterlyFourURotateGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourURotateIntensity.shader" t="Include" />
-                <e p="PainterlyFourURotateIntensityDepth.shader" t="Include" />
-                <e p="PainterlyFourURotateIntensityGrade.shader" t="Include" />
-                <e p="PainterlyFourURotateIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyFourURotateMin.shader" t="Include" />
-                <e p="PainterlyFourURotateMinDepth.shader" t="Include" />
-                <e p="PainterlyFourURotateMinGrade.shader" t="Include" />
-                <e p="PainterlyFourURotateMinGradeDepth.shader" t="Include" />
-                <e p="PainterlySix.shader" t="Include" />
-                <e p="PainterlySixDepth.shader" t="Include" />
-                <e p="PainterlySixGrade.shader" t="Include" />
-                <e p="PainterlySixGradeDepth.shader" t="Include" />
-                <e p="PainterlySixIntensity.shader" t="Include" />
-                <e p="PainterlySixIntensityDepth.shader" t="Include" />
-                <e p="PainterlySixIntensityGrade.shader" t="Include" />
-                <e p="PainterlySixIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlySixMin.shader" t="Include" />
-                <e p="PainterlySixMinDepth.shader" t="Include" />
-                <e p="PainterlySixMinGrade.shader" t="Include" />
-                <e p="PainterlySixMinGradeDepth.shader" t="Include" />
-                <e p="PainterlySixRandomize.shader" t="Include" />
-                <e p="PainterlySixRandomizeDepth.shader" t="Include" />
-                <e p="PainterlySixRandomizeGrade.shader" t="Include" />
-                <e p="PainterlySixRandomizeGradeDepth.shader" t="Include" />
-                <e p="PainterlySixRandomizeIntensity.shader" t="Include" />
-                <e p="PainterlySixRandomizeIntensityDepth.shader" t="Include" />
-                <e p="PainterlySixRandomizeIntensityGrade.shader" t="Include" />
-                <e p="PainterlySixRandomizeIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlySixRandomizeMin.shader" t="Include" />
-                <e p="PainterlySixRandomizeMinDepth.shader" t="Include" />
-                <e p="PainterlySixRandomizeMinGrade.shader" t="Include" />
-                <e p="PainterlySixRandomizeMinGradeDepth.shader" t="Include" />
-                <e p="PainterlySixURotate.shader" t="Include" />
-                <e p="PainterlySixURotateDepth.shader" t="Include" />
-                <e p="PainterlySixURotateGrade.shader" t="Include" />
-                <e p="PainterlySixURotateGradeDepth.shader" t="Include" />
-                <e p="PainterlySixURotateIntensity.shader" t="Include" />
-                <e p="PainterlySixURotateIntensityDepth.shader" t="Include" />
-                <e p="PainterlySixURotateIntensityGrade.shader" t="Include" />
-                <e p="PainterlySixURotateIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlySixURotateMin.shader" t="Include" />
-                <e p="PainterlySixURotateMinDepth.shader" t="Include" />
-                <e p="PainterlySixURotateMinGrade.shader" t="Include" />
-                <e p="PainterlySixURotateMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyThree.shader" t="Include" />
-                <e p="PainterlyThreeDepth.shader" t="Include" />
-                <e p="PainterlyThreeGrade.shader" t="Include" />
-                <e p="PainterlyThreeGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeIntensity.shader" t="Include" />
-                <e p="PainterlyThreeIntensityDepth.shader" t="Include" />
-                <e p="PainterlyThreeIntensityGrade.shader" t="Include" />
-                <e p="PainterlyThreeIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeMin.shader" t="Include" />
-                <e p="PainterlyThreeMinDepth.shader" t="Include" />
-                <e p="PainterlyThreeMinGrade.shader" t="Include" />
-                <e p="PainterlyThreeMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeRandomize.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeDepth.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeGrade.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeIntensity.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeIntensityDepth.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeIntensityGrade.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeMin.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeMinDepth.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeMinGrade.shader" t="Include" />
-                <e p="PainterlyThreeRandomizeMinGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeURotate.shader" t="Include" />
-                <e p="PainterlyThreeURotateDepth.shader" t="Include" />
-                <e p="PainterlyThreeURotateGrade.shader" t="Include" />
-                <e p="PainterlyThreeURotateGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeURotateIntensity.shader" t="Include" />
-                <e p="PainterlyThreeURotateIntensityDepth.shader" t="Include" />
-                <e p="PainterlyThreeURotateIntensityGrade.shader" t="Include" />
-                <e p="PainterlyThreeURotateIntensityGradeDepth.shader" t="Include" />
-                <e p="PainterlyThreeURotateMin.shader" t="Include" />
-                <e p="PainterlyThreeURotateMinDepth.shader" t="Include" />
-                <e p="PainterlyThreeURotateMinGrade.shader" t="Include" />
-                <e p="PainterlyThreeURotateMinGradeDepth.shader" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Painterly.ReadMe.txt" t="Include" />
-          <e p="Utilities" t="Include">
-            <e p="PostProcessBase.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Grass And Flowers Pack 1" t="Include">
-          <e p="Example Scene" t="Include">
-            <e p="SimpleTextureDrawing.cs" t="Include" />
-            <e p="Skyboxes" t="Include">
-              <e p="_skybox info.txt" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="MidiJack" t="Include">
-          <e p="Editor" t="Include">
-            <e p="MidiJackWindow.cs" t="Include" />
-          </e>
-          <e p="Midi.cs" t="Include" />
-          <e p="MidiDriver.cs" t="Include" />
-          <e p="MidiMaster.cs" t="Include" />
-          <e p="MidiStateUpdater.cs" t="Include" />
-          <e p="Mines" t="Include">
-            <e p="DebugMidi.cs" t="Include" />
-            <e p="DebugSingleKnob.cs" t="Include" />
-          </e>
-        </e>
         <e p="Oak Trees Package" t="Include">
           <e p="readme_OakTrees.txt" t="Include" />
         </e>
         <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="FMOD" t="Include">
-              <e p="BankRefDrawer.cs" t="Include" />
-              <e p="CreateEventPopup.cs" t="Include" />
-              <e p="EditorBankRef.cs" t="Include" />
-              <e p="EditorEventRef.cs" t="Include" />
-              <e p="EditorParamRef.cs" t="Include" />
-              <e p="EditorUtils.cs" t="Include" />
-              <e p="EventBrowser.cs" t="Include" />
-              <e p="EventCache.cs" t="Include" />
-              <e p="EventManager.cs" t="Include" />
-              <e p="EventRefDrawer.cs" t="Include" />
-              <e p="FindAndReplace.cs" t="Include" />
-              <e p="LogViewer.cs" t="Include" />
-              <e p="MigrationUtil.cs" t="Include" />
-              <e p="ParamRefDrawer.cs" t="Include" />
-              <e p="SettingsEditor.cs" t="Include" />
-              <e p="StudioBankLoaderEditor.cs" t="Include" />
-              <e p="StudioEventEmitterEditor.cs" t="Include" />
-              <e p="StudioEventEmitterGizmoDrawer.cs" t="Include" />
-              <e p="StudioListenerEditor.cs" t="Include" />
-              <e p="StudioParameterTriggerEditor.cs" t="Include" />
-            </e>
-          </e>
-          <e p="FMOD" t="Include">
-            <e p="BankRefAttribute.cs" t="Include" />
-            <e p="EventRefAttribute.cs" t="Include" />
-            <e p="FMOD_Listener.cs" t="Include" />
-            <e p="FMOD_StudioEventEmitter.cs" t="Include" />
-            <e p="FMODAsset.cs" t="Include" />
-            <e p="OneshotList.cs" t="Include" />
-            <e p="ParamRef.cs" t="Include" />
-            <e p="RuntimeManager.cs" t="Include" />
-            <e p="RuntimeUtils.cs" t="Include" />
-            <e p="Settings.cs" t="Include" />
-            <e p="StudioBankLoader.cs" t="Include" />
-            <e p="StudioEventEmitter.cs" t="Include" />
-            <e p="StudioListener.cs" t="Include" />
-            <e p="StudioParameterTrigger.cs" t="Include" />
-            <e p="Wrapper" t="Include">
-              <e p="fmod.cs" t="Include" />
-              <e p="fmod_dsp.cs" t="Include" />
-              <e p="fmod_errors.cs" t="Include" />
-              <e p="fmod_studio.cs" t="Include" />
-            </e>
-          </e>
           <e p="GoKit" t="Include">
             <e p="base" t="Include">
               <e p="AbstractGoTween.cs" t="Include" />

@@ -12,9 +12,6 @@ namespace Code
             {
                 cloud.SetActive(false);
             }
-
-            GameManager.audioManager.PlayGameplayMusic();
-            GameManager.audioManager.NextLevel();
         }
     }
 }
