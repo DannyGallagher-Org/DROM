@@ -57,6 +57,10 @@
           </e>
         </e>
         <e p="Code" t="Include">
+          <e p="ControlScript" t="Include">
+            <e p="AbstractControlScript.cs" t="Include" />
+            <e p="UIImageControlScript.cs" t="Include" />
+          </e>
           <e p="DromBeginning.cs" t="Include" />
           <e p="DromCloud.cs" t="Include" />
           <e p="DromManager.cs" t="Include" />
@@ -220,7 +224,6 @@
             <e p="RotationConstraint.cs" t="Include" />
             <e p="Rotator.cs" t="Include" />
           </e>
-          <e p="PlayerController.cs" t="Include" />
           <e p="TextFade.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">

@@ -21,6 +21,7 @@
       <Path>.vs</Path>
       <Path>Build</Path>
       <Path>FMODAssets</Path>
+      <Path>FMODProj</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Stuff</Path>
