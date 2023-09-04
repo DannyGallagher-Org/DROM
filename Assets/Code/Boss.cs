@@ -4,6 +4,7 @@
 ///
 using UnityEngine;
 using System.Collections;
+using Code;
 using UnityEngine.UI;
 
 public class Boss : MonoBehaviour {

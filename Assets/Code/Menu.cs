@@ -8,6 +8,7 @@ Date:       18/10/16
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using Code;
 
 public class Menu : MonoBehaviour {
 
