@@ -6,7 +6,7 @@ Shader "Drom/Goop"
 	{
 		_MainTex("Texture", 2D) = "white" { }
 
-	_Color("Color", Color) = (0.5,0.5,0.5,1)
+	    _Color("Color", Color) = (0.5,0.5,0.5,1)
 		_OutlineColor("OutlineColor", Color) = (0,0,0,1)
 		_HighlightColor("HighlightColor", Color) = (1,1,1,1)
 
@@ -80,15 +80,11 @@ Shader "Drom/Goop"
 
 		highlight = step(0.5, highlight);
 
-
-
 		half4 goopColor = lerp(_Color, half4(compareColor.r, compareColor.g, compareColor.b, _Color.a), _UseSpriteColor);
 
 		outColor = lerp(goopColor, _HighlightColor, highlight);
 		outColor = lerp(_OutlineColor, outColor, isSolid);
 		outColor = lerp(half4(0,0,0,0), outColor, isOutline);
-
-
 
 		return outColor;
 	}

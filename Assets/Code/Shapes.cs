@@ -13,7 +13,6 @@ public class Shapes : MonoBehaviour
 	{
 	    _sprite = GetComponent<SpriteRenderer>();
 	    _col = _sprite.color;
-
 	}
 	
 	// Update is called once per frame

@@ -8,8 +8,8 @@ Shader "Hidden/ShapeCheckShader"
 	}
 	SubShader
 	{
-		// No culling or depth
-		Cull Off ZWrite Off ZTest Always
+        Tags {"Queue"="Transparent+1" "IgnoreProjector"="True" "RenderType"="Transparent"}
+		Cull Back ZWrite Off ZTest Always
 
 		Pass
 		{
@@ -44,14 +44,15 @@ Shader "Hidden/ShapeCheckShader"
 			fixed4 frag (v2f i) : SV_Target
 			{
 				fixed4 col = tex2D(_MainTex, i.uv);
-
-				if(col.a < 0.85)
-					return fixed4(0, 1, 0, 1);
-
-				if(col.a > 0.917)
-					return fixed4(0, 0, 1, 1);
-
-				return fixed4(1, 0, 0, 1);
+                fixed4 returnCol = col;
+                
+                if(col.a < 0.1)
+                return fixed4(1,0,0,1);
+                
+                if(col.a < 0.8)
+                return fixed4(0,1,0,1);
+                
+                return fixed4(0,0,1,1);
 			}
 			ENDCG
 		}
