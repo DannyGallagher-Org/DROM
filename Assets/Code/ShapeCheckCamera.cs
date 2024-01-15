@@ -2,117 +2,113 @@
 // ShapeCheckCamera - By Daniel Gallagher
 // Copyright Funny Looking Games 2016
 ///
-using UnityEngine;
+
+using System;
 using System.Collections;
+using UnityEngine;
 
-public class ShapeCheckCamera : MonoBehaviour {
+namespace Code
+{
+	public class ShapeCheckCamera : MonoBehaviour 
+	{
 
-	#region private variables
-	private Camera _camera;
+		#region private variables
+		private Camera _camera;
 
-    private float wholeScreenPixels;
-    private bool _bChecking;
-	#endregion
+		private bool _bFirstCheck = true;
+		private bool _bChecking;
+		#endregion
 
-	#region public interface
-	public Texture2D texture;
+		#region targets
+		public float WholeScreenPixels;
+	
+		public float StartRatioRed;
+		public float CurrentRatioRed;
 
-	public float blue = 0;
-	public float red = 0;
-	public float green = 0;
-    #endregion
+		public float CurrentRatioBlue;
+		public float CurrentRatioGreen;
 
-    #region monobehaviour inherited
-    private void Awake()
-    {
-        wholeScreenPixels = Screen.height*Screen.width;
-    }
+		public float WinMargin;
+		public bool Win;
+		#endregion
+	
+		#region public interface
+		public Texture2D Texture;
+	
+		public float Blue = 0;
+		public float Red = 0;
+		public float Green = 0;
+		#endregion
 
-	void Start() {
-		_camera = GetComponent<Camera> ();
+		#region monobehaviour inherited
+		private void Awake()
+		{
+			WholeScreenPixels = Screen.height*Screen.width;
+		}
 
-        _bChecking = true;
-        StartCoroutine(CheckCoroutine());
-    }
+		void Start() 
+		{
+			_camera = GetComponent<Camera> ();
 
-	public Vector3 Check() {
-        Destroy(texture);
-        RenderTexture rt = new RenderTexture(Screen.width, Screen.height, 24);
-        _camera.targetTexture = rt;
+			_bChecking = true;
+			StartCoroutine(CheckCoroutine());
+		}
+		#endregion
 
-        texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
-        _camera.Render();
-        RenderTexture.active = rt;
-        texture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-        _camera.targetTexture = null;
-        RenderTexture.active = null; // JC: added to avoid errors
-        Destroy(rt);
+		#region private methods
 
-        Color32[] pixels = texture.GetPixels32();
+		private IEnumerator CheckCoroutine()
+		{
+			while (_bChecking)
+			{
+				Destroy(Texture);
+				var rt = new RenderTexture(Screen.width, Screen.height, 24);
+				_camera.targetTexture = rt;
 
-        blue = red = 0;
+				Texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+				_camera.Render();
+				RenderTexture.active = rt;
+				Texture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+				_camera.targetTexture = null;
+				RenderTexture.active = null; // JC: added to avoid errors
+				Destroy(rt);
 
-        foreach (var p in pixels)
-        {
-            if (p.b > 0.8f && ((p.r < 0.5f) && (p.g < 0.5f)))
-                blue++;
+				var pixels = Texture.GetPixels32();
 
-            if (p.r > 0.8f && ((p.b < 0.5f) && (p.g < 0.5f)))
-                red++;
-        }
+				Green = Blue = Red = 0;
 
-        //blue = b / wholeScreenPixels;
-        //red = r / wholeScreenPixels;
-        green = (wholeScreenPixels - red - blue);
+				foreach (var p in pixels)
+				{
+					if (p.b > 0.8f && ((p.r < 0.2f) && (p.g < 0.2f)))
+						Blue++;
 
-        //ratio = b / (r + b);
+					if (p.r > 0.8f && ((p.b < 0.2f) && (p.g < 0.2f)))
+						Red++;
 
-        return new Vector2(blue, red);
+					if (p.g > 0.8f && ((p.r < 0.2f) && (p.b < 0.2f)))
+						Green++;
+				}
+
+				CurrentRatioBlue = Blue / WholeScreenPixels;
+				CurrentRatioRed = Red / WholeScreenPixels;
+				CurrentRatioGreen = Green / WholeScreenPixels;
+
+				if (_bFirstCheck && Math.Abs(CurrentRatioRed) > 0.01f)
+				{
+					StartRatioRed = CurrentRatioRed;
+					_bFirstCheck = false;
+				}
+				
+				Win = Math.Abs(CurrentRatioRed - StartRatioRed) < WinMargin && CurrentRatioBlue < WinMargin;
+				
+				yield return new WaitForSeconds(0.33f);
+			}
+
+			#endregion
+
+			#region event handlers
+
+			#endregion
+		}
 	}
-	#endregion
-
-	#region public methods
-	#endregion
-
-	#region private methods
-    private IEnumerator CheckCoroutine()
-    {
-        while(_bChecking)
-        {
-            Destroy(texture);
-            RenderTexture rt = new RenderTexture(Screen.width, Screen.height, 24);
-            _camera.targetTexture = rt;
-
-            texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
-            _camera.Render();
-            RenderTexture.active = rt;
-            texture.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-            _camera.targetTexture = null;
-            RenderTexture.active = null; // JC: added to avoid errors
-            Destroy(rt);
-
-            Color32[] pixels = texture.GetPixels32();
-
-            blue = red = 0;
-
-            foreach (var p in pixels)
-            {
-                if (p.b > 0.8f && ((p.r < 0.5f) && (p.g < 0.5f)))
-                    blue++;
-
-                if (p.r > 0.8f && ((p.b < 0.5f) && (p.g < 0.5f)))
-                    red++;
-            }
-
-            //blue = b / wholeScreenPixels;
-            //red = r / wholeScreenPixels;
-            green = (wholeScreenPixels - red - blue);
-
-            yield return new WaitForSeconds(1);
-        }
-    }
-    #endregion
-
-    #region event handlers
-    #endregion
 }
