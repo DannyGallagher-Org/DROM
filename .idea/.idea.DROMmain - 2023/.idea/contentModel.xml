@@ -92,7 +92,10 @@
             <e p="WinSound.cs" t="Include" />
           </e>
           <e p="AudioManagerClass.cs" t="Include" />
-          <e p="CloudBit.cs" t="Include" />
+          <e p="CloudBits" t="Include">
+            <e p="CloudBit.cs" t="Include" />
+            <e p="CloudBitGrower.cs" t="Include" />
+          </e>
           <e p="CloudController.cs" t="Include" />
           <e p="CloudeEdgeEffect.cs" t="Include" />
           <e p="CloudeShadowEffect.cs" t="Include" />
@@ -117,8 +120,6 @@
                 <e p="AbstractViewModel.cs" t="Include" />
               </e>
             </e>
-            <e p="hMvvm.asmdef" t="Include" />
-            <e p="package.json" t="Include" />
           </e>
           <e p="hStates" t="Include">
             <e p="Code" t="Include">
@@ -133,8 +134,6 @@
               <e p="StateMachine.cs" t="Include" />
               <e p="StateMachineMonoBehaviour.cs" t="Include" />
             </e>
-            <e p="hStates.asmdef" t="Include" />
-            <e p="package.json" t="Include" />
           </e>
           <e p="Intro.cs" t="Include" />
           <e p="PressSpace.cs" t="Include" />
@@ -385,6 +384,7 @@
           <e p="x86_64" t="Include" />
         </e>
         <e p="Prefabs" t="Include">
+          <e p="Cloud" t="Include" />
           <e p="Stages" t="Include">
             <e p="Stage1" t="Include" />
           </e>
@@ -425,7 +425,6 @@
             <e p="RotationConstraint.cs" t="Include" />
             <e p="Rotator.cs" t="Include" />
           </e>
-          <e p="PlayerController.cs" t="Include" />
           <e p="TextFade.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
@@ -809,8 +808,6 @@
         </e>
       </e>
       <e p="DROMmain - 2023.sln" t="IncludeFlat" />
-      <e p="hMvvm.csproj" t="IncludeRecursive" />
-      <e p="hstates.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
