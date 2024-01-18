@@ -9,11 +9,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="_Archive" t="Include">
-          <e p="Prefab" t="Include" />
-          <e p="Scene" t="Include" />
-        </e>
-        <e p="_TerrainAutoUpgrade" t="Include" />
         <e p="AmplifyColor" t="Include">
           <e p="Plugins" t="Include">
             <e p="AmplifyColorBase.cs" t="Include" />
@@ -40,7 +35,6 @@
               <e p="PhotoshopProtocol.cs" t="Include" />
               <e p="PhotoshopTouchHelper.cs" t="Include" />
               <e p="ResolutionSettings.cs" t="Include" />
-              <e p="Resources" t="Include" />
               <e p="ToolSettings.cs" t="Include" />
             </e>
             <e p="Runtime" t="Include">
@@ -62,26 +56,6 @@
             <e p="Mask.shader" t="Include" />
             <e p="MaskLinear.shader" t="Include" />
           </e>
-          <e p="Samples" t="Include" />
-          <e p="Textures" t="Include" />
-        </e>
-        <e p="Art" t="Include">
-          <e p="Anim" t="Include">
-            <e p="Menu" t="Include" />
-          </e>
-          <e p="FBX" t="Include" />
-          <e p="Materials" t="Include">
-            <e p="Display" t="Include" />
-            <e p="RTT_Lighting" t="Include" />
-          </e>
-          <e p="Terrain" t="Include" />
-          <e p="Textures" t="Include">
-            <e p="Environment" t="Include" />
-            <e p="VFX" t="Include" />
-          </e>
-        </e>
-        <e p="Audio" t="Include">
-          <e p="CloudBits" t="Include" />
         </e>
         <e p="Code" t="Include">
           <e p="Audio" t="Include">
@@ -101,6 +75,10 @@
           <e p="CloudeShadowEffect.cs" t="Include" />
           <e p="CloudeShapeEffect.cs" t="Include" />
           <e p="CloudPutter.cs" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="AbstractController.cs" t="Include" />
+            <e p="ControllerGrower.cs" t="Include" />
+          </e>
           <e p="Core" t="Include">
             <e p="GameManager.cs" t="Include" />
             <e p="Level.cs" t="Include" />
@@ -150,9 +128,6 @@
           <e p="ColorBlind" t="Include">
             <e p="ColorBlind LUTs.txt" t="Include" />
           </e>
-          <e p="LUT Amplify Color" t="Include" />
-          <e p="LUT Legacy Unity" t="Include" />
-          <e p="LUT Textures" t="Include" />
         </e>
         <e p="Demo" t="Include">
           <e p="scripts" t="Include">
@@ -170,72 +145,28 @@
           <e p="FMODMigrationUtil.cs" t="Include" />
           <e p="GoDummyPathEditor.cs" t="Include" />
         </e>
-        <e p="Editor Default Resources" t="Include">
-          <e p="FMOD" t="Include" />
-        </e>
         <e p="Fonts" t="Include">
           <e p="europe_underground-2" t="Include">
             <e p="License - READ THIS.txt" t="Include" />
           </e>
-          <e p="freshpatterns-2" t="Include" />
           <e p="PARABOLA" t="Include">
-            <e p="OTF" t="Include" />
-            <e p="TTF" t="Include" />
             <e p="WEBFONT" t="Include">
               <e p="generator_config.txt" t="Include" />
-              <e p="specimen_files" t="Include" />
             </e>
           </e>
-          <e p="REIS_FONT" t="Include" />
-          <e p="SKINNY_BASTARD" t="Include" />
-          <e p="Swistblnk Ruffle Beauty-2" t="Include">
-            <e p="Font Files" t="Include" />
-            <e p="Poster Preview" t="Include" />
-          </e>
         </e>
-        <e p="Gizmos" t="Include" />
         <e p="Grass And Flowers Pack 1" t="Include">
-          <e p="Bush" t="Include" />
           <e p="Example Scene" t="Include">
             <e p="SimpleTextureDrawing.cs" t="Include" />
             <e p="Skyboxes" t="Include">
               <e p="_skybox info.txt" t="Include" />
-              <e p="Textures" t="Include">
-                <e p="Sunny1" t="Include" />
-              </e>
             </e>
           </e>
-          <e p="Flower" t="Include" />
-          <e p="Grass" t="Include" />
-          <e p="Ground Textures" t="Include" />
-          <e p="Small Tree" t="Include" />
         </e>
         <e p="Oak Trees Package" t="Include">
-          <e p="Oak Tree Demoscene" t="Include">
-            <e p="whiteSky" t="Include" />
-          </e>
-          <e p="Oak Trees" t="Include">
-            <e p="oak TreeCreatorMaterials" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="oak_1 fully procedural donotdelete_Textures" t="Include" />
-            <e p="oak_6 20m very old highres_Textures" t="Include" />
-          </e>
-          <e p="Oak Trees 09 2011" t="Include">
-            <e p="N_oak TreeCreator Materials" t="Include">
-              <e p="Materials" t="Include" />
-            </e>
-            <e p="N_oak_2 24m thin donotdelete_Textures" t="Include" />
-          </e>
           <e p="readme_OakTrees.txt" t="Include" />
         </e>
         <e p="Plugins" t="Include">
-          <e p="Android" t="Include">
-            <e p="libs" t="Include">
-              <e p="armeabi-v7a" t="Include" />
-              <e p="x86" t="Include" />
-            </e>
-          </e>
           <e p="Editor" t="Include">
             <e p="FMOD" t="Include">
               <e p="BankRefDrawer.cs" t="Include" />
@@ -369,36 +300,13 @@
               </e>
             </e>
           </e>
-          <e p="iOS" t="Include" />
-          <e p="Metro" t="Include">
-            <e p="arm" t="Include" />
-            <e p="x86" t="Include" />
-          </e>
-          <e p="tvOS" t="Include" />
-          <e p="UWP" t="Include">
-            <e p="arm" t="Include" />
-            <e p="x64" t="Include" />
-            <e p="x86" t="Include" />
-          </e>
-          <e p="x86" t="Include" />
-          <e p="x86_64" t="Include" />
-        </e>
-        <e p="Prefabs" t="Include">
-          <e p="Cloud" t="Include" />
-          <e p="Stages" t="Include">
-            <e p="Stage1" t="Include" />
-          </e>
         </e>
         <e p="Resources" t="Include">
           <e p="BillingMode.json" t="Include" />
           <e p="CloudEdges.shader" t="Include" />
-          <e p="Clouds" t="Include" />
           <e p="CloudShadows.shader" t="Include" />
-          <e p="Old" t="Include" />
           <e p="ShapeCheckShader.shader" t="Include" />
-          <e p="Stages" t="Include" />
         </e>
-        <e p="scenes" t="Include" />
         <e p="scripts" t="Include">
           <e p="Camera" t="Include">
             <e p="AspectRatioFix.cs" t="Include" />
@@ -436,7 +344,6 @@
         <e p="Standard Assets" t="Include">
           <e p="CrossPlatformInput" t="Include">
             <e p="CrossPlatformInputGuidelines.txt" t="Include" />
-            <e p="Prefabs" t="Include" />
             <e p="scripts" t="Include">
               <e p="AxisTouchButton.cs" t="Include" />
               <e p="ButtonHandler.cs" t="Include" />
@@ -452,15 +359,12 @@
               <e p="TouchPad.cs" t="Include" />
               <e p="VirtualInput.cs" t="Include" />
             </e>
-            <e p="Sprites" t="Include" />
           </e>
           <e p="Effects" t="Include">
             <e p="GlassRefraction" t="Include">
-              <e p="Materials" t="Include" />
               <e p="Shaders" t="Include">
                 <e p="GlassStainedBumpDistort.shader" t="Include" />
               </e>
-              <e p="Textures" t="Include" />
             </e>
             <e p="ImageEffects" t="Include">
               <e p="scripts" t="Include">
@@ -579,90 +483,32 @@
                 <e p="VignettingShader.shader" t="Include" />
                 <e p="VortexEffect.shader" t="Include" />
               </e>
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="LightCookies" t="Include">
-              <e p="Textures" t="Include" />
-            </e>
-            <e p="LightFlares" t="Include">
-              <e p="Flares" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Textures" t="Include" />
             </e>
             <e p="Projectors" t="Include">
               <e p="Guidelines.txt" t="Include" />
-              <e p="Materials" t="Include" />
-              <e p="Prefabs" t="Include" />
               <e p="Shaders" t="Include">
                 <e p="ProjectorLight.shader" t="Include" />
                 <e p="ProjectorMultiply.shader" t="Include" />
               </e>
-              <e p="Textures" t="Include" />
             </e>
             <e p="TessellationShaders" t="Include">
-              <e p="Materials" t="Include" />
-              <e p="Models" t="Include" />
-              <e p="scenes" t="Include" />
               <e p="Shaders" t="Include">
                 <e p="BumpedSpecularDisplacement.shader" t="Include" />
                 <e p="BumpedSpecularSmooth.shader" t="Include" />
               </e>
-              <e p="Textures" t="Include" />
             </e>
             <e p="ToonShading" t="Include">
-              <e p="Materials" t="Include" />
               <e p="Shaders" t="Include">
                 <e p="ToonBasic.shader" t="Include" />
                 <e p="ToonBasicOutline.shader" t="Include" />
                 <e p="ToonLit.shader" t="Include" />
                 <e p="ToonLitOutline.shader" t="Include" />
               </e>
-              <e p="Textures" t="Include" />
             </e>
           </e>
           <e p="Environment" t="Include">
-            <e p="Materials" t="Include" />
-            <e p="Nature" t="Include">
-              <e p="tree02_Textures" t="Include" />
-            </e>
-            <e p="SpeedTree" t="Include">
-              <e p="Broadleaf" t="Include">
-                <e p="Broadleaf_Desktop Materials" t="Include">
-                  <e p="LOD0" t="Include" />
-                  <e p="LOD1" t="Include" />
-                  <e p="LOD2" t="Include" />
-                </e>
-                <e p="Broadleaf_Mobile Materials" t="Include">
-                  <e p="LOD0" t="Include" />
-                  <e p="LOD1" t="Include" />
-                  <e p="LOD2" t="Include" />
-                </e>
-              </e>
-              <e p="Conifer" t="Include">
-                <e p="Conifer_Desktop Materials" t="Include">
-                  <e p="LOD0" t="Include" />
-                  <e p="LOD1" t="Include" />
-                  <e p="LOD2" t="Include" />
-                </e>
-              </e>
-              <e p="Palm" t="Include">
-                <e p="Palm_Desktop Materials" t="Include">
-                  <e p="LOD0" t="Include" />
-                  <e p="LOD1" t="Include" />
-                  <e p="LOD2" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="TerrainAssets" t="Include">
-              <e p="BillboardTextures" t="Include" />
-              <e p="SurfaceTextures" t="Include" />
-            </e>
-            <e p="Textures" t="Include" />
             <e p="Water" t="Include">
               <e p="Water" t="Include">
-                <e p="Materials" t="Include" />
-                <e p="Models" t="Include" />
-                <e p="Prefabs" t="Include" />
                 <e p="scripts" t="Include">
                   <e p="Displace.cs" t="Include" />
                   <e p="GerstnerDisplace.cs" t="Include" />
@@ -676,37 +522,26 @@
                 <e p="Shaders" t="Include">
                   <e p="FXWaterPro.shader" t="Include" />
                 </e>
-                <e p="Textures" t="Include" />
               </e>
               <e p="Water4" t="Include">
-                <e p="Materials" t="Include" />
-                <e p="Models" t="Include" />
-                <e p="Prefabs" t="Include" />
                 <e p="Shaders" t="Include">
                   <e p="FXWater4Advanced.shader" t="Include" />
                   <e p="FXWater4Simple.shader" t="Include" />
                   <e p="WaterInclude.cginc" t="Include" />
                 </e>
-                <e p="Textures" t="Include" />
               </e>
             </e>
             <e p="Water (Basic)" t="Include">
-              <e p="Materials" t="Include" />
-              <e p="Models" t="Include" />
-              <e p="Prefabs" t="Include" />
               <e p="scripts" t="Include">
                 <e p="WaterBasic.cs" t="Include" />
               </e>
               <e p="Shaders" t="Include">
                 <e p="FXWaterBasic.shader" t="Include" />
               </e>
-              <e p="Textures" t="Include" />
             </e>
           </e>
           <e p="ParticleSystems" t="Include">
-            <e p="Materials" t="Include" />
             <e p="ParticleSystemsGuidelines.txt" t="Include" />
-            <e p="Prefabs" t="Include" />
             <e p="scripts" t="Include">
               <e p="AfterburnerPhysicsForce.cs" t="Include" />
               <e p="ExplosionFireAndDebris.cs" t="Include" />
@@ -724,10 +559,8 @@
               <e p="PriorityParticleAddSoft.shader" t="Include" />
               <e p="PriorityParticleAlpha.shader" t="Include" />
             </e>
-            <e p="Textures" t="Include" />
           </e>
           <e p="TPAA" t="Include">
-            <e p="scenes" t="Include" />
             <e p="scripts" t="Include">
               <e p="EffectBase.cs" t="Include" />
               <e p="Extensions.cs" t="Include" />
@@ -759,7 +592,6 @@
             <e p="ObjectResetter.cs" t="Include" />
             <e p="ParticleSystemDestroyer.cs" t="Include" />
             <e p="PlatformSpecificContent.cs" t="Include" />
-            <e p="Prefabs" t="Include" />
             <e p="SimpleActivatorMenu.cs" t="Include" />
             <e p="SimpleMouseRotator.cs" t="Include" />
             <e p="SmoothFollow.cs" t="Include" />
@@ -769,18 +601,13 @@
             <e p="WaypointProgressTracker.cs" t="Include" />
           </e>
         </e>
-        <e p="StreamingAssets" t="Include" />
         <e p="TextMesh Pro" t="Include">
-          <e p="Documentation" t="Include" />
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
           </e>
           <e p="Resources" t="Include">
-            <e p="Fonts &amp; Materials" t="Include" />
             <e p="LineBreaking Following Characters.txt" t="Include" />
             <e p="LineBreaking Leading Characters.txt" t="Include" />
-            <e p="Sprite Assets" t="Include" />
-            <e p="Style Sheets" t="Include" />
           </e>
           <e p="Shaders" t="Include">
             <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />

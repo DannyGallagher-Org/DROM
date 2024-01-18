@@ -7,25 +7,7 @@ namespace Code.CloudBits
         [SerializeField] private float MaxSize = 60f;
         [SerializeField] private float GrowthSpeed = 1f;
 
-        private void Update()
-        {
-            if (Input.GetMouseButton(0))
-            {
-                Grow();
-            }
-
-            if (Input.GetMouseButtonUp(0))
-            {
-                StopGrowing();
-            }
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                StartGrowing();
-            }
-        }
-
-        private void StartGrowing()
+        public void StartGrowing()
         {
             foreach (var system in _particleSystems)
             {
@@ -37,7 +19,7 @@ namespace Code.CloudBits
             }
         }
 
-        private void StopGrowing()
+        public void StopGrowing()
         {
             foreach (var system in _particleSystems)
             {
