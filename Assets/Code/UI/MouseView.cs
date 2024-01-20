@@ -1,10 +1,17 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
-namespace Code.Controllers
+namespace Code.UI
 {
-    public abstract class AbstractController : MonoBehaviour
+    public class MouseView : MonoBehaviour
     {
+        private Color _baseColor = new Color(1f, 1f, 1f, 0.35f);
+        private Color _pressColor = new Color(0.47f, 0.49f, 1f, 0.35f);
+        private Color _holdColor = new Color(0.38f, 1f, 0.33f, 0.35f);
+        
+        [SerializeField] private Image MainButton;
+        [SerializeField] private Image SecondaryButton;
         private void FixedUpdate()
         {
             var gamePad = Gamepad.current;
@@ -13,40 +20,33 @@ namespace Code.Controllers
             
             if (mouse != null && mouse.leftButton.wasPressedThisFrame || gamePad != null && gamePad.buttonSouth.wasPressedThisFrame)
             {
-                GetMainButtonDown();
+                MainButton.color = _pressColor;
             }
 
             if (mouse != null && mouse.leftButton.wasReleasedThisFrame || gamePad != null && gamePad.buttonSouth.wasReleasedThisFrame)
             {
-                GetMainButtonUp();
+                MainButton.color = _baseColor;
             }
 
             if ((mouse != null && mouse.leftButton.isPressed || gamePad != null && gamePad.buttonSouth.isPressed) && !holdBlocked)
             {
-                GetMainButton();
+                MainButton.color = _holdColor;
             }
             
             if (mouse != null && mouse.rightButton.wasPressedThisFrame || gamePad != null && gamePad.buttonEast.wasPressedThisFrame)
             {
-                GetSecondaryButtonDown();
+                SecondaryButton.color = _pressColor;
             }
 
             if (mouse != null && mouse.rightButton.wasReleasedThisFrame || gamePad != null && gamePad.buttonEast.wasReleasedThisFrame)
             {
-                GetSecondaryButtonUp();
+                SecondaryButton.color = _baseColor;
             }
 
             if ((mouse != null && mouse.rightButton.isPressed || gamePad != null && gamePad.buttonEast.isPressed) && !holdBlocked)
             {
-                GetSecondaryButton();
+                SecondaryButton.color = _holdColor;
             }
         }
-
-        public abstract void GetMainButtonDown();
-        public abstract void GetMainButtonUp();
-        public abstract void GetMainButton();
-        public abstract void GetSecondaryButtonDown();
-        public abstract void GetSecondaryButtonUp();
-        public abstract void GetSecondaryButton();
     }
 }

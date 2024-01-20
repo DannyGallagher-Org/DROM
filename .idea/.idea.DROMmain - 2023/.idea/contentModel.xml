@@ -121,6 +121,7 @@
           </e>
           <e p="ShapeCheckCamera.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="MouseView.cs" t="Include" />
             <e p="TitleView.cs" t="Include" />
           </e>
         </e>

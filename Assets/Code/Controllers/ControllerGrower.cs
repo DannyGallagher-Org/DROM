@@ -1,35 +1,53 @@
-﻿namespace Code.Controllers
+﻿using Code.CloudBits;
+using UnityEngine;
+
+namespace Code.Controllers
 {
     public class ControllerGrower : AbstractController
     {
+        [SerializeField] private GameObject GrowingCloudPrefab;
+        private CloudBitGrower _currentCloud;
+
         public override void GetMainButtonDown()
         {
-            throw new System.NotImplementedException();
-        }
-
-        public override void GetMainButtonUp()
-        {
-            throw new System.NotImplementedException();
+            var screenToWorldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            screenToWorldPoint.z = 50f;
+            Debug.Log("screenToWorldPoint = " + screenToWorldPoint);
+            if (_currentCloud == null)
+            {
+                var cloudSpawned = Instantiate(GrowingCloudPrefab, screenToWorldPoint, Quaternion.identity);
+                _currentCloud = cloudSpawned.GetComponent<CloudBitGrower>();
+                _currentCloud.StartGrowing();
+            }
         }
 
         public override void GetMainButton()
         {
-            throw new System.NotImplementedException();
+            var screenToWorldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            screenToWorldPoint.z = 50f;
+            Debug.Log("screenToWorldPoint = " + screenToWorldPoint);
+            _currentCloud.Grow();
+        }
+
+        public override void GetMainButtonUp()
+        {
+            _currentCloud.StopGrowing();
+            _currentCloud = null;
         }
 
         public override void GetSecondaryButtonDown()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public override void GetSecondaryButtonUp()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public override void GetSecondaryButton()
         {
-            throw new System.NotImplementedException();
+            
         }
     }
 }
